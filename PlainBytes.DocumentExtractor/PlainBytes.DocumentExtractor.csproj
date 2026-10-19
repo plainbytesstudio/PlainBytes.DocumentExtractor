@@ -1,0 +1,67 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows10.0.19041.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <ApplicationHighDpiMode>PerMonitorV2</ApplicationHighDpiMode>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <Product>DocumentExtractor</Product>
+    <AssemblyTitle>DocumentExtractor</AssemblyTitle>
+    <Authors>PlainBytes Studio</Authors>
+    <Copyright>Copyright ? 2026 PlainBytes Studio</Copyright>
+    <PackageLicenseExpression>GPL-3.0-only</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/plainbytesstudio/PlainBytes.DocumentExtractor</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <ApplicationIcon>..\PlainBytes.Core\Assets\Icons\logo_DocumentExtractor.ico</ApplicationIcon>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <SatelliteResourceLanguages>zh-Hans;zh-Hant;ja;ru;fr;de;it;es;pt;ko;nl;ar</SatelliteResourceLanguages>
+    <Platforms>AnyCPU;x64</Platforms>
+    <RuntimeIdentifiers>win-x64</RuntimeIdentifiers>
+    <SelfContained>false</SelfContained>
+    <PublishSelfContained>false</PublishSelfContained>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ClosedXML" Version="0.104.2" />
+    <PackageReference Include="PdfiumViewer" Version="2.13.0" />
+    <PackageReference Include="PdfiumViewer.Native.x86_64.v8-xfa" Version="2018.4.8.256" />
+    <PackageReference Include="System.Drawing.Common" Version="8.0.0" />
+    <PackageReference Include="UglyToad.PdfPig" Version="1.7.0-custom-5" />
+    <PackageReference Include="WPF-UI" Version="4.3.0" />
+    <ProjectReference Include="..\PlainBytes.Core\PlainBytes.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\Images\pdf-files.png" />
+    <None Remove="Assets\Images\pdf.png" />
+    <None Remove="Assets\Images\logo_DocumentExtracto.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\Images\pdf-files.png" />
+    <Resource Include="Assets\Images\pdf.png" />
+    <Resource Include="Assets\Images\logo_DocumentExtracto.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="LICENSE">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="THIRD_PARTY_NOTICES.md">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+  </ItemGroup>
+
+  <Target Name="CopyPdfiumNativeLibrary" AfterTargets="Build">
+    <PropertyGroup>
+      <PdfiumNativePath>$(NuGetPackageRoot)pdfiumviewer.native.x86_64.v8-xfa\2018.4.8.256\Build\x64\pdfium.dll</PdfiumNativePath>
+    </PropertyGroup>
+    <Copy SourceFiles="$(PdfiumNativePath)" DestinationFolder="$(OutDir)" SkipUnchangedFiles="true" Condition="Exists('$(PdfiumNativePath)')" />
+  </Target>
+
+</Project>

@@ -1,0 +1,669 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Nav_Home" xml:space="preserve">
+    <value>Document Extractor</value>
+  </data>
+  <data name="Nav_Templates" xml:space="preserve">
+    <value>Шаблоны</value>
+  </data>
+  <data name="Home_Title" xml:space="preserve">
+    <value>Document Extractor</value>
+  </data>
+  <data name="Home_Subtitle" xml:space="preserve">
+    <value>Извлекайте структурированные данные из PDF-документов с фиксированной компоновкой.</value>
+  </data>
+  <data name="Home_DropTitle" xml:space="preserve">
+    <value>Перетащите PDF-файлы сюда</value>
+  </data>
+  <data name="Home_DropSubtitle" xml:space="preserve">
+    <value>или нажмите, чтобы выбрать PDF-файлы</value>
+  </data>
+  <data name="Home_ChooseFiles" xml:space="preserve">
+    <value>Выбрать файлы</value>
+  </data>
+  <data name="Home_BatchHint" xml:space="preserve">
+    <value>Можно добавить несколько PDF-файлов для пакетного извлечения данных.</value>
+  </data>
+  <data name="Home_CompactDrop" xml:space="preserve">
+    <value>Перетащите PDF-файлы
+сюда, чтобы добавить</value>
+  </data>
+  <data name="Home_FooterTip" xml:space="preserve">
+    <value>Лучше всего работает с текстовыми PDF-файлами с фиксированной или схожей компоновкой. Отсканированные PDF-файлы и документы с сильно различающейся компоновкой не поддерживаются.</value>
+  </data>
+  <data name="Panel_FilesCount" xml:space="preserve">
+    <value>ФАЙЛЫ ({0})</value>
+  </data>
+  <data name="Panel_Template" xml:space="preserve">
+    <value>ШАБЛОН</value>
+  </data>
+  <data name="Panel_AnchorsCount" xml:space="preserve">
+    <value>ПРИВЯЗКИ ({0})</value>
+  </data>
+  <data name="Panel_FieldsCount" xml:space="preserve">
+    <value>ПОЛЯ ({0})</value>
+  </data>
+  <data name="ToolTip_AddFiles" xml:space="preserve">
+    <value>Добавить PDF-файлы</value>
+  </data>
+  <data name="ToolTip_RemoveFile" xml:space="preserve">
+    <value>Удалить файл</value>
+  </data>
+  <data name="ToolTip_PreviousPage" xml:space="preserve">
+    <value>Предыдущая страница</value>
+  </data>
+  <data name="ToolTip_NextPage" xml:space="preserve">
+    <value>Следующая страница</value>
+  </data>
+  <data name="ToolTip_ZoomOut" xml:space="preserve">
+    <value>Уменьшить</value>
+  </data>
+  <data name="ToolTip_ZoomIn" xml:space="preserve">
+    <value>Увеличить</value>
+  </data>
+  <data name="ToolTip_Delete" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="ToolTip_RenameField" xml:space="preserve">
+    <value>Переименовать поле</value>
+  </data>
+  <data name="ToolTip_MoreSaveOptions" xml:space="preserve">
+    <value>Другие параметры сохранения</value>
+  </data>
+  <data name="ToolTip_Dismiss" xml:space="preserve">
+    <value>Закрыть</value>
+  </data>
+  <data name="ToolTip_More" xml:space="preserve">
+    <value>Ещё</value>
+  </data>
+  <data name="Extraction_TemplateModified" xml:space="preserve">
+    <value>Шаблон изменён</value>
+  </data>
+  <data name="Extraction_AddingAnchors" xml:space="preserve">
+    <value>Добавление привязок</value>
+  </data>
+  <data name="Extraction_AnchorsHint" xml:space="preserve">
+    <value>Удерживайте Ctrl и выделите перетаскиванием текст с устойчивым расположением, чтобы добавить привязку. Разверните привязку для значений и выделите области для добавления полей. Для табличной привязки разверните её и выделите всю строку заголовков. Столбцы будут разделены автоматически. Разделители можно перетаскивать, а двойным щелчком — добавлять или удалять. Документы с нестабильной компоновкой или изменяющимся размером шрифта в заголовках таблиц не поддерживаются.</value>
+  </data>
+  <data name="Extraction_AnchorsEmpty" xml:space="preserve">
+    <value>Удерживайте Ctrl и выделите область перетаскиванием, чтобы добавить привязку. Затем разверните её и выделите области для добавления полей.</value>
+  </data>
+  <data name="Extraction_AddingFields" xml:space="preserve">
+    <value>Добавление полей</value>
+  </data>
+  <data name="Extraction_FieldsHint" xml:space="preserve">
+    <value>Разверните привязку и выделите перетаскиванием содержимое, которое нужно извлечь. Новые поля будут связаны с развёрнутой привязкой.</value>
+  </data>
+  <data name="Extraction_FieldsEmpty" xml:space="preserve">
+    <value>Разверните привязку и выделите область перетаскиванием, чтобы добавить поля.</value>
+  </data>
+  <data name="Extraction_SaveAsTemplate" xml:space="preserve">
+    <value>Сохранить как шаблон</value>
+  </data>
+  <data name="Extraction_SaveChanges" xml:space="preserve">
+    <value>Сохранить изменения</value>
+  </data>
+  <data name="Extraction_SaveAsNewTemplate" xml:space="preserve">
+    <value>Сохранить как новый шаблон</value>
+  </data>
+  <data name="Extraction_TemplateName" xml:space="preserve">
+    <value>Имя шаблона</value>
+  </data>
+  <data name="Extraction_NameConflict" xml:space="preserve">
+    <value>Шаблон с таким именем уже существует.</value>
+  </data>
+  <data name="Extraction_Save" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="Extraction_Extract" xml:space="preserve">
+    <value>Извлечь</value>
+  </data>
+  <data name="Extraction_CustomConfiguration" xml:space="preserve">
+    <value>Пользовательская конфигурация</value>
+  </data>
+  <data name="Extraction_UntitledTemplate" xml:space="preserve">
+    <value>Безымянный шаблон</value>
+  </data>
+  <data name="Extraction_FieldNameFormat" xml:space="preserve">
+    <value>Поле {0}</value>
+  </data>
+  <data name="Dialog_ChoosePdfs" xml:space="preserve">
+    <value>Выбрать PDF-файлы</value>
+  </data>
+  <data name="Dialog_FilterPdf" xml:space="preserve">
+    <value>PDF-файлы</value>
+  </data>
+  <data name="Dialog_AllFiles" xml:space="preserve">
+    <value>Все файлы</value>
+  </data>
+  <data name="Dialog_ExportResults" xml:space="preserve">
+    <value>Экспорт результатов извлечения</value>
+  </data>
+  <data name="Dialog_FilterExcel" xml:space="preserve">
+    <value>Книга Excel (*.xlsx)|*.xlsx</value>
+  </data>
+  <data name="Toast_ScannedNotSupported" xml:space="preserve">
+    <value>Отсканированные PDF-файлы пока не поддерживаются.</value>
+  </data>
+  <data name="Toast_NoSelectableTextOne" xml:space="preserve">
+    <value>В файле «{0}» не найден выделяемый текст. {1}</value>
+  </data>
+  <data name="Toast_NoSelectableTextMany" xml:space="preserve">
+    <value>В {0} PDF-файлах не найден выделяемый текст:
+{1}
+{2}</value>
+  </data>
+  <data name="Toast_NoTextInArea" xml:space="preserve">
+    <value>В этой области текст не найден. Измените выделение и повторите попытку.</value>
+  </data>
+  <data name="Toast_NeedField" xml:space="preserve">
+    <value>Перед извлечением добавьте хотя бы одно поле.</value>
+  </data>
+  <data name="Toast_NeedRulerColumn" xml:space="preserve">
+    <value>Перед извлечением задайте опорный столбец для каждой таблицы. Нажмите на звезду у столбца, чтобы отметить его.</value>
+  </data>
+  <data name="Toast_NeedAnchorBeforeField" xml:space="preserve">
+    <value>Сначала добавьте и разверните привязку, затем выделите область перетаскиванием, чтобы создать поля для этой привязки.</value>
+  </data>
+  <data name="Toast_AmbiguityTip" xml:space="preserve">
+    <value>Выделенный текст может быть неоднозначным. Выберите более характерный текст или добавьте ещё одну привязку для более надёжного определения положения.</value>
+  </data>
+  <data name="Toast_AmbiguityOne" xml:space="preserve">
+    <value>В этом образце найдено совпадений для «{1}»: {0}.
+{2}</value>
+  </data>
+  <data name="Toast_AmbiguityMany" xml:space="preserve">
+    <value>У {0} привязок в этом образце найдено несколько совпадений:
+{1}
+{2}</value>
+  </data>
+  <data name="Toast_AmbiguityBullet" xml:space="preserve">
+    <value>• «{0}»: совпадений --- {1}</value>
+  </data>
+  <data name="Toast_MissingAnchorOne" xml:space="preserve">
+    <value>На странице {0} есть поля, но нет привязки. Добавьте её, если положение содержимого может различаться между документами.</value>
+  </data>
+  <data name="Toast_MissingAnchors" xml:space="preserve">
+    <value>На страницах {0} есть поля, но нет привязок. Добавьте привязки, если положение содержимого может различаться между документами.</value>
+  </data>
+  <data name="Templates_Title" xml:space="preserve">
+    <value>Шаблоны</value>
+  </data>
+  <data name="Templates_Subtitle" xml:space="preserve">
+    <value>Управление сохранёнными шаблонами извлечения.</value>
+  </data>
+  <data name="Templates_Import" xml:space="preserve">
+    <value>Импорт</value>
+  </data>
+  <data name="Templates_Export" xml:space="preserve">
+    <value>Экспорт</value>
+  </data>
+  <data name="Templates_Delete" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="Templates_Search" xml:space="preserve">
+    <value>Поиск шаблонов</value>
+  </data>
+  <data name="Templates_ColName" xml:space="preserve">
+    <value>Имя шаблона</value>
+  </data>
+  <data name="Templates_ColFields" xml:space="preserve">
+    <value>Поля</value>
+  </data>
+  <data name="Templates_ColAnchors" xml:space="preserve">
+    <value>Привязки</value>
+  </data>
+  <data name="Templates_ColModified" xml:space="preserve">
+    <value>Последнее изменение</value>
+  </data>
+  <data name="Templates_ColActions" xml:space="preserve">
+    <value>Действия</value>
+  </data>
+  <data name="Templates_EmptyTitle" xml:space="preserve">
+    <value>Шаблонов пока нет</value>
+  </data>
+  <data name="Templates_EmptyDetail" xml:space="preserve">
+    <value>Сохраните шаблон на экране извлечения или импортируйте файл шаблона.</value>
+  </data>
+  <data name="Templates_NoMatchTitle" xml:space="preserve">
+    <value>По вашему запросу шаблоны не найдены</value>
+  </data>
+  <data name="Templates_NoMatchDetail" xml:space="preserve">
+    <value>Попробуйте другое имя или очистите поле поиска.</value>
+  </data>
+  <data name="Templates_Footer" xml:space="preserve">
+    <value>Шаблоны хранятся локально на вашем устройстве и не отправляются в сеть и не передаются другим пользователям.</value>
+  </data>
+    <data name="Templates_HelpPrompt" xml:space="preserve">
+    <value>Нужна помощь с настройкой шаблона?</value>
+  </data>
+  <data name="Templates_GetSetupHelp" xml:space="preserve">
+    <value>Помощь с настройкой шаблона →</value>
+  </data>
+  <data name="Templates_SetupHelp_Title" xml:space="preserve">
+    <value>Помощь с настройкой шаблона</value>
+  </data>
+  <data name="Templates_SetupHelp_Lead" xml:space="preserve">
+    <value>Нужна помощь в создании шаблона извлечения?</value>
+  </data>
+  <data name="Templates_SetupHelp_EmailUs" xml:space="preserve">
+    <value>Отправьте нам по электронной почте:</value>
+  </data>
+  <data name="Templates_SetupHelp_Item1" xml:space="preserve">
+    <value>① Образец PDF-документа</value>
+  </data>
+  <data name="Templates_SetupHelp_Item2" xml:space="preserve">
+    <value>② Список полей, которые нужно извлечь</value>
+  </data>
+  <data name="Templates_SetupHelp_Promise" xml:space="preserve">
+    <value>Мы бесплатно настроим шаблон извлечения и отправим готовый шаблон по электронной почте.</value>
+  </data>
+  <data name="Templates_SetupHelp_Privacy" xml:space="preserve">
+    <value>Document Extractor не загружает ваши документы в интернет. Образец PDF покидает ваше устройство только в том случае, если вы самостоятельно отправляете его через почтовое приложение.</value>
+  </data>
+  <data name="Templates_SetupHelp_Contact" xml:space="preserve">
+    <value>Связаться по электронной почте</value>
+  </data>
+  <data name="Templates_SetupHelp_MailSubject" xml:space="preserve">
+    <value>Document Extractor — Помощь с настройкой шаблона</value>
+  </data>
+  <data name="Templates_SetupHelp_MailBody" xml:space="preserve">
+    <value>Здравствуйте, команда PlainBytes Studio!
+
+Мне нужна помощь с настройкой шаблона извлечения.
+
+Поля, которые я хочу извлечь:
+1.
+2.
+3.
+
+Я приложу к этому письму образец PDF.</value>
+  </data>
+<data name="Templates_Rename" xml:space="preserve">
+    <value>Переименовать</value>
+  </data>
+  <data name="Templates_ImportDialog" xml:space="preserve">
+    <value>Импорт шаблонов</value>
+  </data>
+  <data name="Templates_ExportDialogOne" xml:space="preserve">
+    <value>Экспорт шаблона</value>
+  </data>
+  <data name="Templates_ExportDialogMany" xml:space="preserve">
+    <value>Экспорт шаблонов</value>
+  </data>
+  <data name="Templates_ImportedOne" xml:space="preserve">
+    <value>Импортирован 1 шаблон.</value>
+  </data>
+  <data name="Templates_ImportedMany" xml:space="preserve">
+    <value>Импортировано шаблонов: {0}.</value>
+  </data>
+  <data name="Templates_ImportedPartial" xml:space="preserve">
+    <value>Импортировано шаблонов: {0}. Файлов, которые не удалось импортировать: {1}.</value>
+  </data>
+  <data name="Templates_ImportFailed" xml:space="preserve">
+    <value>Ошибка импорта. Выбранные файлы не содержат корректных данных шаблонов в формате JSON.</value>
+  </data>
+  <data name="Templates_ExportMissing" xml:space="preserve">
+    <value>Не удалось выполнить экспорт: отсутствует один или несколько файлов шаблонов.</value>
+  </data>
+  <data name="Templates_ExportedOne" xml:space="preserve">
+    <value>Экспортирован «{0}».</value>
+  </data>
+  <data name="Templates_ExportedMany" xml:space="preserve">
+    <value>Экспортировано шаблонов в один файл: {0}.</value>
+  </data>
+  <data name="Templates_DeleteConfirmOne" xml:space="preserve">
+    <value>Удалить шаблон «{0}»? Это действие нельзя отменить.</value>
+  </data>
+  <data name="Templates_DeleteConfirmTitleOne" xml:space="preserve">
+    <value>Удалить шаблон</value>
+  </data>
+  <data name="Templates_DeleteConfirmMany" xml:space="preserve">
+    <value>Удалить выбранные шаблоны ({0})? Это действие нельзя отменить.</value>
+  </data>
+  <data name="Templates_DeleteConfirmTitleMany" xml:space="preserve">
+    <value>Удалить шаблоны</value>
+  </data>
+  <data name="Templates_NameEmpty" xml:space="preserve">
+    <value>Имя шаблона не может быть пустым.</value>
+  </data>
+  <data name="Templates_NameConflict" xml:space="preserve">
+    <value>Шаблон с таким именем уже существует.</value>
+  </data>
+  <data name="Templates_RenameMissing" xml:space="preserve">
+    <value>Не удалось переименовать: файл шаблона отсутствует.</value>
+  </data>
+  <data name="Overlay_Working" xml:space="preserve">
+    <value>Извлечение данных...</value>
+  </data>
+  <data name="Overlay_Complete" xml:space="preserve">
+    <value>Извлечение завершено</value>
+  </data>
+  <data name="Overlay_Failed" xml:space="preserve">
+    <value>Ошибка извлечения</value>
+  </data>
+  <data name="Overlay_Cancel" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="Overlay_Done" xml:space="preserve">
+    <value>Готово</value>
+  </data>
+  <data name="Overlay_ViewDetails" xml:space="preserve">
+    <value>Подробнее</value>
+  </data>
+  <data name="Overlay_FileName" xml:space="preserve">
+    <value>Имя файла</value>
+  </data>
+  <data name="Overlay_FailReason" xml:space="preserve">
+    <value>Причина ошибки</value>
+  </data>
+  <data name="Overlay_SuccessCount" xml:space="preserve">
+    <value>Данные успешно извлечены из {0} файлов.</value>
+  </data>
+  <data name="Overlay_FailCount" xml:space="preserve">
+    <value>Не удалось извлечь данные из {0} файлов.</value>
+  </data>
+  <data name="FailReason_Generic" xml:space="preserve">
+    <value>Ошибка извлечения</value>
+  </data>
+  <data name="FailReason_InUse" xml:space="preserve">
+    <value>Файл используется другим процессом.</value>
+  </data>
+  <data name="FailReason_NotFound" xml:space="preserve">
+    <value>Файл не найден.</value>
+  </data>
+  <data name="FailReason_AccessDenied" xml:space="preserve">
+    <value>Доступ запрещён.</value>
+  </data>
+  <data name="About_Title" xml:space="preserve">
+    <value>О программе PlainBytes DocumentExtractor</value>
+  </data>
+  <data name="About_Subtitle" xml:space="preserve">
+    <value>Извлекайте структурированные данные из PDF-документов с фиксированной компоновкой.</value>
+  </data>
+  <data name="About_ProductName" xml:space="preserve">
+    <value>PlainBytes DocumentExtractor</value>
+  </data>
+  <data name="About_ProductTagline" xml:space="preserve">
+    <value>Инструмент для извлечения полей из PDF</value>
+  </data>
+  <data name="About_VersionFormat" xml:space="preserve">
+    <value>Версия {0}</value>
+  </data>
+  <data name="About_SectionTitle" xml:space="preserve">
+    <value>О продукте</value>
+  </data>
+  <data name="About_Body" xml:space="preserve">
+    <value>PlainBytes DocumentExtractor --- это лёгкая утилита для Windows, предназначенная для извлечения структурированных данных из PDF-документов с фиксированной компоновкой и экспорта результатов в Excel.
+Сложная настройка не требуется. Определите нужные поля, а затем извлекайте данные из нескольких PDF-файлов с помощью простых действий.</value>
+  </data>
+
+  <data name="About_CustomDev_Title" xml:space="preserve">
+    <value>Индивидуальная разработка</value>
+  </data>
+  <data name="About_CustomDev_Intro" xml:space="preserve">
+    <value>Нужен инструмент для обработки документов или данных, адаптированный к вашему рабочему процессу? Мы также предлагаем разработку на заказ для обработки PDF и других документов, извлечения данных, работы с электронными таблицами и CSV-файлами, преобразования форматов, пакетной обработки и автоматизации сопутствующих задач.</value>
+  </data>
+  <data name="About_CustomDev_Simple" xml:space="preserve">
+    <value>Простые специализированные инструменты для извлечения данных, преобразования форматов или пакетной обработки часто можно разработать и предоставить в относительно короткие сроки.</value>
+  </data>
+  <data name="About_CustomDev_Custom" xml:space="preserve">
+    <value>Мы также разрабатываем приложения на заказ, включая многофункциональные программы, инструменты с собственным пользовательским интерфейсом и решения, интегрированные в существующие рабочие процессы.</value>
+  </data>
+  <data name="About_CustomDev_Pricing" xml:space="preserve">
+    <value>Стоимость разработки зависит от объёма и сложности проекта. Расскажите нам о своих задачах, и мы подготовим коммерческое предложение.</value>
+  </data>
+  <data name="About_CustomDev_Contact" xml:space="preserve">
+    <value>Связаться с нами →</value>
+  </data>
+  <data name="About_CustomDev_Dialog_Lead" xml:space="preserve">
+    <value>Расскажите о нужном инструменте или рабочем процессе.</value>
+  </data>
+  <data name="About_CustomDev_Dialog_Include" xml:space="preserve">
+    <value>Чтобы мы лучше поняли проект, укажите:</value>
+  </data>
+  <data name="About_CustomDev_Dialog_Item1" xml:space="preserve">
+    <value>• Что должен делать инструмент</value>
+  </data>
+  <data name="About_CustomDev_Dialog_Item2" xml:space="preserve">
+    <value>• Какие файлы или данные нужно обрабатывать</value>
+  </data>
+  <data name="About_CustomDev_Dialog_Item3" xml:space="preserve">
+    <value>• Ожидаемый результат или вывод</value>
+  </data>
+  <data name="About_CustomDev_Dialog_Item4" xml:space="preserve">
+    <value>• Важные требования к процессу или интерфейсу</value>
+  </data>
+  <data name="About_CustomDev_Dialog_Attach" xml:space="preserve">
+    <value>Вы также можете приложить к письму образцы файлов, снимки экрана или другие материалы.</value>
+  </data>
+  <data name="About_CustomDev_Dialog_Promise" xml:space="preserve">
+    <value>Мы изучим ваши требования и свяжемся с вами, чтобы задать уточняющие вопросы, предложить возможные решения и предоставить расчёт стоимости.</value>
+  </data>
+  <data name="About_CustomDev_MailSubject" xml:space="preserve">
+    <value>Запрос на индивидуальную разработку</value>
+  </data>
+  <data name="About_CustomDev_MailBody" xml:space="preserve">
+    <value>Здравствуйте, команда PlainBytes Studio!
+
+Меня интересует проект индивидуальной разработки.
+
+Что мне нужно:
+
+Файлы или данные для обработки:
+
+Ожидаемый результат:
+
+Прочие требования:
+
+При необходимости приложу к письму образцы файлов или снимки экрана.</value>
+  </data>
+<data name="About_MoreTools" xml:space="preserve">
+    <value>Другие инструменты PlainBytes</value>
+  </data>
+  <data name="About_ViewAll" xml:space="preserve">
+    <value>Все инструменты →</value>
+  </data>
+    <data name="About_LicenseNotice" xml:space="preserve">
+    <value>Лицензировано на условиях GNU GPLv3.</value>
+  </data>
+  <data name="About_SourceCode" xml:space="preserve">
+    <value>Исходный код</value>
+  </data>
+  <data name="About_LicenseLink" xml:space="preserve">
+    <value>Лицензия</value>
+  </data>
+<data name="About_Copyright" xml:space="preserve">
+    <value>Copyright © 2026 PlainBytes Studio</value>
+  </data>
+  <data name="Dialog_FilterTemplates" xml:space="preserve">
+    <value>Файлы шаблонов (*.json)|*.json</value>
+  </data>
+
+  <data name="Excel_SummarySheetName" xml:space="preserve">
+    <value>Сводка</value>
+  </data>
+  <data name="Loading_LoadingPdfs" xml:space="preserve">
+    <value>Загрузка PDF… ({0}/{1})</value>
+  </data>
+  <data name="Loading_GeneratingPreview" xml:space="preserve">
+    <value>Создание предпросмотра…</value>
+  </data>
+  <data name="Loading_DefaultMessage" xml:space="preserve">
+    <value>Загрузка PDF…</value>
+  </data>
+  <data name="AnchorKind_Value" xml:space="preserve">
+    <value>Поля значений</value>
+  </data>
+  <data name="AnchorKind_Table" xml:space="preserve">
+    <value>Таблица</value>
+  </data>
+  <data name="AnchorKind_TableBadge" xml:space="preserve">
+    <value>Таблица</value>
+  </data>
+  <data name="AnchorKind_PickerTitle" xml:space="preserve">
+    <value>Выберите тип привязки</value>
+  </data>
+  <data name="AnchorKind_PickerMessage" xml:space="preserve">
+    <value>Привязка для значений используется для извлечения именованных значений. Табличная привязка сохраняет выделенную область и позволяет задать количество столбцов. Разделители первоначально располагаются слева. Перетащите их в нужные места.</value>
+  </data>
+  <data name="AnchorKind_ColumnCountLabel" xml:space="preserve">
+    <value>Сколько столбцов? Разделители первоначально располагаются слева. Перетащите их к границам столбцов в строке заголовков.</value>
+  </data>
+  <data name="AnchorKind_ConfirmTable" xml:space="preserve">
+    <value>Создать табличную привязку</value>
+  </data>
+  <data name="Dialog_Cancel" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+<data name="Unsaved_Title" xml:space="preserve">
+    <value>Несохранённые изменения</value>
+  </data>
+  <data name="Unsaved_Message" xml:space="preserve">
+    <value>Правила извлечения изменены. Сохранить перед выходом?</value>
+  </data>
+  <data name="Unsaved_Save" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="Unsaved_Discard" xml:space="preserve">
+    <value>Не сохранять</value>
+  </data>
+  <data name="Field_RulerBadge" xml:space="preserve">
+    <value>Опора</value>
+  </data>
+  <data name="ToolTip_SetRulerColumn" xml:space="preserve">
+    <value>Сделать опорным столбцом (границы строк)</value>
+  </data>
+  <data name="ToolTip_ExpandAnchor" xml:space="preserve">
+    <value>Развернуть или свернуть поля этой привязки</value>
+  </data>
+  <data name="Toast_TableColumnsCreated" xml:space="preserve">
+    <value>Создано столбцов: {0}. Перетащите разделители с левой стороны к границам столбцов в строке заголовков.</value>
+  </data>
+  <data name="Field_NoText" xml:space="preserve">
+    <value>(нет текста)</value>
+  </data>
+  <data name="Extraction_ColumnNameFormat" xml:space="preserve">
+    <value>Столбец {0}</value>
+  </data>
+  <data name="Overlay_View" xml:space="preserve">
+    <value>Открыть</value>
+  </data>
+</root>

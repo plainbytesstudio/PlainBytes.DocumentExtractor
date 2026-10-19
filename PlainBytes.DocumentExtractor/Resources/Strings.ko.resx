@@ -1,0 +1,669 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Nav_Home" xml:space="preserve">
+    <value>Document Extractor</value>
+  </data>
+  <data name="Nav_Templates" xml:space="preserve">
+    <value>템플릿</value>
+  </data>
+  <data name="Home_Title" xml:space="preserve">
+    <value>Document Extractor</value>
+  </data>
+  <data name="Home_Subtitle" xml:space="preserve">
+    <value>고정 레이아웃 PDF 문서에서 구조화된 데이터를 추출합니다.</value>
+  </data>
+  <data name="Home_DropTitle" xml:space="preserve">
+    <value>PDF 파일을 여기에 놓으세요</value>
+  </data>
+  <data name="Home_DropSubtitle" xml:space="preserve">
+    <value>또는 클릭하여 PDF 파일을 선택하세요</value>
+  </data>
+  <data name="Home_ChooseFiles" xml:space="preserve">
+    <value>파일 선택</value>
+  </data>
+  <data name="Home_BatchHint" xml:space="preserve">
+    <value>여러 PDF 파일을 추가하여 데이터를 일괄 추출할 수 있습니다.</value>
+  </data>
+  <data name="Home_CompactDrop" xml:space="preserve">
+    <value>PDF 파일을 여기에
+놓아 추가하세요</value>
+  </data>
+  <data name="Home_FooterTip" xml:space="preserve">
+    <value>고정되거나 유사한 레이아웃의 텍스트 기반 PDF에 가장 적합합니다. 스캔된 PDF와 레이아웃 변화가 큰 문서는 지원되지 않습니다.</value>
+  </data>
+  <data name="Panel_FilesCount" xml:space="preserve">
+    <value>파일 ({0})</value>
+  </data>
+  <data name="Panel_Template" xml:space="preserve">
+    <value>템플릿</value>
+  </data>
+  <data name="Panel_AnchorsCount" xml:space="preserve">
+    <value>앵커 ({0})</value>
+  </data>
+  <data name="Panel_FieldsCount" xml:space="preserve">
+    <value>필드 ({0})</value>
+  </data>
+  <data name="ToolTip_AddFiles" xml:space="preserve">
+    <value>PDF 파일 추가</value>
+  </data>
+  <data name="ToolTip_RemoveFile" xml:space="preserve">
+    <value>파일 제거</value>
+  </data>
+  <data name="ToolTip_PreviousPage" xml:space="preserve">
+    <value>이전 페이지</value>
+  </data>
+  <data name="ToolTip_NextPage" xml:space="preserve">
+    <value>다음 페이지</value>
+  </data>
+  <data name="ToolTip_ZoomOut" xml:space="preserve">
+    <value>축소</value>
+  </data>
+  <data name="ToolTip_ZoomIn" xml:space="preserve">
+    <value>확대</value>
+  </data>
+  <data name="ToolTip_Delete" xml:space="preserve">
+    <value>삭제</value>
+  </data>
+  <data name="ToolTip_RenameField" xml:space="preserve">
+    <value>필드 이름 변경</value>
+  </data>
+  <data name="ToolTip_MoreSaveOptions" xml:space="preserve">
+    <value>추가 저장 옵션</value>
+  </data>
+  <data name="ToolTip_Dismiss" xml:space="preserve">
+    <value>닫기</value>
+  </data>
+  <data name="ToolTip_More" xml:space="preserve">
+    <value>더 보기</value>
+  </data>
+  <data name="Extraction_TemplateModified" xml:space="preserve">
+    <value>템플릿이 수정됨</value>
+  </data>
+  <data name="Extraction_AddingAnchors" xml:space="preserve">
+    <value>앵커 추가</value>
+  </data>
+  <data name="Extraction_AnchorsHint" xml:space="preserve">
+    <value>Ctrl 키를 누른 상태에서 위치가 일정한 텍스트 위를 드래그하여 앵커를 추가합니다. 값 앵커를 펼친 다음 드래그하여 필드를 추가합니다. 표 앵커의 경우 앵커를 펼치고 머리글 행 전체를 드래그하여 선택합니다. 열은 자동으로 분할됩니다. 구분선은 드래그하여 이동할 수 있으며, 두 번 클릭하여 추가하거나 제거할 수 있습니다. 레이아웃이 일정하지 않거나 표 머리글의 글꼴 크기가 달라지는 문서는 지원하지 않습니다.</value>
+  </data>
+  <data name="Extraction_AnchorsEmpty" xml:space="preserve">
+    <value>Ctrl 키를 누른 상태에서 드래그하여 앵커를 추가합니다. 그런 다음 앵커를 펼치고 드래그하여 필드를 추가합니다.</value>
+  </data>
+  <data name="Extraction_AddingFields" xml:space="preserve">
+    <value>필드 추가</value>
+  </data>
+  <data name="Extraction_FieldsHint" xml:space="preserve">
+    <value>앵커를 펼친 다음 추출할 내용 위를 드래그하세요. 새 필드는 펼쳐진 앵커에 연결됩니다.</value>
+  </data>
+  <data name="Extraction_FieldsEmpty" xml:space="preserve">
+    <value>앵커를 펼친 다음 드래그하여 필드를 추가하세요.</value>
+  </data>
+  <data name="Extraction_SaveAsTemplate" xml:space="preserve">
+    <value>템플릿으로 저장</value>
+  </data>
+  <data name="Extraction_SaveChanges" xml:space="preserve">
+    <value>변경 내용 저장</value>
+  </data>
+  <data name="Extraction_SaveAsNewTemplate" xml:space="preserve">
+    <value>새 템플릿으로 저장</value>
+  </data>
+  <data name="Extraction_TemplateName" xml:space="preserve">
+    <value>템플릿 이름</value>
+  </data>
+  <data name="Extraction_NameConflict" xml:space="preserve">
+    <value>같은 이름의 템플릿이 이미 있습니다.</value>
+  </data>
+  <data name="Extraction_Save" xml:space="preserve">
+    <value>저장</value>
+  </data>
+  <data name="Extraction_Extract" xml:space="preserve">
+    <value>추출</value>
+  </data>
+  <data name="Extraction_CustomConfiguration" xml:space="preserve">
+    <value>사용자 지정 구성</value>
+  </data>
+  <data name="Extraction_UntitledTemplate" xml:space="preserve">
+    <value>제목 없는 템플릿</value>
+  </data>
+  <data name="Extraction_FieldNameFormat" xml:space="preserve">
+    <value>필드 {0}</value>
+  </data>
+  <data name="Dialog_ChoosePdfs" xml:space="preserve">
+    <value>PDF 파일 선택</value>
+  </data>
+  <data name="Dialog_FilterPdf" xml:space="preserve">
+    <value>PDF 파일</value>
+  </data>
+  <data name="Dialog_AllFiles" xml:space="preserve">
+    <value>모든 파일</value>
+  </data>
+  <data name="Dialog_ExportResults" xml:space="preserve">
+    <value>추출 결과 내보내기</value>
+  </data>
+  <data name="Dialog_FilterExcel" xml:space="preserve">
+    <value>Excel 통합 문서 (*.xlsx)|*.xlsx</value>
+  </data>
+  <data name="Toast_ScannedNotSupported" xml:space="preserve">
+    <value>현재 스캔된 PDF는 지원되지 않습니다.</value>
+  </data>
+  <data name="Toast_NoSelectableTextOne" xml:space="preserve">
+    <value>"{0}"에서 선택 가능한 텍스트를 찾을 수 없습니다. {1}</value>
+  </data>
+  <data name="Toast_NoSelectableTextMany" xml:space="preserve">
+    <value>{0}개의 PDF에서 선택 가능한 텍스트를 찾을 수 없습니다:
+{1}
+{2}</value>
+  </data>
+  <data name="Toast_NoTextInArea" xml:space="preserve">
+    <value>이 영역에서 텍스트를 찾을 수 없습니다. 선택 영역을 조정한 후 다시 시도하세요.</value>
+  </data>
+  <data name="Toast_NeedField" xml:space="preserve">
+    <value>추출하기 전에 필드를 하나 이상 추가하세요.</value>
+  </data>
+  <data name="Toast_NeedRulerColumn" xml:space="preserve">
+    <value>추출하기 전에 각 표에 기준 열을 설정하세요. 열 옆의 별표를 클릭하여 표시합니다.</value>
+  </data>
+  <data name="Toast_NeedAnchorBeforeField" xml:space="preserve">
+    <value>먼저 앵커를 추가하고 펼친 다음, 해당 앵커 아래에 필드를 드래그하여 만드세요.</value>
+  </data>
+  <data name="Toast_AmbiguityTip" xml:space="preserve">
+    <value>이 선택 항목은 모호할 수 있습니다. 더 고유한 텍스트를 선택하거나 다른 앵커를 추가하여 위치를 더 정확하게 찾을 수 있도록 하세요.</value>
+  </data>
+  <data name="Toast_AmbiguityOne" xml:space="preserve">
+    <value>이 샘플의 "{1}"에서 {0}개의 일치 항목을 찾았습니다.
+{2}</value>
+  </data>
+  <data name="Toast_AmbiguityMany" xml:space="preserve">
+    <value>이 샘플에서 {0}개의 앵커에 여러 일치 항목이 있습니다:
+{1}
+{2}</value>
+  </data>
+  <data name="Toast_AmbiguityBullet" xml:space="preserve">
+    <value>• "{0}": {1}개 일치</value>
+  </data>
+  <data name="Toast_MissingAnchorOne" xml:space="preserve">
+    <value>{0}페이지에 필드가 있지만 앵커가 없습니다. 문서마다 콘텐츠 위치가 달라질 수 있는 경우 앵커를 추가하세요.</value>
+  </data>
+  <data name="Toast_MissingAnchors" xml:space="preserve">
+    <value>{0}페이지에 필드가 있지만 앵커가 없습니다. 문서마다 콘텐츠 위치가 달라질 수 있는 경우 해당 페이지에 앵커를 추가하세요.</value>
+  </data>
+  <data name="Templates_Title" xml:space="preserve">
+    <value>템플릿</value>
+  </data>
+  <data name="Templates_Subtitle" xml:space="preserve">
+    <value>저장된 추출 템플릿을 관리합니다.</value>
+  </data>
+  <data name="Templates_Import" xml:space="preserve">
+    <value>가져오기</value>
+  </data>
+  <data name="Templates_Export" xml:space="preserve">
+    <value>내보내기</value>
+  </data>
+  <data name="Templates_Delete" xml:space="preserve">
+    <value>삭제</value>
+  </data>
+  <data name="Templates_Search" xml:space="preserve">
+    <value>템플릿 검색</value>
+  </data>
+  <data name="Templates_ColName" xml:space="preserve">
+    <value>템플릿 이름</value>
+  </data>
+  <data name="Templates_ColFields" xml:space="preserve">
+    <value>필드</value>
+  </data>
+  <data name="Templates_ColAnchors" xml:space="preserve">
+    <value>앵커</value>
+  </data>
+  <data name="Templates_ColModified" xml:space="preserve">
+    <value>마지막 수정</value>
+  </data>
+  <data name="Templates_ColActions" xml:space="preserve">
+    <value>작업</value>
+  </data>
+  <data name="Templates_EmptyTitle" xml:space="preserve">
+    <value>아직 템플릿이 없습니다</value>
+  </data>
+  <data name="Templates_EmptyDetail" xml:space="preserve">
+    <value>추출 화면에서 템플릿을 저장하거나 템플릿 파일을 가져오세요.</value>
+  </data>
+  <data name="Templates_NoMatchTitle" xml:space="preserve">
+    <value>검색 조건과 일치하는 템플릿이 없습니다</value>
+  </data>
+  <data name="Templates_NoMatchDetail" xml:space="preserve">
+    <value>다른 이름으로 검색하거나 검색 상자를 비워 보세요.</value>
+  </data>
+  <data name="Templates_Footer" xml:space="preserve">
+    <value>템플릿은 장치에 로컬로 저장되며 업로드되거나 공유되지 않습니다.</value>
+  </data>
+    <data name="Templates_HelpPrompt" xml:space="preserve">
+    <value>템플릿 설정에 도움이 필요하신가요?</value>
+  </data>
+  <data name="Templates_GetSetupHelp" xml:space="preserve">
+    <value>설정 지원 요청 →</value>
+  </data>
+  <data name="Templates_SetupHelp_Title" xml:space="preserve">
+    <value>템플릿 설정 지원</value>
+  </data>
+  <data name="Templates_SetupHelp_Lead" xml:space="preserve">
+    <value>추출 템플릿을 만드는 데 도움이 필요하신가요?</value>
+  </data>
+  <data name="Templates_SetupHelp_EmailUs" xml:space="preserve">
+    <value>다음을 이메일로 보내 주세요:</value>
+  </data>
+  <data name="Templates_SetupHelp_Item1" xml:space="preserve">
+    <value>① 샘플 PDF 문서</value>
+  </data>
+  <data name="Templates_SetupHelp_Item2" xml:space="preserve">
+    <value>② 추출하려는 필드 목록</value>
+  </data>
+  <data name="Templates_SetupHelp_Promise" xml:space="preserve">
+    <value>추출 템플릿을 무료로 구성한 뒤, 완성된 템플릿을 이메일로 보내 드립니다.</value>
+  </data>
+  <data name="Templates_SetupHelp_Privacy" xml:space="preserve">
+    <value>Document Extractor는 문서를 업로드하지 않습니다. 샘플 PDF는 사용자가 이메일 앱을 통해 직접 전송하는 경우에만 외부로 전송됩니다.</value>
+  </data>
+  <data name="Templates_SetupHelp_Contact" xml:space="preserve">
+    <value>이메일로 문의</value>
+  </data>
+  <data name="Templates_SetupHelp_MailSubject" xml:space="preserve">
+    <value>Document Extractor - 템플릿 설정 지원</value>
+  </data>
+  <data name="Templates_SetupHelp_MailBody" xml:space="preserve">
+    <value>PlainBytes Studio 담당자님께,
+
+추출 템플릿 설정에 도움을 요청합니다.
+
+추출하고 싶은 필드:
+1.
+2.
+3.
+
+이 메일에 샘플 PDF를 첨부하겠습니다.</value>
+  </data>
+<data name="Templates_Rename" xml:space="preserve">
+    <value>이름 바꾸기</value>
+  </data>
+  <data name="Templates_ImportDialog" xml:space="preserve">
+    <value>템플릿 가져오기</value>
+  </data>
+  <data name="Templates_ExportDialogOne" xml:space="preserve">
+    <value>템플릿 내보내기</value>
+  </data>
+  <data name="Templates_ExportDialogMany" xml:space="preserve">
+    <value>템플릿 내보내기</value>
+  </data>
+  <data name="Templates_ImportedOne" xml:space="preserve">
+    <value>템플릿 1개를 가져왔습니다.</value>
+  </data>
+  <data name="Templates_ImportedMany" xml:space="preserve">
+    <value>템플릿 {0}개를 가져왔습니다.</value>
+  </data>
+  <data name="Templates_ImportedPartial" xml:space="preserve">
+    <value>템플릿 {0}개를 가져왔습니다. 파일 {1}개는 가져오지 못했습니다.</value>
+  </data>
+  <data name="Templates_ImportFailed" xml:space="preserve">
+    <value>가져오기에 실패했습니다. 선택한 파일에 올바른 JSON 형식의 템플릿이 없습니다.</value>
+  </data>
+  <data name="Templates_ExportMissing" xml:space="preserve">
+    <value>내보낼 수 없습니다. 하나 이상의 템플릿 파일이 없습니다.</value>
+  </data>
+  <data name="Templates_ExportedOne" xml:space="preserve">
+    <value>"{0}"을(를) 내보냈습니다.</value>
+  </data>
+  <data name="Templates_ExportedMany" xml:space="preserve">
+    <value>템플릿 {0}개를 하나의 파일로 내보냈습니다.</value>
+  </data>
+  <data name="Templates_DeleteConfirmOne" xml:space="preserve">
+    <value>템플릿 "{0}"을(를) 삭제하시겠습니까? 이 작업은 취소할 수 없습니다.</value>
+  </data>
+  <data name="Templates_DeleteConfirmTitleOne" xml:space="preserve">
+    <value>템플릿 삭제</value>
+  </data>
+  <data name="Templates_DeleteConfirmMany" xml:space="preserve">
+    <value>선택한 템플릿 {0}개를 삭제하시겠습니까? 이 작업은 취소할 수 없습니다.</value>
+  </data>
+  <data name="Templates_DeleteConfirmTitleMany" xml:space="preserve">
+    <value>템플릿 삭제</value>
+  </data>
+  <data name="Templates_NameEmpty" xml:space="preserve">
+    <value>템플릿 이름은 비워 둘 수 없습니다.</value>
+  </data>
+  <data name="Templates_NameConflict" xml:space="preserve">
+    <value>같은 이름의 템플릿이 이미 있습니다.</value>
+  </data>
+  <data name="Templates_RenameMissing" xml:space="preserve">
+    <value>이름을 변경할 수 없습니다. 템플릿 파일이 없습니다.</value>
+  </data>
+  <data name="Overlay_Working" xml:space="preserve">
+    <value>데이터 추출 중...</value>
+  </data>
+  <data name="Overlay_Complete" xml:space="preserve">
+    <value>추출 완료</value>
+  </data>
+  <data name="Overlay_Failed" xml:space="preserve">
+    <value>추출 실패</value>
+  </data>
+  <data name="Overlay_Cancel" xml:space="preserve">
+    <value>취소</value>
+  </data>
+  <data name="Overlay_Done" xml:space="preserve">
+    <value>완료</value>
+  </data>
+  <data name="Overlay_ViewDetails" xml:space="preserve">
+    <value>세부 정보 보기</value>
+  </data>
+  <data name="Overlay_FileName" xml:space="preserve">
+    <value>파일 이름</value>
+  </data>
+  <data name="Overlay_FailReason" xml:space="preserve">
+    <value>실패 원인</value>
+  </data>
+  <data name="Overlay_SuccessCount" xml:space="preserve">
+    <value>{0}개 파일에서 데이터를 성공적으로 추출했습니다.</value>
+  </data>
+  <data name="Overlay_FailCount" xml:space="preserve">
+    <value>{0}개 파일에서 데이터를 추출하지 못했습니다.</value>
+  </data>
+  <data name="FailReason_Generic" xml:space="preserve">
+    <value>추출 실패</value>
+  </data>
+  <data name="FailReason_InUse" xml:space="preserve">
+    <value>다른 프로세스에서 파일을 사용 중입니다.</value>
+  </data>
+  <data name="FailReason_NotFound" xml:space="preserve">
+    <value>파일을 찾을 수 없습니다.</value>
+  </data>
+  <data name="FailReason_AccessDenied" xml:space="preserve">
+    <value>액세스가 거부되었습니다.</value>
+  </data>
+  <data name="About_Title" xml:space="preserve">
+    <value>PlainBytes DocumentExtractor 정보</value>
+  </data>
+  <data name="About_Subtitle" xml:space="preserve">
+    <value>고정 레이아웃 PDF 문서에서 구조화된 데이터를 추출합니다.</value>
+  </data>
+  <data name="About_ProductName" xml:space="preserve">
+    <value>PlainBytes DocumentExtractor</value>
+  </data>
+  <data name="About_ProductTagline" xml:space="preserve">
+    <value>PDF 필드 추출 도구</value>
+  </data>
+  <data name="About_VersionFormat" xml:space="preserve">
+    <value>버전 {0}</value>
+  </data>
+  <data name="About_SectionTitle" xml:space="preserve">
+    <value>제품 정보</value>
+  </data>
+  <data name="About_Body" xml:space="preserve">
+    <value>PlainBytes DocumentExtractor는 고정 레이아웃 PDF 문서에서 구조화된 데이터를 추출하고 결과를 Excel로 내보내는 가벼운 Windows 유틸리티입니다.
+복잡한 설정이 필요하지 않습니다. 필요한 필드를 정의한 다음 간단한 작업으로 여러 PDF 파일에서 데이터를 추출할 수 있습니다.</value>
+  </data>
+
+  <data name="About_CustomDev_Title" xml:space="preserve">
+    <value>맞춤 개발</value>
+  </data>
+  <data name="About_CustomDev_Intro" xml:space="preserve">
+    <value>업무 흐름에 맞는 문서 또는 데이터 처리 도구가 필요하신가요? PDF 및 기타 문서 처리, 데이터 추출, 스프레드시트와 CSV 파일 처리, 형식 변환, 일괄 처리, 관련 업무 자동화를 위한 맞춤형 개발 서비스도 제공합니다.</value>
+  </data>
+  <data name="About_CustomDev_Simple" xml:space="preserve">
+    <value>데이터 추출, 형식 변환, 일괄 처리 등 특정 용도에 특화된 간단한 도구는 비교적 짧은 기간 안에 개발하여 제공할 수 있습니다.</value>
+  </data>
+  <data name="About_CustomDev_Custom" xml:space="preserve">
+    <value>여러 기능을 갖춘 애플리케이션, 전용 사용자 인터페이스가 있는 도구, 기존 업무 흐름과 연동되는 시스템 등도 요구사항에 맞춰 개발할 수 있습니다.</value>
+  </data>
+  <data name="About_CustomDev_Pricing" xml:space="preserve">
+    <value>개발 비용은 프로젝트의 범위와 복잡도에 따라 달라집니다. 달성하려는 목표를 알려 주시면 견적을 제공해 드립니다.</value>
+  </data>
+  <data name="About_CustomDev_Contact" xml:space="preserve">
+    <value>문의하기 →</value>
+  </data>
+  <data name="About_CustomDev_Dialog_Lead" xml:space="preserve">
+    <value>필요한 도구 또는 워크플로에 대해 알려 주세요.</value>
+  </data>
+  <data name="About_CustomDev_Dialog_Include" xml:space="preserve">
+    <value>프로젝트를 이해하기 위해 다음을 포함해 주세요:</value>
+  </data>
+  <data name="About_CustomDev_Dialog_Item1" xml:space="preserve">
+    <value>• 도구에 필요한 기능</value>
+  </data>
+  <data name="About_CustomDev_Dialog_Item2" xml:space="preserve">
+    <value>• 처리해야 할 파일 또는 데이터</value>
+  </data>
+  <data name="About_CustomDev_Dialog_Item3" xml:space="preserve">
+    <value>• 기대하는 출력 또는 결과</value>
+  </data>
+  <data name="About_CustomDev_Dialog_Item4" xml:space="preserve">
+    <value>• 주요 작업 흐름 및 사용자 인터페이스 요구사항</value>
+  </data>
+  <data name="About_CustomDev_Dialog_Attach" xml:space="preserve">
+    <value>이메일로 샘플 파일, 스크린샷 또는 기타 참고 자료를 첨부할 수도 있습니다.</value>
+  </data>
+  <data name="About_CustomDev_Dialog_Promise" xml:space="preserve">
+    <value>요구사항을 검토한 후 추가 질문, 제안 사항 및 견적을 안내해 드리겠습니다.</value>
+  </data>
+  <data name="About_CustomDev_MailSubject" xml:space="preserve">
+    <value>맞춤 개발 문의</value>
+  </data>
+  <data name="About_CustomDev_MailBody" xml:space="preserve">
+    <value>PlainBytes Studio 담당자님께,
+
+맞춤 개발 프로젝트에 관심이 있습니다.
+
+필요한 내용:
+
+처리할 파일 또는 데이터:
+
+기대 출력:
+
+기타 요구사항:
+
+관련 샘플 파일이나 스크린샷을 이 메일에 첨부했습니다.</value>
+  </data>
+<data name="About_MoreTools" xml:space="preserve">
+    <value>더 많은 PlainBytes 도구</value>
+  </data>
+  <data name="About_ViewAll" xml:space="preserve">
+    <value>모든 도구 보기 →</value>
+  </data>
+    <data name="About_LicenseNotice" xml:space="preserve">
+    <value>GNU GPLv3에 따라 라이선스됩니다.</value>
+  </data>
+  <data name="About_SourceCode" xml:space="preserve">
+    <value>소스 코드</value>
+  </data>
+  <data name="About_LicenseLink" xml:space="preserve">
+    <value>라이선스</value>
+  </data>
+<data name="About_Copyright" xml:space="preserve">
+    <value>Copyright © 2026 PlainBytes Studio</value>
+  </data>
+  <data name="Dialog_FilterTemplates" xml:space="preserve">
+    <value>템플릿 파일 (*.json)|*.json</value>
+  </data>
+
+  <data name="Excel_SummarySheetName" xml:space="preserve">
+    <value>요약</value>
+  </data>
+  <data name="Loading_LoadingPdfs" xml:space="preserve">
+    <value>PDF 로드 중… ({0}/{1})</value>
+  </data>
+  <data name="Loading_GeneratingPreview" xml:space="preserve">
+    <value>미리보기 생성 중…</value>
+  </data>
+  <data name="Loading_DefaultMessage" xml:space="preserve">
+    <value>PDF 로드 중…</value>
+  </data>
+  <data name="AnchorKind_Value" xml:space="preserve">
+    <value>값 필드</value>
+  </data>
+  <data name="AnchorKind_Table" xml:space="preserve">
+    <value>표</value>
+  </data>
+  <data name="AnchorKind_TableBadge" xml:space="preserve">
+    <value>표</value>
+  </data>
+  <data name="AnchorKind_PickerTitle" xml:space="preserve">
+    <value>앵커 유형 선택</value>
+  </data>
+  <data name="AnchorKind_PickerMessage" xml:space="preserve">
+    <value>값 앵커는 이름이 지정된 값을 추출하는 데 사용됩니다. 표 앵커는 선택한 영역을 유지하며 열 개수를 지정할 수 있습니다. 구분선은 처음에 왼쪽에 배치되며, 드래그하여 위치를 조정할 수 있습니다.</value>
+  </data>
+  <data name="AnchorKind_ColumnCountLabel" xml:space="preserve">
+    <value>열 개수를 지정하세요. 구분선은 처음에 왼쪽에 배치됩니다. 드래그하여 머리글의 열 경계에 맞추세요.</value>
+  </data>
+  <data name="AnchorKind_ConfirmTable" xml:space="preserve">
+    <value>표 앵커 만들기</value>
+  </data>
+  <data name="Dialog_Cancel" xml:space="preserve">
+    <value>취소</value>
+  </data>
+<data name="Unsaved_Title" xml:space="preserve">
+    <value>저장되지 않은 변경 사항</value>
+  </data>
+  <data name="Unsaved_Message" xml:space="preserve">
+    <value>추출 규칙이 수정되었습니다. 나가기 전에 저장할까요?</value>
+  </data>
+  <data name="Unsaved_Save" xml:space="preserve">
+    <value>저장</value>
+  </data>
+  <data name="Unsaved_Discard" xml:space="preserve">
+    <value>저장 안 함</value>
+  </data>
+  <data name="Field_RulerBadge" xml:space="preserve">
+    <value>기준 열</value>
+  </data>
+  <data name="ToolTip_SetRulerColumn" xml:space="preserve">
+    <value>기준 열로 설정(행 구분)</value>
+  </data>
+  <data name="ToolTip_ExpandAnchor" xml:space="preserve">
+    <value>이 앵커의 필드를 펼치거나 접기</value>
+  </data>
+  <data name="Toast_TableColumnsCreated" xml:space="preserve">
+    <value>{0}개의 열을 만들었습니다. 왼쪽에 배치된 구분선을 드래그하여 머리글의 열 경계에 맞추세요.</value>
+  </data>
+  <data name="Field_NoText" xml:space="preserve">
+    <value>(텍스트 없음)</value>
+  </data>
+  <data name="Extraction_ColumnNameFormat" xml:space="preserve">
+    <value>열 {0}</value>
+  </data>
+  <data name="Overlay_View" xml:space="preserve">
+    <value>보기</value>
+  </data>
+</root>

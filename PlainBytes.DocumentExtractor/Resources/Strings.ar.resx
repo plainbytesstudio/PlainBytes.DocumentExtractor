@@ -1,0 +1,669 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Nav_Home" xml:space="preserve">
+    <value>Document Extractor</value>
+  </data>
+  <data name="Nav_Templates" xml:space="preserve">
+    <value>القوالب</value>
+  </data>
+  <data name="Home_Title" xml:space="preserve">
+    <value>Document Extractor</value>
+  </data>
+  <data name="Home_Subtitle" xml:space="preserve">
+    <value>استخرج بيانات منظّمة من مستندات PDF ذات تخطيط ثابت.</value>
+  </data>
+  <data name="Home_DropTitle" xml:space="preserve">
+    <value>أفلت ملفات PDF هنا</value>
+  </data>
+  <data name="Home_DropSubtitle" xml:space="preserve">
+    <value>أو انقر لاختيار ملفات PDF</value>
+  </data>
+  <data name="Home_ChooseFiles" xml:space="preserve">
+    <value>اختيار الملفات</value>
+  </data>
+  <data name="Home_BatchHint" xml:space="preserve">
+    <value>يمكنك إضافة عدة ملفات PDF لاستخراج البيانات دفعة واحدة.</value>
+  </data>
+  <data name="Home_CompactDrop" xml:space="preserve">
+    <value>أفلت ملفات PDF هنا
+لإضافتها</value>
+  </data>
+  <data name="Home_FooterTip" xml:space="preserve">
+    <value>يعمل بشكل أفضل مع ملفات PDF النصية ذات التخطيط الثابت أو المتشابه. ملفات PDF الممسوحة ضوئيًا والمستندات ذات التخطيطات شديدة التغيّر غير مدعومة.</value>
+  </data>
+  <data name="Panel_FilesCount" xml:space="preserve">
+    <value>الملفات ({0})</value>
+  </data>
+  <data name="Panel_Template" xml:space="preserve">
+    <value>القالب</value>
+  </data>
+  <data name="Panel_AnchorsCount" xml:space="preserve">
+    <value>نقاط الارتساء ({0})</value>
+  </data>
+  <data name="Panel_FieldsCount" xml:space="preserve">
+    <value>الحقول ({0})</value>
+  </data>
+  <data name="ToolTip_AddFiles" xml:space="preserve">
+    <value>إضافة ملفات PDF</value>
+  </data>
+  <data name="ToolTip_RemoveFile" xml:space="preserve">
+    <value>إزالة الملف</value>
+  </data>
+  <data name="ToolTip_PreviousPage" xml:space="preserve">
+    <value>الصفحة السابقة</value>
+  </data>
+  <data name="ToolTip_NextPage" xml:space="preserve">
+    <value>الصفحة التالية</value>
+  </data>
+  <data name="ToolTip_ZoomOut" xml:space="preserve">
+    <value>تصغير</value>
+  </data>
+  <data name="ToolTip_ZoomIn" xml:space="preserve">
+    <value>تكبير</value>
+  </data>
+  <data name="ToolTip_Delete" xml:space="preserve">
+    <value>حذف</value>
+  </data>
+  <data name="ToolTip_RenameField" xml:space="preserve">
+    <value>إعادة تسمية الحقل</value>
+  </data>
+  <data name="ToolTip_MoreSaveOptions" xml:space="preserve">
+    <value>المزيد من خيارات الحفظ</value>
+  </data>
+  <data name="ToolTip_Dismiss" xml:space="preserve">
+    <value>إغلاق</value>
+  </data>
+  <data name="ToolTip_More" xml:space="preserve">
+    <value>المزيد</value>
+  </data>
+  <data name="Extraction_TemplateModified" xml:space="preserve">
+    <value>تم تعديل القالب</value>
+  </data>
+  <data name="Extraction_AddingAnchors" xml:space="preserve">
+    <value>إضافة نقاط الارتساء</value>
+  </data>
+  <data name="Extraction_AnchorsHint" xml:space="preserve">
+    <value>اضغط باستمرار على Ctrl واسحب فوق نص ثابت الموضع لإضافة نقطة ارتساء. وسّع نقطة ارتساء القيم واسحب لإضافة الحقول. بالنسبة إلى نقطة ارتساء الجدول، وسّعها واسحب لتحديد صف العناوين بالكامل. تُقسَّم الأعمدة تلقائيًا، ويمكنك سحب خطوط الفصل لتعديل مواضعها أو النقر عليها نقرًا مزدوجًا لإضافتها أو إزالتها. لا تُدعم المستندات ذات التخطيط غير الثابت أو أحجام الخطوط المتفاوتة في عناوين أعمدة الجداول.</value>
+  </data>
+  <data name="Extraction_AnchorsEmpty" xml:space="preserve">
+    <value>اضغط باستمرار على Ctrl واسحب لإضافة نقطة ارتساء. ثم وسّعها واسحب لإضافة الحقول.</value>
+  </data>
+  <data name="Extraction_AddingFields" xml:space="preserve">
+    <value>إضافة الحقول</value>
+  </data>
+  <data name="Extraction_FieldsHint" xml:space="preserve">
+    <value>وسّع نقطة ارتساء واسحب لتحديد المحتوى الذي تريد استخراجه. ستُربط الحقول الجديدة بنقطة الارتساء الموسّعة.</value>
+  </data>
+  <data name="Extraction_FieldsEmpty" xml:space="preserve">
+    <value>وسّع نقطة ارتساء واسحب لإضافة الحقول.</value>
+  </data>
+  <data name="Extraction_SaveAsTemplate" xml:space="preserve">
+    <value>حفظ كقالب</value>
+  </data>
+  <data name="Extraction_SaveChanges" xml:space="preserve">
+    <value>حفظ التغييرات</value>
+  </data>
+  <data name="Extraction_SaveAsNewTemplate" xml:space="preserve">
+    <value>حفظ كقالب جديد</value>
+  </data>
+  <data name="Extraction_TemplateName" xml:space="preserve">
+    <value>اسم القالب</value>
+  </data>
+  <data name="Extraction_NameConflict" xml:space="preserve">
+    <value>يوجد قالب بهذا الاسم بالفعل.</value>
+  </data>
+  <data name="Extraction_Save" xml:space="preserve">
+    <value>حفظ</value>
+  </data>
+  <data name="Extraction_Extract" xml:space="preserve">
+    <value>استخراج</value>
+  </data>
+  <data name="Extraction_CustomConfiguration" xml:space="preserve">
+    <value>إعداد مخصص</value>
+  </data>
+  <data name="Extraction_UntitledTemplate" xml:space="preserve">
+    <value>قالب بلا اسم</value>
+  </data>
+  <data name="Extraction_FieldNameFormat" xml:space="preserve">
+    <value>الحقل {0}</value>
+  </data>
+  <data name="Dialog_ChoosePdfs" xml:space="preserve">
+    <value>اختيار ملفات PDF</value>
+  </data>
+  <data name="Dialog_FilterPdf" xml:space="preserve">
+    <value>ملفات PDF</value>
+  </data>
+  <data name="Dialog_AllFiles" xml:space="preserve">
+    <value>كل الملفات</value>
+  </data>
+  <data name="Dialog_ExportResults" xml:space="preserve">
+    <value>تصدير نتائج الاستخراج</value>
+  </data>
+  <data name="Dialog_FilterExcel" xml:space="preserve">
+    <value>مصنف Excel (*.xlsx)|*.xlsx</value>
+  </data>
+  <data name="Toast_ScannedNotSupported" xml:space="preserve">
+    <value>ملفات PDF الممسوحة ضوئيًا غير مدعومة حاليًا.</value>
+  </data>
+  <data name="Toast_NoSelectableTextOne" xml:space="preserve">
+    <value>لم يتم العثور على نص قابل للتحديد في «{0}». {1}</value>
+  </data>
+  <data name="Toast_NoSelectableTextMany" xml:space="preserve">
+    <value>لم يتم العثور على نص قابل للتحديد في {0} من ملفات PDF:
+{1}
+{2}</value>
+  </data>
+  <data name="Toast_NoTextInArea" xml:space="preserve">
+    <value>لم يتم العثور على نص في هذه المنطقة. عدّل التحديد وحاول مرة أخرى.</value>
+  </data>
+  <data name="Toast_NeedField" xml:space="preserve">
+    <value>أضف حقلاً واحدًا على الأقل قبل بدء الاستخراج.</value>
+  </data>
+  <data name="Toast_NeedRulerColumn" xml:space="preserve">
+    <value>حدّد عمودًا مرجعيًا لكل جدول قبل الاستخراج. انقر على النجمة بجانب العمود لتعيينه.</value>
+  </data>
+  <data name="Toast_NeedAnchorBeforeField" xml:space="preserve">
+    <value>أضف نقطة ارتساء أولاً ووسّعها، ثم اسحب لتحديد الحقول المرتبطة بها.</value>
+  </data>
+  <data name="Toast_AmbiguityTip" xml:space="preserve">
+    <value>قد يكون هذا التحديد ملتبسًا. اختر نصًا أكثر تميّزًا أو أضف نقطة ارتساء أخرى لتحسين موثوقية تحديد الموضع.</value>
+  </data>
+  <data name="Toast_AmbiguityOne" xml:space="preserve">
+    <value>تم العثور على {0} تطابقات في هذا النموذج للنص «{1}».
+{2}</value>
+  </data>
+  <data name="Toast_AmbiguityMany" xml:space="preserve">
+    <value>توجد تطابقات متعددة لـ {0} من نقاط الارتساء في هذا النموذج:
+{1}
+{2}</value>
+  </data>
+  <data name="Toast_AmbiguityBullet" xml:space="preserve">
+    <value>• «{0}»: {1} تطابقات</value>
+  </data>
+  <data name="Toast_MissingAnchorOne" xml:space="preserve">
+    <value>تحتوي الصفحة {0} على حقول ولكن لا توجد بها نقطة ارتساء. أضف نقطة ارتساء إذا كان موضع المحتوى قد يختلف بين المستندات.</value>
+  </data>
+  <data name="Toast_MissingAnchors" xml:space="preserve">
+    <value>تحتوي الصفحات {0} على حقول ولكن لا توجد بها نقاط ارتساء. أضف نقاط ارتساء إذا كان موضع المحتوى قد يختلف بين المستندات.</value>
+  </data>
+  <data name="Templates_Title" xml:space="preserve">
+    <value>القوالب</value>
+  </data>
+  <data name="Templates_Subtitle" xml:space="preserve">
+    <value>إدارة قوالب الاستخراج المحفوظة.</value>
+  </data>
+  <data name="Templates_Import" xml:space="preserve">
+    <value>استيراد</value>
+  </data>
+  <data name="Templates_Export" xml:space="preserve">
+    <value>تصدير</value>
+  </data>
+  <data name="Templates_Delete" xml:space="preserve">
+    <value>حذف</value>
+  </data>
+  <data name="Templates_Search" xml:space="preserve">
+    <value>البحث في القوالب</value>
+  </data>
+  <data name="Templates_ColName" xml:space="preserve">
+    <value>اسم القالب</value>
+  </data>
+  <data name="Templates_ColFields" xml:space="preserve">
+    <value>الحقول</value>
+  </data>
+  <data name="Templates_ColAnchors" xml:space="preserve">
+    <value>نقاط الارتساء</value>
+  </data>
+  <data name="Templates_ColModified" xml:space="preserve">
+    <value>آخر تعديل</value>
+  </data>
+  <data name="Templates_ColActions" xml:space="preserve">
+    <value>الإجراءات</value>
+  </data>
+  <data name="Templates_EmptyTitle" xml:space="preserve">
+    <value>لا توجد قوالب بعد</value>
+  </data>
+  <data name="Templates_EmptyDetail" xml:space="preserve">
+    <value>احفظ قالبًا من شاشة الاستخراج أو استورد ملف قالب.</value>
+  </data>
+  <data name="Templates_NoMatchTitle" xml:space="preserve">
+    <value>لا توجد قوالب مطابقة لبحثك</value>
+  </data>
+  <data name="Templates_NoMatchDetail" xml:space="preserve">
+    <value>جرّب اسمًا مختلفًا أو امسح مربع البحث.</value>
+  </data>
+  <data name="Templates_Footer" xml:space="preserve">
+    <value>تُخزّن القوالب محليًا على جهازك ولا يتم رفعها أو مشاركتها.</value>
+  </data>
+    <data name="Templates_HelpPrompt" xml:space="preserve">
+    <value>هل تحتاج مساعدة في إعداد قالب؟</value>
+  </data>
+  <data name="Templates_GetSetupHelp" xml:space="preserve">
+    <value>الحصول على مساعدة في إعداد القالب ←</value>
+  </data>
+  <data name="Templates_SetupHelp_Title" xml:space="preserve">
+    <value>مساعدة إعداد القالب</value>
+  </data>
+  <data name="Templates_SetupHelp_Lead" xml:space="preserve">
+    <value>هل تحتاج مساعدة في إنشاء قالب استخراج؟</value>
+  </data>
+  <data name="Templates_SetupHelp_EmailUs" xml:space="preserve">
+    <value>أرسل إلينا عبر البريد الإلكتروني:</value>
+  </data>
+  <data name="Templates_SetupHelp_Item1" xml:space="preserve">
+    <value>① مستند PDF عيّنة</value>
+  </data>
+  <data name="Templates_SetupHelp_Item2" xml:space="preserve">
+    <value>② قائمة بالحقول التي تريد استخراجها</value>
+  </data>
+  <data name="Templates_SetupHelp_Promise" xml:space="preserve">
+    <value>سنُعدّ قالب الاستخراج لك مجانًا ونرسل القالب المكتمل عبر البريد الإلكتروني.</value>
+  </data>
+  <data name="Templates_SetupHelp_Privacy" xml:space="preserve">
+    <value>لا يرفع Document Extractor مستنداتك إلى الإنترنت. لا يغادر ملف PDF النموذجي جهازك إلا إذا اخترت إرساله بنفسك عبر تطبيق البريد الإلكتروني.</value>
+  </data>
+  <data name="Templates_SetupHelp_Contact" xml:space="preserve">
+    <value>التواصل عبر البريد</value>
+  </data>
+  <data name="Templates_SetupHelp_MailSubject" xml:space="preserve">
+    <value>Document Extractor - مساعدة في إعداد القالب</value>
+  </data>
+  <data name="Templates_SetupHelp_MailBody" xml:space="preserve">
+    <value>مرحبًا بفريق PlainBytes Studio،
+
+أرغب في الحصول على مساعدة لإعداد قالب استخراج.
+
+الحقول التي أرغب في استخراجها:
+1.
+2.
+3.
+
+يمكنني إرفاق ملف PDF نموذجي للمساعدة في إعداد القالب.</value>
+  </data>
+<data name="Templates_Rename" xml:space="preserve">
+    <value>إعادة تسمية</value>
+  </data>
+  <data name="Templates_ImportDialog" xml:space="preserve">
+    <value>استيراد القوالب</value>
+  </data>
+  <data name="Templates_ExportDialogOne" xml:space="preserve">
+    <value>تصدير القالب</value>
+  </data>
+  <data name="Templates_ExportDialogMany" xml:space="preserve">
+    <value>تصدير القوالب</value>
+  </data>
+  <data name="Templates_ImportedOne" xml:space="preserve">
+    <value>تم استيراد قالب واحد.</value>
+  </data>
+  <data name="Templates_ImportedMany" xml:space="preserve">
+    <value>تم استيراد {0} من القوالب.</value>
+  </data>
+  <data name="Templates_ImportedPartial" xml:space="preserve">
+    <value>تم استيراد {0} من القوالب، وتعذّر استيراد {1} من الملفات.</value>
+  </data>
+  <data name="Templates_ImportFailed" xml:space="preserve">
+    <value>فشل الاستيراد. الملفات المحددة لا تحتوي على بيانات JSON صالحة للقوالب.</value>
+  </data>
+  <data name="Templates_ExportMissing" xml:space="preserve">
+    <value>تعذر التصدير: ملف واحد أو أكثر من ملفات القوالب مفقود.</value>
+  </data>
+  <data name="Templates_ExportedOne" xml:space="preserve">
+    <value>تم تصدير «{0}».</value>
+  </data>
+  <data name="Templates_ExportedMany" xml:space="preserve">
+    <value>تم تصدير {0} من القوالب إلى ملف واحد.</value>
+  </data>
+  <data name="Templates_DeleteConfirmOne" xml:space="preserve">
+    <value>هل تريد حذف القالب «{0}»؟ لا يمكن التراجع عن هذا الإجراء.</value>
+  </data>
+  <data name="Templates_DeleteConfirmTitleOne" xml:space="preserve">
+    <value>حذف القالب</value>
+  </data>
+  <data name="Templates_DeleteConfirmMany" xml:space="preserve">
+    <value>هل تريد حذف {0} من القوالب المحددة؟ لا يمكن التراجع عن هذا الإجراء.</value>
+  </data>
+  <data name="Templates_DeleteConfirmTitleMany" xml:space="preserve">
+    <value>حذف القوالب</value>
+  </data>
+  <data name="Templates_NameEmpty" xml:space="preserve">
+    <value>لا يمكن أن يكون اسم القالب فارغًا.</value>
+  </data>
+  <data name="Templates_NameConflict" xml:space="preserve">
+    <value>يوجد قالب بهذا الاسم بالفعل.</value>
+  </data>
+  <data name="Templates_RenameMissing" xml:space="preserve">
+    <value>تعذرت إعادة التسمية: ملف القالب مفقود.</value>
+  </data>
+  <data name="Overlay_Working" xml:space="preserve">
+    <value>جارٍ استخراج البيانات...</value>
+  </data>
+  <data name="Overlay_Complete" xml:space="preserve">
+    <value>اكتمل الاستخراج</value>
+  </data>
+  <data name="Overlay_Failed" xml:space="preserve">
+    <value>فشل الاستخراج</value>
+  </data>
+  <data name="Overlay_Cancel" xml:space="preserve">
+    <value>إلغاء</value>
+  </data>
+  <data name="Overlay_Done" xml:space="preserve">
+    <value>تم</value>
+  </data>
+  <data name="Overlay_ViewDetails" xml:space="preserve">
+    <value>عرض التفاصيل</value>
+  </data>
+  <data name="Overlay_FileName" xml:space="preserve">
+    <value>اسم الملف</value>
+  </data>
+  <data name="Overlay_FailReason" xml:space="preserve">
+    <value>سبب الفشل</value>
+  </data>
+  <data name="Overlay_SuccessCount" xml:space="preserve">
+    <value>تم استخراج البيانات بنجاح من {0} من الملفات.</value>
+  </data>
+  <data name="Overlay_FailCount" xml:space="preserve">
+    <value>تعذّر استخراج البيانات من {0} من الملفات.</value>
+  </data>
+  <data name="FailReason_Generic" xml:space="preserve">
+    <value>فشل الاستخراج</value>
+  </data>
+  <data name="FailReason_InUse" xml:space="preserve">
+    <value>الملف قيد الاستخدام بواسطة عملية أخرى.</value>
+  </data>
+  <data name="FailReason_NotFound" xml:space="preserve">
+    <value>تعذر العثور على الملف.</value>
+  </data>
+  <data name="FailReason_AccessDenied" xml:space="preserve">
+    <value>تم رفض الوصول.</value>
+  </data>
+  <data name="About_Title" xml:space="preserve">
+    <value>حول PlainBytes DocumentExtractor</value>
+  </data>
+  <data name="About_Subtitle" xml:space="preserve">
+    <value>استخرج بيانات منظّمة من مستندات PDF ذات تخطيط ثابت.</value>
+  </data>
+  <data name="About_ProductName" xml:space="preserve">
+    <value>PlainBytes DocumentExtractor</value>
+  </data>
+  <data name="About_ProductTagline" xml:space="preserve">
+    <value>أداة لاستخراج الحقول من ملفات PDF</value>
+  </data>
+  <data name="About_VersionFormat" xml:space="preserve">
+    <value>الإصدار {0}</value>
+  </data>
+  <data name="About_SectionTitle" xml:space="preserve">
+    <value>حول المنتج</value>
+  </data>
+  <data name="About_Body" xml:space="preserve">
+    <value>PlainBytes DocumentExtractor هو أداة خفيفة لنظام Windows لاستخراج البيانات المنظّمة من مستندات PDF ذات التخطيط الثابت وتصدير النتائج إلى Excel.
+لا يتطلب إعدادًا معقدًا. حدّد الحقول التي تحتاج إليها، ثم استخرج البيانات من عدة ملفات PDF بخطوات بسيطة.</value>
+  </data>
+
+  <data name="About_CustomDev_Title" xml:space="preserve">
+    <value>تطوير مخصص</value>
+  </data>
+  <data name="About_CustomDev_Intro" xml:space="preserve">
+    <value>هل تحتاج إلى أداة لمعالجة المستندات أو البيانات تتناسب مع سير عملك؟ نقدم أيضًا خدمات تطوير مخصصة لمعالجة ملفات PDF والمستندات الأخرى، واستخراج البيانات، ومعالجة جداول البيانات وملفات CSV، وتحويل التنسيقات، والمعالجة الدفعية، وأتمتة المهام ذات الصلة.</value>
+  </data>
+  <data name="About_CustomDev_Simple" xml:space="preserve">
+    <value>يمكن غالبًا تطوير الأدوات البسيطة والمتخصصة، مثل أدوات استخراج البيانات أو تحويل التنسيقات أو المعالجة الدفعية، وتسليمها خلال فترة قصيرة نسبيًا.</value>
+  </data>
+  <data name="About_CustomDev_Custom" xml:space="preserve">
+    <value>نطوّر أيضًا تطبيقات مخصصة، بما في ذلك الأدوات متعددة الوظائف، والتطبيقات ذات واجهات المستخدم المخصصة، والحلول التي تتكامل مع سير عملك الحالي.</value>
+  </data>
+  <data name="About_CustomDev_Pricing" xml:space="preserve">
+    <value>تعتمد تكلفة التطوير على نطاق المشروع ومدى تعقيده. أخبرنا بما تحتاج إليه، وسنقدّم لك عرض سعر.</value>
+  </data>
+  <data name="About_CustomDev_Contact" xml:space="preserve">
+    <value>تواصل معنا ←</value>
+  </data>
+  <data name="About_CustomDev_Dialog_Lead" xml:space="preserve">
+    <value>أخبرنا عن الأداة أو سير العمل الذي تحتاجه.</value>
+  </data>
+  <data name="About_CustomDev_Dialog_Include" xml:space="preserve">
+    <value>لمساعدتنا على فهم مشروعك، يُرجى تضمين:</value>
+  </data>
+  <data name="About_CustomDev_Dialog_Item1" xml:space="preserve">
+    <value>• ما الذي تريد أن تفعله الأداة</value>
+  </data>
+  <data name="About_CustomDev_Dialog_Item2" xml:space="preserve">
+    <value>• الملفات أو البيانات المطلوب معالجتها</value>
+  </data>
+  <data name="About_CustomDev_Dialog_Item3" xml:space="preserve">
+    <value>• المخرجات أو النتيجة المتوقعة</value>
+  </data>
+  <data name="About_CustomDev_Dialog_Item4" xml:space="preserve">
+    <value>• أي متطلبات مهمة لسير العمل أو الواجهة</value>
+  </data>
+  <data name="About_CustomDev_Dialog_Attach" xml:space="preserve">
+    <value>يمكنك أيضًا إرفاق ملفات عيّنة أو لقطات شاشة أو مواد مرجعية أخرى برسالتك.</value>
+  </data>
+  <data name="About_CustomDev_Dialog_Promise" xml:space="preserve">
+    <value>سنراجع متطلباتك ونتواصل معك لطرح أي أسئلة توضيحية وتقديم اقتراحات وعرض سعر.</value>
+  </data>
+  <data name="About_CustomDev_MailSubject" xml:space="preserve">
+    <value>استفسار عن تطوير مخصص</value>
+  </data>
+  <data name="About_CustomDev_MailBody" xml:space="preserve">
+    <value>مرحبًا بفريق PlainBytes Studio،
+
+أنا مهتم بمشروع تطوير مخصص.
+
+ما أحتاجه:
+
+الملفات أو البيانات للمعالجة:
+
+المخرجات المتوقعة:
+
+متطلبات أخرى:
+
+يمكنني إرفاق ملفات نموذجية أو لقطات شاشة ذات صلة عند الحاجة.</value>
+  </data>
+<data name="About_MoreTools" xml:space="preserve">
+    <value>المزيد من أدوات PlainBytes</value>
+  </data>
+  <data name="About_ViewAll" xml:space="preserve">
+    <value>عرض كل الأدوات →</value>
+  </data>
+    <data name="About_LicenseNotice" xml:space="preserve">
+    <value>مرخّص بموجب GNU GPLv3.</value>
+  </data>
+  <data name="About_SourceCode" xml:space="preserve">
+    <value>الشفرة المصدرية</value>
+  </data>
+  <data name="About_LicenseLink" xml:space="preserve">
+    <value>الترخيص</value>
+  </data>
+<data name="About_Copyright" xml:space="preserve">
+    <value>Copyright © 2026 PlainBytes Studio</value>
+  </data>
+  <data name="Dialog_FilterTemplates" xml:space="preserve">
+    <value>ملفات القوالب (*.json)|*.json</value>
+  </data>
+
+  <data name="Excel_SummarySheetName" xml:space="preserve">
+    <value>الملخص</value>
+  </data>
+  <data name="Loading_LoadingPdfs" xml:space="preserve">
+    <value>جارٍ تحميل ملفات PDF… ({0}/{1})</value>
+  </data>
+  <data name="Loading_GeneratingPreview" xml:space="preserve">
+    <value>جارٍ إنشاء المعاينة…</value>
+  </data>
+  <data name="Loading_DefaultMessage" xml:space="preserve">
+    <value>جارٍ تحميل ملفات PDF…</value>
+  </data>
+  <data name="AnchorKind_Value" xml:space="preserve">
+    <value>نقطة ارتساء القيم</value>
+  </data>
+  <data name="AnchorKind_Table" xml:space="preserve">
+    <value>نقطة ارتساء الجدول</value>
+  </data>
+  <data name="AnchorKind_TableBadge" xml:space="preserve">
+    <value>جدول</value>
+  </data>
+  <data name="AnchorKind_PickerTitle" xml:space="preserve">
+    <value>اختر نوع نقطة الارتساء</value>
+  </data>
+  <data name="AnchorKind_PickerMessage" xml:space="preserve">
+    <value>تُستخدم نقطة ارتساء القيم لاستخراج القيم المسماة. تحتفظ نقطة ارتساء الجدول بالمنطقة المحددة وتتيح تحديد عدد الأعمدة. تبدأ خطوط الفصل من الجانب الأيسر، ويمكنك سحبها إلى المواضع الصحيحة.</value>
+  </data>
+  <data name="AnchorKind_ColumnCountLabel" xml:space="preserve">
+    <value>كم عدد الأعمدة؟ تبدأ خطوط الفصل من الجانب الأيسر. اسحبها إلى حدود الأعمدة في صف العناوين.</value>
+  </data>
+  <data name="AnchorKind_ConfirmTable" xml:space="preserve">
+    <value>إنشاء نقطة ارتساء للجدول</value>
+  </data>
+  <data name="Dialog_Cancel" xml:space="preserve">
+    <value>إلغاء</value>
+  </data>
+<data name="Unsaved_Title" xml:space="preserve">
+    <value>تغييرات غير محفوظة</value>
+  </data>
+  <data name="Unsaved_Message" xml:space="preserve">
+    <value>تم تعديل قواعد الاستخراج. هل تريد الحفظ قبل المغادرة؟</value>
+  </data>
+  <data name="Unsaved_Save" xml:space="preserve">
+    <value>حفظ</value>
+  </data>
+  <data name="Unsaved_Discard" xml:space="preserve">
+    <value>عدم الحفظ</value>
+  </data>
+  <data name="Field_RulerBadge" xml:space="preserve">
+    <value>مرجعي</value>
+  </data>
+  <data name="ToolTip_SetRulerColumn" xml:space="preserve">
+    <value>تعيين كعمود مرجعي (لتحديد حدود الصفوف)</value>
+  </data>
+  <data name="ToolTip_ExpandAnchor" xml:space="preserve">
+    <value>توسيع حقول نقطة الارتساء هذه أو طيّها</value>
+  </data>
+  <data name="Toast_TableColumnsCreated" xml:space="preserve">
+    <value>تم إنشاء {0} من الأعمدة. اسحب خطوط الفصل الموجودة على الجانب الأيسر إلى حدود الأعمدة في صف العناوين.</value>
+  </data>
+  <data name="Field_NoText" xml:space="preserve">
+    <value>(لا نص)</value>
+  </data>
+  <data name="Extraction_ColumnNameFormat" xml:space="preserve">
+    <value>العمود {0}</value>
+  </data>
+  <data name="Overlay_View" xml:space="preserve">
+    <value>عرض</value>
+  </data>
+</root>

@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Nav_Home" xml:space="preserve">
+    <value>Document Extractor</value>
+  </data>
+  <data name="Nav_Templates" xml:space="preserve">
+    <value>模板</value>
+  </data>
+  <data name="Home_Title" xml:space="preserve">
+    <value>Document Extractor</value>
+  </data>
+  <data name="Home_Subtitle" xml:space="preserve">
+    <value>从固定版式的 PDF 文档中提取结构化数据。</value>
+  </data>
+  <data name="Home_DropTitle" xml:space="preserve">
+    <value>将 PDF 文件拖放到此处</value>
+  </data>
+  <data name="Home_DropSubtitle" xml:space="preserve">
+    <value>或点击选择 PDF 文件</value>
+  </data>
+  <data name="Home_ChooseFiles" xml:space="preserve">
+    <value>选择文件</value>
+  </data>
+  <data name="Home_BatchHint" xml:space="preserve">
+    <value>您可以添加多个 PDF 文件进行批量数据提取。</value>
+  </data>
+  <data name="Home_CompactDrop" xml:space="preserve">
+    <value>将 PDF 文件拖放到此处以添加</value>
+  </data>
+  <data name="Home_FooterTip" xml:space="preserve">
+    <value>最适合具有固定或相似版式的文本型 PDF。暂不支持扫描 PDF 和版式变化较大的文档。</value>
+  </data>
+  <data name="Panel_FilesCount" xml:space="preserve">
+    <value>文件 ({0})</value>
+  </data>
+  <data name="Panel_Template" xml:space="preserve">
+    <value>模板</value>
+  </data>
+  <data name="Panel_AnchorsCount" xml:space="preserve">
+    <value>锚点 ({0})</value>
+  </data>
+  <data name="Panel_FieldsCount" xml:space="preserve">
+    <value>字段 ({0})</value>
+  </data>
+  <data name="ToolTip_AddFiles" xml:space="preserve">
+    <value>添加 PDF 文件</value>
+  </data>
+  <data name="ToolTip_RemoveFile" xml:space="preserve">
+    <value>移除文件</value>
+  </data>
+  <data name="ToolTip_PreviousPage" xml:space="preserve">
+    <value>上一页</value>
+  </data>
+  <data name="ToolTip_NextPage" xml:space="preserve">
+    <value>下一页</value>
+  </data>
+  <data name="ToolTip_ZoomOut" xml:space="preserve">
+    <value>缩小</value>
+  </data>
+  <data name="ToolTip_ZoomIn" xml:space="preserve">
+    <value>放大</value>
+  </data>
+  <data name="ToolTip_Delete" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="ToolTip_RenameField" xml:space="preserve">
+    <value>重命名字段</value>
+  </data>
+  <data name="ToolTip_MoreSaveOptions" xml:space="preserve">
+    <value>更多保存选项</value>
+  </data>
+  <data name="ToolTip_Dismiss" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="ToolTip_More" xml:space="preserve">
+    <value>更多</value>
+  </data>
+  <data name="Extraction_TemplateModified" xml:space="preserve">
+    <value>模板已修改</value>
+  </data>
+  <data name="Extraction_AddingAnchors" xml:space="preserve">
+    <value>添加锚点</value>
+  </data>
+  <data name="Extraction_AnchorsHint" xml:space="preserve">
+    <value>按住 Ctrl 并拖动框选位置稳定的文本，以添加锚点。展开取值锚点后，拖动框选内容以添加字段。对于表格锚点，展开后框选整个表头行，系统会自动划分列。您可以拖动分隔线调整列边界，也可以双击添加或删除分隔线。不支持版式不固定或表格表头字号不一致的文档。</value>
+  </data>
+  <data name="Extraction_AnchorsEmpty" xml:space="preserve">
+    <value>先按住 Ctrl 拖动添加锚点，再展开该锚点并拖动添加字段。</value>
+  </data>
+  <data name="Extraction_AddingFields" xml:space="preserve">
+    <value>添加字段</value>
+  </data>
+  <data name="Extraction_FieldsHint" xml:space="preserve">
+    <value>先展开一个锚点，再在要提取的内容上拖动。新建字段会自动归属到当前展开的锚点。</value>
+  </data>
+  <data name="Extraction_FieldsEmpty" xml:space="preserve">
+    <value>展开锚点后，拖动框选内容以添加字段。</value>
+  </data>
+  <data name="Extraction_SaveAsTemplate" xml:space="preserve">
+    <value>另存为模板</value>
+  </data>
+  <data name="Extraction_SaveChanges" xml:space="preserve">
+    <value>保存更改</value>
+  </data>
+  <data name="Extraction_SaveAsNewTemplate" xml:space="preserve">
+    <value>另存为新模板</value>
+  </data>
+  <data name="Extraction_TemplateName" xml:space="preserve">
+    <value>模板名称</value>
+  </data>
+  <data name="Extraction_NameConflict" xml:space="preserve">
+    <value>已存在同名模板。</value>
+  </data>
+  <data name="Extraction_Save" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="Extraction_Extract" xml:space="preserve">
+    <value>提取</value>
+  </data>
+  <data name="Extraction_CustomConfiguration" xml:space="preserve">
+    <value>自定义配置</value>
+  </data>
+  <data name="Extraction_UntitledTemplate" xml:space="preserve">
+    <value>未命名模板</value>
+  </data>
+  <data name="Extraction_FieldNameFormat" xml:space="preserve">
+    <value>字段 {0}</value>
+  </data>
+  <data name="Dialog_ChoosePdfs" xml:space="preserve">
+    <value>选择 PDF 文件</value>
+  </data>
+  <data name="Dialog_FilterPdf" xml:space="preserve">
+    <value>PDF 文件</value>
+  </data>
+  <data name="Dialog_AllFiles" xml:space="preserve">
+    <value>所有文件</value>
+  </data>
+  <data name="Dialog_ExportResults" xml:space="preserve">
+    <value>导出提取结果</value>
+  </data>
+  <data name="Dialog_FilterExcel" xml:space="preserve">
+    <value>Excel 工作簿 (*.xlsx)|*.xlsx</value>
+  </data>
+  <data name="Toast_ScannedNotSupported" xml:space="preserve">
+    <value>当前不支持扫描 PDF。</value>
+  </data>
+  <data name="Toast_NoSelectableTextOne" xml:space="preserve">
+    <value>在“{0}”中未找到可选中的文本。{1}</value>
+  </data>
+  <data name="Toast_NoSelectableTextMany" xml:space="preserve">
+    <value>在 {0} 个 PDF 中未找到可选中的文本：
+{1}
+{2}</value>
+  </data>
+  <data name="Toast_NoTextInArea" xml:space="preserve">
+    <value>此区域中未找到文本。请调整选择区域后重试。</value>
+  </data>
+  <data name="AnchorKind_Value" xml:space="preserve">
+    <value>取值锚点</value>
+  </data>
+  <data name="AnchorKind_Table" xml:space="preserve">
+    <value>表格锚点</value>
+  </data>
+  <data name="AnchorKind_TableBadge" xml:space="preserve">
+    <value>表</value>
+  </data>
+  <data name="AnchorKind_PickerTitle" xml:space="preserve">
+    <value>选择锚点类型</value>
+  </data>
+  <data name="AnchorKind_PickerMessage" xml:space="preserve">
+    <value>取值锚点用于提取命名字段的值。表格锚点会保留框选区域，并允许您设置列数。分隔线初始位于左侧，请将其拖动至相应的列边界。</value>
+  </data>
+  <data name="AnchorKind_ColumnCountLabel" xml:space="preserve">
+    <value>需要几列？分隔线初始位于左侧，请将其拖动至表头各列的边界。</value>
+  </data>
+  <data name="AnchorKind_ConfirmTable" xml:space="preserve">
+    <value>创建表格锚点</value>
+  </data>
+  <data name="Dialog_Cancel" xml:space="preserve">
+    <value>取消</value>
+  </data>
+<data name="Unsaved_Title" xml:space="preserve">
+    <value>未保存的更改</value>
+  </data>
+  <data name="Unsaved_Message" xml:space="preserve">
+    <value>当前提取规则已修改。离开前是否保存？</value>
+  </data>
+  <data name="Unsaved_Save" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="Unsaved_Discard" xml:space="preserve">
+    <value>不保存</value>
+  </data>
+  <data name="Field_RulerBadge" xml:space="preserve">
+    <value>参考列</value>
+  </data>
+  <data name="ToolTip_SetRulerColumn" xml:space="preserve">
+    <value>设为参考列（用于确定表格各行的上下边界）</value>
+  </data>
+  <data name="Toast_NeedField" xml:space="preserve">
+    <value>请至少添加一个字段后再进行提取。</value>
+  </data>
+  <data name="Toast_NeedRulerColumn" xml:space="preserve">
+    <value>提取前，请为每个表格指定一个参考列。点击列旁的星标即可设置。</value>
+  </data>
+  <data name="Toast_NeedAnchorBeforeField" xml:space="preserve">
+    <value>请先添加并展开一个锚点，再拖动创建归属该锚点的字段。</value>
+  </data>
+  <data name="ToolTip_ExpandAnchor" xml:space="preserve">
+    <value>展开或折叠此锚点下的字段</value>
+  </data>
+  <data name="Toast_AmbiguityTip" xml:space="preserve">
+    <value>此选择可能存在歧义。请选择更具辨识度的文本，或添加另一个锚点以提高定位可靠性。</value>
+  </data>
+  <data name="Toast_AmbiguityOne" xml:space="preserve">
+    <value>在此示例中，文本“{1}”有 {0} 个匹配项。
+{2}</value>
+  </data>
+  <data name="Toast_AmbiguityMany" xml:space="preserve">
+    <value>此示例中有 {0} 个锚点存在多个匹配项：
+{1}
+{2}</value>
+  </data>
+  <data name="Toast_AmbiguityBullet" xml:space="preserve">
+    <value>• "{0}"：{1} 个匹配项</value>
+  </data>
+  <data name="Toast_MissingAnchorOne" xml:space="preserve">
+    <value>第 {0} 页有字段，但没有锚点。如果不同文档中的内容位置可能发生变化，请添加锚点。</value>
+  </data>
+  <data name="Toast_MissingAnchors" xml:space="preserve">
+    <value>第 {0} 页包含字段，但没有锚点。如果不同文档中的内容位置可能变化，请在相应页面添加锚点。</value>
+  </data>
+  <data name="Toast_TableColumnsCreated" xml:space="preserve">
+    <value>已创建 {0} 列。请将左侧分隔线拖动至表头各列的边界。</value>
+  </data>
+  <data name="Templates_Title" xml:space="preserve">
+    <value>模板</value>
+  </data>
+  <data name="Templates_Subtitle" xml:space="preserve">
+    <value>管理已保存的提取模板。</value>
+  </data>
+  <data name="Templates_Import" xml:space="preserve">
+    <value>导入</value>
+  </data>
+  <data name="Templates_Export" xml:space="preserve">
+    <value>导出</value>
+  </data>
+  <data name="Templates_Delete" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="Templates_Search" xml:space="preserve">
+    <value>搜索模板</value>
+  </data>
+  <data name="Templates_ColName" xml:space="preserve">
+    <value>模板名称</value>
+  </data>
+  <data name="Templates_ColFields" xml:space="preserve">
+    <value>字段</value>
+  </data>
+  <data name="Templates_ColAnchors" xml:space="preserve">
+    <value>锚点</value>
+  </data>
+  <data name="Templates_ColModified" xml:space="preserve">
+    <value>最后修改时间</value>
+  </data>
+  <data name="Templates_ColActions" xml:space="preserve">
+    <value>操作</value>
+  </data>
+  <data name="Templates_EmptyTitle" xml:space="preserve">
+    <value>暂无模板</value>
+  </data>
+  <data name="Templates_EmptyDetail" xml:space="preserve">
+    <value>从提取页面保存模板，或导入模板文件。</value>
+  </data>
+  <data name="Templates_NoMatchTitle" xml:space="preserve">
+    <value>没有与搜索条件匹配的模板</value>
+  </data>
+  <data name="Templates_NoMatchDetail" xml:space="preserve">
+    <value>请尝试其他名称，或清空搜索框。</value>
+  </data>
+  <data name="Templates_Footer" xml:space="preserve">
+    <value>模板仅存储在您的设备本地，不会上传或共享。</value>
+  </data>
+  <data name="Templates_HelpPrompt" xml:space="preserve">
+    <value>需要协助配置模板？</value>
+  </data>
+  <data name="Templates_GetSetupHelp" xml:space="preserve">
+    <value>获取配置帮助 →</value>
+  </data>
+  <data name="Templates_SetupHelp_Title" xml:space="preserve">
+    <value>模板配置帮助</value>
+  </data>
+  <data name="Templates_SetupHelp_Lead" xml:space="preserve">
+    <value>需要协助创建提取模板吗？</value>
+  </data>
+  <data name="Templates_SetupHelp_EmailUs" xml:space="preserve">
+    <value>请通过邮件向我们发送：</value>
+  </data>
+  <data name="Templates_SetupHelp_Item1" xml:space="preserve">
+    <value>① 一份样本 PDF 文档</value>
+  </data>
+  <data name="Templates_SetupHelp_Item2" xml:space="preserve">
+    <value>② 您希望提取的字段列表</value>
+  </data>
+  <data name="Templates_SetupHelp_Promise" xml:space="preserve">
+    <value>我们将免费为您配置提取模板，并通过邮件发回完成的模板。</value>
+  </data>
+  <data name="Templates_SetupHelp_Privacy" xml:space="preserve">
+    <value>Document Extractor 不会将您的文档上传至网络。只有当您主动通过邮件应用发送样本 PDF 时，该文件才会离开您的设备。</value>
+  </data>
+  <data name="Templates_SetupHelp_Contact" xml:space="preserve">
+    <value>通过邮件联系</value>
+  </data>
+  <data name="Templates_SetupHelp_MailSubject" xml:space="preserve">
+    <value>Document Extractor - 模板配置帮助</value>
+  </data>
+  <data name="Templates_SetupHelp_MailBody" xml:space="preserve">
+    <value>PlainBytes Studio 团队，你们好：
+
+我想请你们协助配置提取模板。
+
+希望提取的字段：
+1.
+2.
+3.
+
+我会在邮件中附上一份样本 PDF。</value>
+  </data>
+  <data name="Templates_Rename" xml:space="preserve">
+    <value>重命名</value>
+  </data>
+  <data name="Templates_ImportDialog" xml:space="preserve">
+    <value>导入模板</value>
+  </data>
+  <data name="Templates_ExportDialogOne" xml:space="preserve">
+    <value>导出模板</value>
+  </data>
+  <data name="Templates_ExportDialogMany" xml:space="preserve">
+    <value>导出模板</value>
+  </data>
+  <data name="Templates_ImportedOne" xml:space="preserve">
+    <value>已导入 1 个模板。</value>
+  </data>
+  <data name="Templates_ImportedMany" xml:space="preserve">
+    <value>已导入 {0} 个模板。</value>
+  </data>
+  <data name="Templates_ImportedPartial" xml:space="preserve">
+    <value>已导入 {0} 个模板，另有 {1} 个文件导入失败。</value>
+  </data>
+  <data name="Templates_ImportFailed" xml:space="preserve">
+    <value>导入失败。所选文件不包含有效的 JSON 模板数据。</value>
+  </data>
+  <data name="Templates_ExportMissing" xml:space="preserve">
+    <value>无法导出：缺少一个或多个模板文件。</value>
+  </data>
+  <data name="Templates_ExportedOne" xml:space="preserve">
+    <value>已导出"{0}"。</value>
+  </data>
+  <data name="Templates_ExportedMany" xml:space="preserve">
+    <value>已将 {0} 个模板导出到一个文件。</value>
+  </data>
+  <data name="Templates_DeleteConfirmOne" xml:space="preserve">
+    <value>删除模板"{0}"？此操作无法撤销。</value>
+  </data>
+  <data name="Templates_DeleteConfirmTitleOne" xml:space="preserve">
+    <value>删除模板</value>
+  </data>
+  <data name="Templates_DeleteConfirmMany" xml:space="preserve">
+    <value>删除选中的 {0} 个模板？此操作无法撤销。</value>
+  </data>
+  <data name="Templates_DeleteConfirmTitleMany" xml:space="preserve">
+    <value>删除模板</value>
+  </data>
+  <data name="Templates_NameEmpty" xml:space="preserve">
+    <value>模板名称不能为空。</value>
+  </data>
+  <data name="Templates_NameConflict" xml:space="preserve">
+    <value>已存在同名模板。</value>
+  </data>
+  <data name="Templates_RenameMissing" xml:space="preserve">
+    <value>无法重命名：模板文件不存在。</value>
+  </data>
+  <data name="Loading_LoadingPdfs" xml:space="preserve">
+    <value>正在加载 PDF…（{0}/{1}）</value>
+  </data>
+  <data name="Loading_GeneratingPreview" xml:space="preserve">
+    <value>正在生成预览…</value>
+  </data>
+  <data name="Loading_DefaultMessage" xml:space="preserve">
+    <value>正在加载 PDF…</value>
+  </data>
+  <data name="Overlay_Working" xml:space="preserve">
+    <value>正在提取数据...</value>
+  </data>
+  <data name="Overlay_Complete" xml:space="preserve">
+    <value>提取完成</value>
+  </data>
+  <data name="Overlay_Failed" xml:space="preserve">
+    <value>提取失败</value>
+  </data>
+  <data name="Overlay_Cancel" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="Overlay_Done" xml:space="preserve">
+    <value>完成</value>
+  </data>
+  <data name="Overlay_View" xml:space="preserve">
+    <value>查看</value>
+  </data>
+  <data name="Overlay_ViewDetails" xml:space="preserve">
+    <value>查看详情</value>
+  </data>
+  <data name="Overlay_FileName" xml:space="preserve">
+    <value>文件名</value>
+  </data>
+  <data name="Overlay_FailReason" xml:space="preserve">
+    <value>失败原因</value>
+  </data>
+  <data name="Overlay_SuccessCount" xml:space="preserve">
+    <value>已成功从 {0} 个文件中提取数据。</value>
+  </data>
+  <data name="Overlay_FailCount" xml:space="preserve">
+    <value>无法从 {0} 个文件中提取数据。</value>
+  </data>
+  <data name="FailReason_Generic" xml:space="preserve">
+    <value>提取失败</value>
+  </data>
+  <data name="FailReason_InUse" xml:space="preserve">
+    <value>文件正被其他进程使用。</value>
+  </data>
+  <data name="FailReason_NotFound" xml:space="preserve">
+    <value>找不到文件。</value>
+  </data>
+  <data name="FailReason_AccessDenied" xml:space="preserve">
+    <value>访问被拒绝。</value>
+  </data>
+  <data name="About_Title" xml:space="preserve">
+    <value>关于 PlainBytes DocumentExtractor</value>
+  </data>
+  <data name="About_Subtitle" xml:space="preserve">
+    <value>从固定版式的 PDF 文档中提取结构化数据。</value>
+  </data>
+  <data name="About_ProductName" xml:space="preserve">
+    <value>PlainBytes DocumentExtractor</value>
+  </data>
+  <data name="About_ProductTagline" xml:space="preserve">
+    <value>PDF 字段提取工具</value>
+  </data>
+  <data name="About_VersionFormat" xml:space="preserve">
+    <value>版本 {0}</value>
+  </data>
+  <data name="About_SectionTitle" xml:space="preserve">
+    <value>关于产品</value>
+  </data>
+  <data name="About_Body" xml:space="preserve">
+    <value>PlainBytes DocumentExtractor 是一款轻量级 Windows 工具，用于从固定版式的 PDF 文档中提取结构化数据，并将结果导出到 Excel。
+无需复杂配置。定义所需字段后，即可通过简单操作从多个 PDF 文件中提取数据。</value>
+  </data>
+  <data name="About_CustomDev_Title" xml:space="preserve">
+    <value>定制开发</value>
+  </data>
+  <data name="About_CustomDev_Intro" xml:space="preserve">
+    <value>需要符合您工作流程的文档或数据处理工具？我们也提供定制开发服务，涵盖 PDF 及其他文档处理、数据提取、电子表格与 CSV 处理、格式转换、批量处理及相关自动化工具。</value>
+  </data>
+  <data name="About_CustomDev_Simple" xml:space="preserve">
+    <value>对于数据提取、格式转换或批量处理等用途明确的简单工具，通常可以在较短时间内完成开发和交付。</value>
+  </data>
+  <data name="About_CustomDev_Custom" xml:space="preserve">
+    <value>我们也提供定制应用程序开发，包括多功能工具、具有专属用户界面的应用程序，以及能够集成到现有工作流程中的解决方案。</value>
+  </data>
+  <data name="About_CustomDev_Pricing" xml:space="preserve">
+    <value>价格取决于项目范围与复杂度。告诉我们您想实现的目标，我们将提供报价。</value>
+  </data>
+  <data name="About_CustomDev_Contact" xml:space="preserve">
+    <value>联系我们 →</value>
+  </data>
+  <data name="About_CustomDev_Dialog_Lead" xml:space="preserve">
+    <value>告诉我们您需要的工具或工作流。</value>
+  </data>
+  <data name="About_CustomDev_Dialog_Include" xml:space="preserve">
+    <value>为便于我们了解项目，请尽量说明：</value>
+  </data>
+  <data name="About_CustomDev_Dialog_Item1" xml:space="preserve">
+    <value>• 您希望工具完成什么</value>
+  </data>
+  <data name="About_CustomDev_Dialog_Item2" xml:space="preserve">
+    <value>• 需要处理的文件或数据</value>
+  </data>
+  <data name="About_CustomDev_Dialog_Item3" xml:space="preserve">
+    <value>• 期望的输出或结果</value>
+  </data>
+  <data name="About_CustomDev_Dialog_Item4" xml:space="preserve">
+    <value>• 重要的工作流或界面要求</value>
+  </data>
+  <data name="About_CustomDev_Dialog_Attach" xml:space="preserve">
+    <value>您也可以在邮件中附上样本文件、截图或其他参考资料。</value>
+  </data>
+  <data name="About_CustomDev_Dialog_Promise" xml:space="preserve">
+    <value>我们会评估您的需求，并与您联系，进一步沟通细节、提出建议并提供报价。</value>
+  </data>
+  <data name="About_CustomDev_MailSubject" xml:space="preserve">
+    <value>定制开发咨询</value>
+  </data>
+  <data name="About_CustomDev_MailBody" xml:space="preserve">
+    <value>PlainBytes Studio 团队，你们好：
+
+我对定制开发项目感兴趣。
+
+我的需求：
+
+要处理的文件或数据：
+
+期望输出：
+
+其他需求：
+
+如有需要，我可以在邮件中附上相关样本文件或截图。</value>
+  </data>
+<data name="About_MoreTools" xml:space="preserve">
+    <value>更多 PlainBytes 工具</value>
+  </data>
+  <data name="About_ViewAll" xml:space="preserve">
+    <value>查看所有工具 →</value>
+  </data>
+    <data name="About_LicenseNotice" xml:space="preserve">
+    <value>基于 GNU GPLv3 许可发布。</value>
+  </data>
+  <data name="About_SourceCode" xml:space="preserve">
+    <value>源代码</value>
+  </data>
+  <data name="About_LicenseLink" xml:space="preserve">
+    <value>许可证</value>
+  </data>
+<data name="About_Copyright" xml:space="preserve">
+    <value>Copyright © 2026 PlainBytes Studio</value>
+  </data>
+  <data name="Dialog_FilterTemplates" xml:space="preserve">
+    <value>模板文件 (*.json)|*.json</value>
+  </data>
+
+  <data name="Excel_SummarySheetName" xml:space="preserve">
+    <value>汇总</value>
+  </data>
+  <data name="Field_NoText" xml:space="preserve">
+    <value>（无文本）</value>
+  </data>
+  <data name="Extraction_ColumnNameFormat" xml:space="preserve">
+    <value>列 {0}</value>
+  </data>
+</root>

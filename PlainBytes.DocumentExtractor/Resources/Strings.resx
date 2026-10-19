@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Nav_Home" xml:space="preserve"><value>Document Extractor</value></data>
+  <data name="Nav_Templates" xml:space="preserve"><value>Templates</value></data>
+  <data name="Home_Title" xml:space="preserve"><value>Document Extractor</value></data>
+  <data name="Home_Subtitle" xml:space="preserve"><value>Extract structured data from fixed-layout PDF documents.</value></data>
+  <data name="Home_DropTitle" xml:space="preserve"><value>Drop PDF files here</value></data>
+  <data name="Home_DropSubtitle" xml:space="preserve"><value>or click to choose PDF files</value></data>
+  <data name="Home_ChooseFiles" xml:space="preserve"><value>Choose Files</value></data>
+  <data name="Home_BatchHint" xml:space="preserve"><value>You can add multiple PDF files to extract data in batch.</value></data>
+  <data name="Home_CompactDrop" xml:space="preserve"><value>Drop PDF files
+here to add</value></data>
+  <data name="Home_FooterTip" xml:space="preserve"><value>Works best with text-based PDFs that share a fixed or similar layout. Scanned PDFs and highly variable layouts are not supported.</value></data>
+  <data name="Panel_FilesCount" xml:space="preserve"><value>FILES ({0})</value></data>
+  <data name="Panel_Template" xml:space="preserve"><value>TEMPLATE</value></data>
+  <data name="Panel_AnchorsCount" xml:space="preserve"><value>ANCHORS ({0})</value></data>
+  <data name="Panel_FieldsCount" xml:space="preserve"><value>FIELDS ({0})</value></data>
+  <data name="ToolTip_AddFiles" xml:space="preserve"><value>Add PDF files</value></data>
+  <data name="ToolTip_RemoveFile" xml:space="preserve"><value>Remove file</value></data>
+  <data name="ToolTip_PreviousPage" xml:space="preserve"><value>Previous page</value></data>
+  <data name="ToolTip_NextPage" xml:space="preserve"><value>Next page</value></data>
+  <data name="ToolTip_ZoomOut" xml:space="preserve"><value>Zoom out</value></data>
+  <data name="ToolTip_ZoomIn" xml:space="preserve"><value>Zoom in</value></data>
+  <data name="ToolTip_Delete" xml:space="preserve"><value>Delete</value></data>
+  <data name="ToolTip_RenameField" xml:space="preserve"><value>Rename field</value></data>
+  <data name="ToolTip_MoreSaveOptions" xml:space="preserve"><value>More save options</value></data>
+  <data name="ToolTip_Dismiss" xml:space="preserve"><value>Dismiss</value></data>
+  <data name="ToolTip_More" xml:space="preserve"><value>More</value></data>
+  <data name="Extraction_TemplateModified" xml:space="preserve"><value>Template modified</value></data>
+  <data name="Extraction_AddingAnchors" xml:space="preserve"><value>Adding anchors</value></data>
+  <data name="Extraction_AnchorsHint" xml:space="preserve"><value>Hold Ctrl and drag over stable text to add an anchor. Expand a value anchor, then drag to add fields. Expand a table anchor, then drag over the entire header row — columns are split automatically and dividers can be dragged (double-click to add/remove). Documents with unstable layout or changing header font sizes are out of scope.</value></data>
+  <data name="Extraction_AnchorsEmpty" xml:space="preserve"><value>Hold Ctrl and drag to add an anchor first, then expand it and drag to add fields.</value></data>
+  <data name="Extraction_AddingFields" xml:space="preserve"><value>Adding fields</value></data>
+  <data name="Extraction_FieldsHint" xml:space="preserve"><value>Expand an anchor, then drag over the content to extract. New fields are bound to the expanded anchor.</value></data>
+  <data name="Extraction_FieldsEmpty" xml:space="preserve"><value>Drag to add a field.</value></data>
+  <data name="Extraction_SaveAsTemplate" xml:space="preserve"><value>Save as template</value></data>
+  <data name="Extraction_SaveChanges" xml:space="preserve"><value>Save changes</value></data>
+  <data name="Extraction_SaveAsNewTemplate" xml:space="preserve"><value>Save as new template</value></data>
+  <data name="Extraction_TemplateName" xml:space="preserve"><value>Template name</value></data>
+  <data name="Extraction_NameConflict" xml:space="preserve"><value>A template with this name already exists.</value></data>
+  <data name="Extraction_Save" xml:space="preserve"><value>Save</value></data>
+  <data name="Extraction_Extract" xml:space="preserve"><value>Extract</value></data>
+  <data name="Extraction_CustomConfiguration" xml:space="preserve"><value>Custom configuration</value></data>
+  <data name="Extraction_UntitledTemplate" xml:space="preserve"><value>Untitled template</value></data>
+  <data name="Extraction_FieldNameFormat" xml:space="preserve"><value>Field {0}</value></data>
+  <data name="Dialog_ChoosePdfs" xml:space="preserve"><value>Choose PDF files</value></data>
+  <data name="Dialog_FilterPdf" xml:space="preserve"><value>PDF files</value></data>
+  <data name="Dialog_AllFiles" xml:space="preserve"><value>All files</value></data>
+  <data name="Dialog_ExportResults" xml:space="preserve"><value>Export extraction results</value></data>
+  <data name="Dialog_FilterExcel" xml:space="preserve"><value>Excel workbook (*.xlsx)|*.xlsx</value></data>
+  <data name="Toast_ScannedNotSupported" xml:space="preserve"><value>Scanned PDFs are not currently supported.</value></data>
+  <data name="Toast_NoSelectableTextOne" xml:space="preserve"><value>No selectable text was found in "{0}". {1}</value></data>
+  <data name="Toast_NoSelectableTextMany" xml:space="preserve"><value>No selectable text was found in {0} PDFs:
+{1}
+{2}</value></data>
+  <data name="Toast_NoTextInArea" xml:space="preserve"><value>No text was found in this area. Adjust the selection and try again.</value></data>
+  <data name="AnchorKind_Value" xml:space="preserve"><value>Value fields</value></data>
+  <data name="AnchorKind_Table" xml:space="preserve"><value>Table</value></data>
+  <data name="AnchorKind_TableBadge" xml:space="preserve"><value>Table</value></data>
+  <data name="AnchorKind_PickerTitle" xml:space="preserve"><value>Choose anchor type</value></data>
+  <data name="AnchorKind_PickerMessage" xml:space="preserve"><value>Value fields extract named values. Table keeps your selection box and asks for a column count — dividers start on the left for you to drag into place.</value></data>
+  <data name="AnchorKind_ColumnCountLabel" xml:space="preserve"><value>How many columns? Dividers are placed on the left — drag them to match the header.</value></data>
+  <data name="AnchorKind_ConfirmTable" xml:space="preserve"><value>Create table anchor</value></data>
+  <data name="Dialog_Cancel" xml:space="preserve"><value>Cancel</value></data>
+  <data name="Unsaved_Title" xml:space="preserve"><value>Unsaved changes</value></data>
+  <data name="Unsaved_Message" xml:space="preserve"><value>Your extraction rules have been modified. Save before leaving?</value></data>
+  <data name="Unsaved_Save" xml:space="preserve"><value>Save</value></data>
+  <data name="Unsaved_Discard" xml:space="preserve"><value>Don't save</value></data>
+  <data name="Field_RulerBadge" xml:space="preserve"><value>Ruler</value></data>
+  <data name="ToolTip_SetRulerColumn" xml:space="preserve"><value>Set as ruler column (row banding)</value></data>
+  <data name="Toast_NeedField" xml:space="preserve"><value>Add at least one field before extracting.</value></data>
+  <data name="Toast_NeedRulerColumn" xml:space="preserve"><value>Set a ruler column on each table before extracting. Click the star on a column to mark it.</value></data>
+  <data name="Toast_NeedAnchorBeforeField" xml:space="preserve"><value>Add an anchor first, expand it, then drag to create fields under that anchor.</value></data>
+  <data name="ToolTip_ExpandAnchor" xml:space="preserve"><value>Expand or collapse fields for this anchor</value></data>
+  <data name="Toast_AmbiguityTip" xml:space="preserve"><value>This may be ambiguous. Choose more distinctive text or add another anchor to improve positioning reliability.</value></data>
+  <data name="Toast_AmbiguityOne" xml:space="preserve"><value>{0} matches found in this sample for "{1}".
+{2}</value></data>
+  <data name="Toast_AmbiguityMany" xml:space="preserve"><value>{0} anchors have multiple matches in this sample:
+{1}
+{2}</value></data>
+  <data name="Toast_AmbiguityBullet" xml:space="preserve"><value>• "{0}": {1} matches</value></data>
+  <data name="Toast_MissingAnchorOne" xml:space="preserve"><value>Page {0} has fields but no anchor. Add one if content positions may vary between documents.</value></data>
+  <data name="Toast_MissingAnchors" xml:space="preserve"><value>Pages {0} have fields but no anchors. Add anchors if content positions may vary between documents.</value></data>
+  <data name="Toast_TableColumnsCreated" xml:space="preserve"><value>Created {0} columns. Drag the left-packed dividers to align with each header.</value></data>
+  <data name="Templates_Title" xml:space="preserve"><value>Templates</value></data>
+  <data name="Templates_Subtitle" xml:space="preserve"><value>Manage your saved extraction templates.</value></data>
+  <data name="Templates_Import" xml:space="preserve"><value>Import</value></data>
+  <data name="Templates_Export" xml:space="preserve"><value>Export</value></data>
+  <data name="Templates_Delete" xml:space="preserve"><value>Delete</value></data>
+  <data name="Templates_Search" xml:space="preserve"><value>Search templates</value></data>
+  <data name="Templates_ColName" xml:space="preserve"><value>Template Name</value></data>
+  <data name="Templates_ColFields" xml:space="preserve"><value>Fields</value></data>
+  <data name="Templates_ColAnchors" xml:space="preserve"><value>Anchors</value></data>
+  <data name="Templates_ColModified" xml:space="preserve"><value>Last Modified</value></data>
+  <data name="Templates_ColActions" xml:space="preserve"><value>Actions</value></data>
+  <data name="Templates_EmptyTitle" xml:space="preserve"><value>No templates yet</value></data>
+  <data name="Templates_EmptyDetail" xml:space="preserve"><value>Save one from Extract, or import a template file.</value></data>
+  <data name="Templates_NoMatchTitle" xml:space="preserve"><value>No templates match your search</value></data>
+  <data name="Templates_NoMatchDetail" xml:space="preserve"><value>Try a different name, or clear the search box.</value></data>
+  <data name="Templates_Footer" xml:space="preserve"><value>Templates are stored locally on your device and are not uploaded or shared.</value></data>
+  <data name="Templates_HelpPrompt" xml:space="preserve"><value>Need help setting up a template?</value></data>
+  <data name="Templates_GetSetupHelp" xml:space="preserve"><value>Get Setup Help →</value></data>
+  <data name="Templates_SetupHelp_Title" xml:space="preserve"><value>Template Setup Help</value></data>
+  <data name="Templates_SetupHelp_Lead" xml:space="preserve"><value>Need help creating an extraction template?</value></data>
+  <data name="Templates_SetupHelp_EmailUs" xml:space="preserve"><value>Email us:</value></data>
+  <data name="Templates_SetupHelp_Item1" xml:space="preserve"><value>① A sample PDF document</value></data>
+  <data name="Templates_SetupHelp_Item2" xml:space="preserve"><value>② A list of the fields you want to extract</value></data>
+  <data name="Templates_SetupHelp_Promise" xml:space="preserve"><value>We'll configure the extraction template for you at no charge and send the completed template back by email.</value></data>
+  <data name="Templates_SetupHelp_Privacy" xml:space="preserve"><value>Your documents are not uploaded by DocumentExtractor. The sample PDF is sent only when you choose to send it using your email application.</value></data>
+  <data name="Templates_SetupHelp_Contact" xml:space="preserve"><value>Contact by Email</value></data>
+  <data name="Templates_SetupHelp_MailSubject" xml:space="preserve"><value>DocumentExtractor - Template Setup Help</value></data>
+  <data name="Templates_SetupHelp_MailBody" xml:space="preserve"><value>Hello PlainBytes Studio,
+
+I would like help setting up an extraction template.
+
+Fields I would like to extract:
+1.
+2.
+3.
+
+I will attach a sample PDF document to this email.</value></data>
+  <data name="Templates_Rename" xml:space="preserve"><value>Rename</value></data>
+  <data name="Templates_ImportDialog" xml:space="preserve"><value>Import templates</value></data>
+  <data name="Templates_ExportDialogOne" xml:space="preserve"><value>Export template</value></data>
+  <data name="Templates_ExportDialogMany" xml:space="preserve"><value>Export templates</value></data>
+  <data name="Templates_ImportedOne" xml:space="preserve"><value>Imported 1 template.</value></data>
+  <data name="Templates_ImportedMany" xml:space="preserve"><value>Imported {0} templates.</value></data>
+  <data name="Templates_ImportedPartial" xml:space="preserve"><value>Imported {0} template(s); {1} file(s) failed.</value></data>
+  <data name="Templates_ImportFailed" xml:space="preserve"><value>Import failed. The selected file(s) are not valid template JSON.</value></data>
+  <data name="Templates_ExportMissing" xml:space="preserve"><value>Could not export: template file(s) are missing.</value></data>
+  <data name="Templates_ExportedOne" xml:space="preserve"><value>Exported "{0}".</value></data>
+  <data name="Templates_ExportedMany" xml:space="preserve"><value>Exported {0} templates to one file.</value></data>
+  <data name="Templates_DeleteConfirmOne" xml:space="preserve"><value>Delete template "{0}"? This cannot be undone.</value></data>
+  <data name="Templates_DeleteConfirmTitleOne" xml:space="preserve"><value>Delete template</value></data>
+  <data name="Templates_DeleteConfirmMany" xml:space="preserve"><value>Delete {0} selected templates? This cannot be undone.</value></data>
+  <data name="Templates_DeleteConfirmTitleMany" xml:space="preserve"><value>Delete templates</value></data>
+  <data name="Templates_NameEmpty" xml:space="preserve"><value>Template name cannot be empty.</value></data>
+  <data name="Templates_NameConflict" xml:space="preserve"><value>A template with this name already exists.</value></data>
+  <data name="Templates_RenameMissing" xml:space="preserve"><value>Could not rename: template file is missing.</value></data>
+  <data name="Loading_LoadingPdfs" xml:space="preserve"><value>Loading PDFs… ({0}/{1})</value></data>
+  <data name="Loading_GeneratingPreview" xml:space="preserve"><value>Generating preview…</value></data>
+  <data name="Loading_DefaultMessage" xml:space="preserve"><value>Loading PDFs…</value></data>
+  <data name="Overlay_Working" xml:space="preserve"><value>Extracting data...</value></data>
+  <data name="Overlay_Complete" xml:space="preserve"><value>Extraction complete</value></data>
+  <data name="Overlay_Failed" xml:space="preserve"><value>Extraction failed</value></data>
+  <data name="Overlay_Cancel" xml:space="preserve"><value>Cancel</value></data>
+  <data name="Overlay_Done" xml:space="preserve"><value>Done</value></data>
+  <data name="Overlay_View" xml:space="preserve"><value>View</value></data>
+  <data name="Overlay_ViewDetails" xml:space="preserve"><value>View Details</value></data>
+  <data name="Overlay_FileName" xml:space="preserve"><value>File name</value></data>
+  <data name="Overlay_FailReason" xml:space="preserve"><value>Failure reason</value></data>
+  <data name="Overlay_SuccessCount" xml:space="preserve"><value>Successfully extracted {0} files.</value></data>
+  <data name="Overlay_FailCount" xml:space="preserve"><value>Could not extract {0} files.</value></data>
+  <data name="FailReason_Generic" xml:space="preserve"><value>Extraction failed</value></data>
+  <data name="FailReason_InUse" xml:space="preserve"><value>The file is in use by another process.</value></data>
+  <data name="FailReason_NotFound" xml:space="preserve"><value>The file could not be found.</value></data>
+  <data name="FailReason_AccessDenied" xml:space="preserve"><value>Access was denied.</value></data>
+  <data name="About_Title" xml:space="preserve"><value>About PlainBytes DocumentExtractor</value></data>
+  <data name="About_Subtitle" xml:space="preserve"><value>Extract structured data from fixed-layout PDF documents.</value></data>
+  <data name="About_ProductName" xml:space="preserve"><value>PlainBytes DocumentExtractor</value></data>
+  <data name="About_ProductTagline" xml:space="preserve"><value>PDF field extraction tool</value></data>
+  <data name="About_VersionFormat" xml:space="preserve"><value>Version {0}</value></data>
+  <data name="About_SectionTitle" xml:space="preserve"><value>About the Product</value></data>
+  <data name="About_Body" xml:space="preserve"><value>PlainBytes DocumentExtractor is a lightweight Windows utility for extracting structured data from fixed-layout PDF documents and exporting the results to Excel.
+No complex configuration is required. Define the fields you need, then extract data from multiple PDF files with simple actions.</value></data>
+  <data name="About_CustomDev_Title" xml:space="preserve">
+    <value>Custom Development</value>
+  </data>
+  <data name="About_CustomDev_Intro" xml:space="preserve">
+    <value>Need a document or data processing tool tailored to your specific workflow? We also provide custom development for PDF and document processing, data extraction, spreadsheet/CSV processing, format conversion, batch processing, and related automation workflows.</value>
+  </data>
+  <data name="About_CustomDev_Simple" xml:space="preserve">
+    <value>Simple utilities — such as single-purpose extraction, conversion, or batch processing tools — can often be delivered quickly.</value>
+  </data>
+  <data name="About_CustomDev_Custom" xml:space="preserve">
+    <value>Custom applications — including tools with multiple features, a user interface, or integration with your existing workflow — can be developed based on your requirements.</value>
+  </data>
+  <data name="About_CustomDev_Pricing" xml:space="preserve">
+    <value>Pricing depends on the scope and complexity of your project. Tell us what you're trying to achieve, and we'll provide a quote.</value>
+  </data>
+  <data name="About_CustomDev_Contact" xml:space="preserve">
+    <value>Contact Us →</value>
+  </data>
+  <data name="About_CustomDev_Dialog_Lead" xml:space="preserve">
+    <value>Tell us about the tool or workflow you need.</value>
+  </data>
+  <data name="About_CustomDev_Dialog_Include" xml:space="preserve">
+    <value>To help us understand your project, please include:</value>
+  </data>
+  <data name="About_CustomDev_Dialog_Item1" xml:space="preserve">
+    <value>• What you want the tool to do</value>
+  </data>
+  <data name="About_CustomDev_Dialog_Item2" xml:space="preserve">
+    <value>• The files or data it needs to process</value>
+  </data>
+  <data name="About_CustomDev_Dialog_Item3" xml:space="preserve">
+    <value>• Your expected output or result</value>
+  </data>
+  <data name="About_CustomDev_Dialog_Item4" xml:space="preserve">
+    <value>• Any important workflow or interface requirements</value>
+  </data>
+  <data name="About_CustomDev_Dialog_Attach" xml:space="preserve">
+    <value>You can also attach sample files, screenshots, or other reference materials to your email.</value>
+  </data>
+  <data name="About_CustomDev_Dialog_Promise" xml:space="preserve">
+    <value>We'll review your requirements and get back to you with any questions, recommendations, and a quote.</value>
+  </data>
+  <data name="About_CustomDev_MailSubject" xml:space="preserve">
+    <value>Custom Development Inquiry</value>
+  </data>
+  <data name="About_CustomDev_MailBody" xml:space="preserve">
+    <value>Hello PlainBytes Studio,
+
+I'm interested in a custom development project.
+
+What I need:
+
+Files or data to process:
+
+Expected output:
+
+Other requirements:
+
+I have attached any relevant sample files or screenshots to this email.</value>
+  </data>
+  <data name="About_LicenseNotice" xml:space="preserve"><value>Licensed under GNU GPLv3.</value></data>
+  <data name="About_SourceCode" xml:space="preserve"><value>Source Code</value></data>
+  <data name="About_LicenseLink" xml:space="preserve"><value>License</value></data>
+  <data name="About_MoreTools" xml:space="preserve"><value>More PlainBytes Tools</value></data>
+  <data name="About_ViewAll" xml:space="preserve"><value>View All Tools →</value></data>
+  <data name="About_Copyright" xml:space="preserve"><value>Copyright © 2026 PlainBytes Studio</value></data>
+  <data name="Dialog_FilterTemplates" xml:space="preserve"><value>Template files (*.json)|*.json</value></data>
+  <data name="Excel_SummarySheetName" xml:space="preserve"><value>Summary</value></data>
+  <data name="Field_NoText" xml:space="preserve"><value>(no text)</value></data>
+  <data name="Extraction_ColumnNameFormat" xml:space="preserve"><value>Column {0}</value></data>
+</root>

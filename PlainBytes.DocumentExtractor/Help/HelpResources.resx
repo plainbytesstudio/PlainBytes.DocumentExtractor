@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Page.Title" xml:space="preserve"><value>Help Center</value></data>
+  <data name="Page.Subtitle" xml:space="preserve"><value>Learn how to extract structured data—including named values and tables—from fixed-layout PDF documents.</value></data>
+  <data name="Nav.Catalog" xml:space="preserve"><value>Contents</value></data>
+  <data name="Section.QuickStart.Title" xml:space="preserve"><value>Quick Start</value></data>
+  <data name="Section.Overview.Title" xml:space="preserve"><value>Feature Overview</value></data>
+  <data name="Section.Documents.Title" xml:space="preserve"><value>Supported Documents</value></data>
+  <data name="Section.Extraction.Title" xml:space="preserve"><value>Extraction Guide</value></data>
+  <data name="Section.Templates.Title" xml:space="preserve"><value>Templates</value></data>
+  <data name="Section.Faq.Title" xml:space="preserve"><value>Frequently Asked Questions</value></data>
+  <data name="Section.CustomDev.Title" xml:space="preserve"><value>Need a more tailored tool?</value></data>
+  <data name="Section.Privacy.Title" xml:space="preserve"><value>Security &amp; Privacy</value></data>
+  <data name="Section.Tips.Title" xml:space="preserve"><value>Tips</value></data>
+  <data name="Section.Changelog.Title" xml:space="preserve"><value>Release Notes</value></data>
+  <data name="QuickStart.Description" xml:space="preserve"><value>PlainBytes DocumentExtractor is a lightweight Windows utility for extracting structured data from text-based PDF documents that share a fixed or similar layout—such as settlement statements, receipts, forms, invoices, and orders. You can extract named values and table grids. It processes files locally on your device and exports results to an Excel workbook (.xlsx).</value></data>
+  <data name="QuickStart.Tip.Title" xml:space="preserve"><value>The simplest workflow</value></data>
+  <data name="QuickStart.Tip.Body" xml:space="preserve"><value>Add PDFs → Add anchors (value and/or table) and fields → Extract → Save Excel</value></data>
+  <data name="QuickStart.Step1.Title" xml:space="preserve"><value>Add PDF Files</value></data>
+  <data name="QuickStart.Step1.Body" xml:space="preserve"><value>After opening the app, drag the PDF files you want to process into the main window. You can also click Choose Files on the empty-state screen, or use the add button in the FILES panel header after files have been added. You can add multiple PDF files at once. All files in the current task share the same extraction rules. Added files appear in the FILES list on the left. The center area is the PDF Preview, and extraction rules are configured on the right in the Extraction panel. Works best with text-based PDFs that share a fixed or similar layout. Scanned PDFs and highly variable layouts are not supported.</value></data>
+  <data name="QuickStart.Step2.Title" xml:space="preserve"><value>Configure Extraction Rules</value></data>
+  <data name="QuickStart.Step2.Body" xml:space="preserve"><value>After adding files, select a sample PDF from the file list. Use that document in the preview to define how data will be located and extracted. You can work in Custom mode or choose a saved template from the TEMPLATE list. Every extraction rule belongs to an anchor. There are two anchor types: value anchors (for named fields such as amounts or IDs) and table anchors (for header-based tables). Fields are always created under an expanded anchor. The same rules apply to every PDF in the current task.</value></data>
+  <data name="QuickStart.Step3.Title" xml:space="preserve"><value>Set Anchors and Fields</value></data>
+  <data name="QuickStart.Step3.Body" xml:space="preserve"><value>Hold Ctrl and drag over stable text in the preview to create an anchor, then choose Value fields or Table. Expand the anchor in the ANCHORS list. For a value anchor, drag a rectangle over each value to add a named field. For a table anchor, drag over the entire header row, enter the column count, then drag the left-packed dividers to match each header cell (double-click a divider to remove it, or double-click empty header space to insert one). Mark one column as the ruler (star) so rows can be banded correctly. Use anchors that stay consistent across the documents you plan to process.</value></data>
+  <data name="QuickStart.Step4.Title" xml:space="preserve"><value>Start Extracting</value></data>
+  <data name="QuickStart.Step4.Body" xml:space="preserve"><value>When the fields are ready—and each table has a ruler column—click Extract at the bottom of the Extraction panel. Choose where to save the Excel workbook (.xlsx). The app processes every PDF in the list using the current rules. Progress is shown in a bottom sheet while processing. Related controls are temporarily disabled. You can cancel an in-progress task from the progress sheet. When processing finishes, the sheet shows a result summary. If some files failed, use View Details to see the failure reasons. You can open the Excel file from the progress sheet when available.</value></data>
+  <data name="QuickStart.Step5.Title" xml:space="preserve"><value>Save Rules as a Template</value></data>
+  <data name="QuickStart.Step5.Body" xml:space="preserve"><value>If you want to reuse the current anchors and fields later, click Save as template and enter a template name. Templates store value anchors, table anchors, column layouts, ruler columns, and field regions. When you load an existing template and change it, the Extraction panel shows Template modified. You can Save changes to update the current template, or use the menu next to the save button to Save as new template. Templates are managed on the Templates page in the left navigation.</value></data>
+  <data name="Overview.Description" xml:space="preserve"><value>DocumentExtractor provides the following key features.</value></data>
+  <data name="Overview.Card1.Title" xml:space="preserve"><value>Batch PDF Extraction</value></data>
+  <data name="Overview.Card1.Body" xml:space="preserve"><value>Add multiple PDF files and extract data with one shared rule set. Select any file in the list to preview it. Switching the preview file does not change the extraction rules for the batch.</value></data>
+  <data name="Overview.Card2.Title" xml:space="preserve"><value>Value and Table Anchors</value></data>
+  <data name="Overview.Card2.Body" xml:space="preserve"><value>Mark stable text as anchors to locate similar documents. Use value anchors for named fields, or table anchors for header rows that drive multi-column table extraction.</value></data>
+  <data name="Overview.Card3.Title" xml:space="preserve"><value>Named Fields and Table Columns</value></data>
+  <data name="Overview.Card3.Body" xml:space="preserve"><value>Under a value anchor, draw regions and name each field. Under a table anchor, split the header into columns, adjust dividers, and set a ruler column for row detection.</value></data>
+  <data name="Overview.Card4.Title" xml:space="preserve"><value>Template Library</value></data>
+  <data name="Overview.Card4.Body" xml:space="preserve"><value>Save the current configuration—including table layouts—as a reusable template. Open Templates to search, rename, delete, import, and export templates.</value></data>
+  <data name="Overview.Card5.Title" xml:space="preserve"><value>Excel Export</value></data>
+  <data name="Overview.Card5.Body" xml:space="preserve"><value>Results go to one .xlsx workbook: a Summary sheet for non-table fields (one row per PDF), plus one detail sheet per table anchor for grid rows.</value></data>
+  <data name="Overview.Card6.Title" xml:space="preserve"><value>Progress and Results</value></data>
+  <data name="Overview.Card6.Body" xml:space="preserve"><value>A bottom progress sheet shows the current file and overall progress. After completion, the sheet reports how many files succeeded or failed. Failed items can be reviewed in a detail list.</value></data>
+  <data name="Documents.Description" xml:space="preserve"><value>DocumentExtractor is designed for text-based PDFs with a stable or near-stable layout, including forms with named values and tables with stable headers.</value></data>
+  <data name="Documents.Supported.Heading" xml:space="preserve"><value>Supported</value></data>
+  <data name="Documents.Supported.Description" xml:space="preserve"><value>Settlement statements, receipts, certificates, declaration forms, bills, orders, and similar fixed-layout business documents—including tables whose header text and column structure stay consistent across files. Batch processing of documents that share the same template rules is supported.</value></data>
+  <data name="Documents.Unsupported.Heading" xml:space="preserve"><value>Not supported (current version)</value></data>
+  <data name="Documents.Unsupported.Description" xml:space="preserve"><value>Scanned PDFs without a selectable text layer, documents whose layout changes substantially between files, tables with unstable headers or changing header font sizes, OCR for image-only pages, and highly variable or free-form documents are not supported.</value></data>
+  <data name="Documents.Tip.Title" xml:space="preserve"><value>Tip</value></data>
+  <data name="Documents.Tip.Body" xml:space="preserve"><value>If a document has little or no selectable text, extraction may return empty values or fail to locate anchors. For tables, prefer documents where the header row is clearly selectable and column positions stay consistent.</value></data>
+  <data name="Extraction.Description" xml:space="preserve"><value>Extraction settings are in the right-hand panel of the main window. Fields always belong to an anchor—create and expand an anchor before drawing fields.</value></data>
+  <data name="Extraction.Template.Heading" xml:space="preserve"><value>Template</value></data>
+  <data name="Extraction.Template.Description" xml:space="preserve"><value>Use the TEMPLATE list to choose Custom (define anchors and fields on the current sample) or a saved template (load its anchors, fields, table columns, and regions). After loading a template, you can still adjust regions on the sample PDF. Unsaved edits are marked as Template modified.</value></data>
+  <data name="Extraction.Anchors.Heading" xml:space="preserve"><value>Anchors</value></data>
+  <data name="Extraction.Anchors.Description" xml:space="preserve"><value>Anchors appear under ANCHORS. Hold Ctrl and drag over stable text in the preview. When valid text is detected, DocumentExtractor asks you to choose the anchor type: Value fields or Table. The selection identifies the phrase used to locate similar documents; the displayed region then follows the detected text (for value anchors) or keeps your outer box (for table anchors). Click an anchor row to select it and jump to that region. Expand an anchor before adding fields under it. Delete an anchor from the list when it is no longer needed. Anchors improve positioning when similar documents have small layout shifts.</value></data>
+  <data name="Extraction.ValueAnchors.Heading" xml:space="preserve"><value>Value anchors</value></data>
+  <data name="Extraction.ValueAnchors.Description" xml:space="preserve"><value>Use a value anchor when you need named values such as document numbers, dates, or amounts. After you create and expand the anchor, drag a rectangle over each value to add a field. Enter a clear field name (default is Field N) and confirm the sample text under the name. Click a field row to jump to it in the preview. Use the pencil icon to rename, and delete fields you do not need. When a value field is selected, drag the handles on its overlay to resize the region; the sample value refreshes when you release the mouse. Value-field names become columns on the Summary sheet in Excel.</value></data>
+  <data name="Extraction.TableAnchors.Heading" xml:space="preserve"><value>Table anchors</value></data>
+  <data name="Extraction.TableAnchors.Description" xml:space="preserve"><value>Use a table anchor when you need to extract a multi-column table under a stable header. After choosing Table, enter how many columns the header has. Expand the table anchor, then drag over the entire header row. DocumentExtractor keeps your selection box, creates left-packed column dividers, and names columns from the text inside each band. Drag dividers to align with each header cell. Double-click a divider to remove it, or double-click empty space in the header band to insert one. Click the star on a column to mark the ruler column (required for row banding before extract). Table column fields cannot be deleted individually like value fields—adjust columns by editing the header split. Each table writes to its own Excel sheet named after the anchor (up to 31 characters).</value></data>
+  <data name="Extraction.Fields.Heading" xml:space="preserve"><value>Fields</value></data>
+  <data name="Extraction.Fields.Description" xml:space="preserve"><value>Fields appear under the expanded anchor in FIELDS. Plain drag (without Ctrl) adds a field only when an anchor is expanded. Under a value anchor, that creates a named field. Under a table anchor, dragging over the header rebuilds the column split for the current column count. Field names become Excel headers—on the Summary sheet for value fields, and on that table’s detail sheet for table columns.</value></data>
+  <data name="Extraction.Preview.Heading" xml:space="preserve"><value>PDF Preview</value></data>
+  <data name="Extraction.Preview.Description" xml:space="preserve"><value>The center preview supports page navigation, zoom in / zoom out, scrolling (Ctrl + mouse wheel to zoom), Ctrl + drag for anchors, plain drag for fields under the expanded anchor, overlays for anchors and fields, jump-to-region from the list, resize handles on selected value fields, and table header dividers you can drag or double-click to add/remove. Use one file as the sample for configuration. Other files in the batch are processed with the same rules when you click Extract.</value></data>
+  <data name="Extraction.Excel.Heading" xml:space="preserve"><value>Extract and Excel Output</value></data>
+  <data name="Extraction.Excel.Description" xml:space="preserve"><value>Click Extract, then choose the output .xlsx path. The workbook includes a Summary sheet (Source File, each non-table field, Status—one row per PDF) and one detail sheet per table anchor (Source File plus that table’s columns—one row per extracted table data row). Sheet names for tables come from the anchor label (illegal characters are cleaned; names are truncated to Excel’s 31-character limit and kept unique). If some files fail (for example, an anchor cannot be found or a table has no ruler column), successful rows are still written when possible. Use View Details on the progress sheet to review failures.</value></data>
+  <data name="Templates.Description" xml:space="preserve"><value>Select Templates in the left navigation rail to manage saved extraction templates. Templates store value anchors, table anchors, column layouts, ruler columns, fields, and regions used for extraction.</value></data>
+  <data name="Templates.Browse.Heading" xml:space="preserve"><value>Browse and Search</value></data>
+  <data name="Templates.Browse.Description" xml:space="preserve"><value>The list shows template name, field count, anchor count, and last modified time. Use Search templates to filter by name.</value></data>
+  <data name="Templates.Import.Heading" xml:space="preserve"><value>Import</value></data>
+  <data name="Templates.Import.Description" xml:space="preserve"><value>Click Import and choose a DocumentExtractor template file (.json). A template file can contain one or more templates. Imported templates are stored locally. If an imported template has the same name as an existing template, DocumentExtractor creates a unique name for the imported copy.</value></data>
+  <data name="Templates.Export.Heading" xml:space="preserve"><value>Export</value></data>
+  <data name="Templates.Export.Description" xml:space="preserve"><value>Select one or more templates, then click Export. The selected templates are exported to a DocumentExtractor template file (.json). Exported files can be shared or backed up offline.</value></data>
+  <data name="Templates.Rename.Heading" xml:space="preserve"><value>Rename</value></data>
+  <data name="Templates.Rename.Description" xml:space="preserve"><value>Rename a template directly in the list. If the new name conflicts with an existing template, an inline error is shown and the change is not applied.</value></data>
+  <data name="Templates.Delete.Heading" xml:space="preserve"><value>Delete</value></data>
+  <data name="Templates.Delete.Description" xml:space="preserve"><value>Delete one template from its row actions, or select multiple templates and use Delete. Deleting a template does not affect PDFs you already processed or Excel files you already exported.</value></data>
+  <data name="Templates.Storage.Heading" xml:space="preserve"><value>Where Templates Are Stored</value></data>
+  <data name="Templates.Storage.Description" xml:space="preserve"><value>Templates are saved under your Windows local app data folder for DocumentExtractor. They remain on your device and are not uploaded or shared unless you export them yourself.</value></data>
+  <data name="Faq.Q1" xml:space="preserve"><value>Why are extracted values empty or incorrect?</value></data>
+  <data name="Faq.A1" xml:space="preserve"><value>Common reasons include: the PDF is scanned or has no reliable text layer; the layout differs too much from the sample; an anchor phrase does not appear (or appears differently) in the target file; field or column regions are misplaced; a table header was not split accurately; or no ruler column was set on a table. Review the sample overlays, adjust anchors and columns, then extract again.</value></data>
+  <data name="Faq.Q2" xml:space="preserve"><value>Can I process multiple PDFs at once?</value></data>
+  <data name="Faq.A2" xml:space="preserve"><value>Yes. Add multiple PDF files to the FILES list and click Extract. All files in the task use the same anchors and fields.</value></data>
+  <data name="Faq.Q3" xml:space="preserve"><value>Do I need to create a template before extracting?</value></data>
+  <data name="Faq.A3" xml:space="preserve"><value>No. You can keep Custom, define anchors and fields on the sample PDF, and extract immediately. Save a template only when you want to reuse the same rules later.</value></data>
+  <data name="Faq.Q4" xml:space="preserve"><value>What is the difference between a value anchor and a table anchor?</value></data>
+  <data name="Faq.A4" xml:space="preserve"><value>Both start with Ctrl + drag over stable text. A value anchor holds named fields you draw one by one. A table anchor is for a header row: you set a column count, drag over the full header, align dividers, and mark a ruler column so data rows can be extracted as a grid. You can use both types in the same template.</value></data>
+  <data name="Faq.Q5" xml:space="preserve"><value>Why do I need a ruler column on a table?</value></data>
+  <data name="Faq.A5" xml:space="preserve"><value>The ruler column tells DocumentExtractor how to band table body rows under the header. Click the star on one column to mark it. Extraction is blocked until every table anchor has a ruler column.</value></data>
+  <data name="Faq.Q6" xml:space="preserve"><value>How do I add or remove table columns?</value></data>
+  <data name="Faq.A6" xml:space="preserve"><value>Expand the table anchor and work on the header overlay. Drag dividers to change widths. Double-click a divider to remove it, or double-click empty space in the header band to insert a divider. You can also drag over the entire header again to rebuild the left-packed split for the current column count.</value></data>
+  <data name="Faq.Q7" xml:space="preserve"><value>What does Partial mean in the Excel Status column?</value></data>
+  <data name="Faq.A7" xml:space="preserve"><value>Partial means the file was processed, but one or more value fields returned no text. The Summary row is still included so you can review missing values. Table detail sheets may still contain extracted rows when available.</value></data>
+  <data name="Faq.Q8" xml:space="preserve"><value>What happens when an anchor is not found?</value></data>
+  <data name="Faq.A8" xml:space="preserve"><value>If the current rules depend on an anchor and it cannot be located, that PDF is marked as failed. Other files in the batch continue processing. The progress sheet lists failed files and reasons under View Details.</value></data>
+  <data name="Faq.Q9" xml:space="preserve"><value>Does Extract overwrite my PDF files?</value></data>
+  <data name="Faq.A9" xml:space="preserve"><value>No. Extract only reads PDF files and writes a new Excel workbook to the path you choose.</value></data>
+  <data name="Faq.Q10" xml:space="preserve"><value>Can I change the file list while extraction is running?</value></data>
+  <data name="Faq.A10" xml:space="preserve"><value>No. Controls related to the current task are temporarily locked while files are being processed. You can cancel the task from the progress sheet if needed.</value></data>
+  <data name="Faq.Q11" xml:space="preserve"><value>Where are templates stored?</value></data>
+  <data name="Faq.A11" xml:space="preserve"><value>Templates are stored locally on your device in DocumentExtractor&apos;s app data folder. Use Export on the Templates page if you need a portable copy.</value></data>
+  <data name="Faq.Q12" xml:space="preserve"><value>How are tables written to Excel?</value></data>
+  <data name="Faq.A12" xml:space="preserve"><value>Non-table (value) fields go on the Summary sheet—one row per PDF. Each table anchor gets its own worksheet named from the anchor label. Detail sheets list Source File plus the table columns, with one Excel row per extracted table data row.</value></data>
+  <data name="CustomDev.Description" xml:space="preserve"><value>If DocumentExtractor does not cover your workflow—for example specialized batch rules, additional formats, or a dedicated tool—we can discuss custom development for document and data processing.</value></data>
+  <data name="CustomDev.Contact" xml:space="preserve"><value>Contact Us →</value></data>
+  <data name="Privacy.Local.Heading" xml:space="preserve"><value>Local Processing</value></data>
+  <data name="Privacy.Local.Description" xml:space="preserve"><value>DocumentExtractor processes PDF files locally on your device. Your PDF files are not uploaded to a server as part of extraction.</value></data>
+  <data name="Privacy.Selected.Heading" xml:space="preserve"><value>Selected Files Only</value></data>
+  <data name="Privacy.Selected.Description" xml:space="preserve"><value>The app only processes PDF files that you explicitly add to the current task.</value></data>
+  <data name="Privacy.Templates.Heading" xml:space="preserve"><value>Templates</value></data>
+  <data name="Privacy.Templates.Description" xml:space="preserve"><value>Templates are saved locally. Exporting a template creates a file you control.</value></data>
+  <data name="Privacy.Excel.Heading" xml:space="preserve"><value>Excel Output</value></data>
+  <data name="Privacy.Excel.Description" xml:space="preserve"><value>Extraction results are written only to the Excel path you select.</value></data>
+  <data name="Privacy.Tip.Title" xml:space="preserve"><value>Recommendation</value></data>
+  <data name="Privacy.Tip.Body" xml:space="preserve"><value>For important documents, keep your original PDFs. Extraction does not modify them, but reviewing exported data before downstream use is still recommended—especially when layouts or table headers may vary between files.</value></data>
+  <data name="Tips.1.Title" xml:space="preserve"><value>Choose Distinctive Anchor Text</value></data>
+  <data name="Tips.1.Body" xml:space="preserve"><value>Prefer short, stable phrases that appear once on the page, such as a form title or a fixed label. Avoid values that change on every document (invoice numbers, dates, or amounts).</value></data>
+  <data name="Tips.2.Title" xml:space="preserve"><value>Match Anchor Type to the Content</value></data>
+  <data name="Tips.2.Body" xml:space="preserve"><value>Use value anchors for standalone labeled values. Use table anchors only when a clear header row defines the columns you need to extract.</value></data>
+  <data name="Tips.3.Title" xml:space="preserve"><value>Calibrate Table Dividers on the Sample</value></data>
+  <data name="Tips.3.Body" xml:space="preserve"><value>After creating a table anchor, drag dividers carefully on the sample header. Spot-check another PDF in the list before a large batch. Documents with shifting headers or changing header fonts are out of scope.</value></data>
+  <data name="Tips.4.Title" xml:space="preserve"><value>Always Set a Ruler Column</value></data>
+  <data name="Tips.4.Body" xml:space="preserve"><value>Pick a column that appears on every table body row (for example a line number or item name) and mark it with the star before extracting.</value></data>
+  <data name="Tips.5.Title" xml:space="preserve"><value>Configure on a Representative Sample</value></data>
+  <data name="Tips.5.Body" xml:space="preserve"><value>Use a typical PDF from the batch as the sample. After defining rules, spot-check another file in the list before running a large extraction.</value></data>
+  <data name="Tips.6.Title" xml:space="preserve"><value>Save Templates for Recurring Document Types</value></data>
+  <data name="Tips.6.Body" xml:space="preserve"><value>If you process the same form regularly, save the configuration—including table layouts—as a template. Next time, add the PDFs, select the template, and extract.</value></data>
+  <data name="Tips.7.Title" xml:space="preserve"><value>Keep Field and Column Names Clear</value></data>
+  <data name="Tips.7.Body" xml:space="preserve"><value>Names become Excel headers. Use names that are easy to recognize later, such as Customer, Document Number, Amount, or Item Description.</value></data>
+  <data name="Tips.8.Title" xml:space="preserve"><value>Review Failed Items in the Progress Sheet</value></data>
+  <data name="Tips.8.Body" xml:space="preserve"><value>When a batch finishes with failures, open View Details before closing the sheet. This is the fastest way to see which files need different anchors, column adjustments, or a different template.</value></data>
+  <data name="Tips.9.Title" xml:space="preserve"><value>Export Templates for Backup</value></data>
+  <data name="Tips.9.Body" xml:space="preserve"><value>Use the Templates page Export action to keep a backup of important rule sets, or to move them to another PC with DocumentExtractor installed.</value></data>
+  <data name="Changelog.VersionFormat" xml:space="preserve"><value>Version {0}</value></data>
+  <data name="Changelog.V100.Title" xml:space="preserve"><value>Initial Release</value></data>
+  <data name="Changelog.V100.N1" xml:space="preserve"><value>Text-based PDF extraction for fixed or similar layouts</value></data>
+  <data name="Changelog.V100.N2" xml:space="preserve"><value>Multi-file batch processing with a shared rule set</value></data>
+  <data name="Changelog.V100.N3" xml:space="preserve"><value>PDF preview with page navigation and zoom</value></data>
+  <data name="Changelog.V100.N4" xml:space="preserve"><value>Value and table anchors (Ctrl + drag, then choose type)</value></data>
+  <data name="Changelog.V100.N5" xml:space="preserve"><value>Named fields under value anchors; table header split with draggable dividers</value></data>
+  <data name="Changelog.V100.N6" xml:space="preserve"><value>Ruler column for table row banding</value></data>
+  <data name="Changelog.V100.N7" xml:space="preserve"><value>Custom rules and reusable templates (including table layouts)</value></data>
+  <data name="Changelog.V100.N8" xml:space="preserve"><value>Save as template / save template changes</value></data>
+  <data name="Changelog.V100.N9" xml:space="preserve"><value>Templates page with search, rename, delete, import, and export</value></data>
+  <data name="Changelog.V100.N10" xml:space="preserve"><value>Excel (.xlsx) export: Summary sheet for value fields, one sheet per table</value></data>
+  <data name="Changelog.V100.N11" xml:space="preserve"><value>Bottom progress sheet with cancel, completion summary, failure details, and open Excel</value></data>
+  <data name="Changelog.V100.N12" xml:space="preserve"><value>Local-only processing; no upload of PDF content for extraction</value></data>
+</root>

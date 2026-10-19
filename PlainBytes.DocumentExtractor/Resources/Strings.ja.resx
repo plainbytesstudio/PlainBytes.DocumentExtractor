@@ -1,0 +1,669 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Nav_Home" xml:space="preserve">
+    <value>Document Extractor</value>
+  </data>
+  <data name="Nav_Templates" xml:space="preserve">
+    <value>テンプレート</value>
+  </data>
+  <data name="Home_Title" xml:space="preserve">
+    <value>Document Extractor</value>
+  </data>
+  <data name="Home_Subtitle" xml:space="preserve">
+    <value>固定レイアウトのPDF文書から構造化データを抽出します。</value>
+  </data>
+  <data name="Home_DropTitle" xml:space="preserve">
+    <value>PDFファイルをここにドロップ</value>
+  </data>
+  <data name="Home_DropSubtitle" xml:space="preserve">
+    <value>またはクリックしてPDFファイルを選択</value>
+  </data>
+  <data name="Home_ChooseFiles" xml:space="preserve">
+    <value>ファイルを選択</value>
+  </data>
+  <data name="Home_BatchHint" xml:space="preserve">
+    <value>複数のPDFファイルを追加して、データを一括抽出できます。</value>
+  </data>
+  <data name="Home_CompactDrop" xml:space="preserve">
+    <value>PDFファイルをここに
+ドロップして追加</value>
+  </data>
+  <data name="Home_FooterTip" xml:space="preserve">
+    <value>固定または類似したレイアウトのテキストベースPDFに最適です。スキャンされたPDFやレイアウトの変化が大きい文書には対応していません。</value>
+  </data>
+  <data name="Panel_FilesCount" xml:space="preserve">
+    <value>ファイル ({0})</value>
+  </data>
+  <data name="Panel_Template" xml:space="preserve">
+    <value>テンプレート</value>
+  </data>
+  <data name="Panel_AnchorsCount" xml:space="preserve">
+    <value>アンカー ({0})</value>
+  </data>
+  <data name="Panel_FieldsCount" xml:space="preserve">
+    <value>フィールド ({0})</value>
+  </data>
+  <data name="ToolTip_AddFiles" xml:space="preserve">
+    <value>PDFファイルを追加</value>
+  </data>
+  <data name="ToolTip_RemoveFile" xml:space="preserve">
+    <value>ファイルを削除</value>
+  </data>
+  <data name="ToolTip_PreviousPage" xml:space="preserve">
+    <value>前のページ</value>
+  </data>
+  <data name="ToolTip_NextPage" xml:space="preserve">
+    <value>次のページ</value>
+  </data>
+  <data name="ToolTip_ZoomOut" xml:space="preserve">
+    <value>縮小</value>
+  </data>
+  <data name="ToolTip_ZoomIn" xml:space="preserve">
+    <value>拡大</value>
+  </data>
+  <data name="ToolTip_Delete" xml:space="preserve">
+    <value>削除</value>
+  </data>
+  <data name="ToolTip_RenameField" xml:space="preserve">
+    <value>フィールド名を変更</value>
+  </data>
+  <data name="ToolTip_MoreSaveOptions" xml:space="preserve">
+    <value>その他の保存オプション</value>
+  </data>
+  <data name="ToolTip_Dismiss" xml:space="preserve">
+    <value>閉じる</value>
+  </data>
+  <data name="ToolTip_More" xml:space="preserve">
+    <value>その他</value>
+  </data>
+  <data name="Extraction_TemplateModified" xml:space="preserve">
+    <value>テンプレートが変更されています</value>
+  </data>
+  <data name="Extraction_AddingAnchors" xml:space="preserve">
+    <value>アンカーの追加</value>
+  </data>
+  <data name="Extraction_AnchorsHint" xml:space="preserve">
+    <value>Ctrlキーを押しながら、位置が安定しているテキスト上をドラッグしてアンカーを追加します。値アンカーを展開し、ドラッグしてフィールドを追加します。表アンカーの場合は、アンカーを展開してヘッダー行全体をドラッグして選択します。列は自動的に分割されます。区切り線はドラッグして移動でき、ダブルクリックで追加・削除できます。レイアウトが不安定な文書や、表のヘッダーの文字サイズが一定でない文書には対応していません。</value>
+  </data>
+  <data name="Extraction_AnchorsEmpty" xml:space="preserve">
+    <value>Ctrlキーを押しながらドラッグしてアンカーを追加します。その後、アンカーを展開し、ドラッグしてフィールドを追加します。</value>
+  </data>
+  <data name="Extraction_AddingFields" xml:space="preserve">
+    <value>フィールドの追加</value>
+  </data>
+  <data name="Extraction_FieldsHint" xml:space="preserve">
+    <value>アンカーを展開し、抽出したい内容の上をドラッグしてください。新しいフィールドは、展開中のアンカーに関連付けられます。</value>
+  </data>
+  <data name="Extraction_FieldsEmpty" xml:space="preserve">
+    <value>アンカーを展開し、ドラッグしてフィールドを追加します。</value>
+  </data>
+  <data name="Extraction_SaveAsTemplate" xml:space="preserve">
+    <value>テンプレートとして保存</value>
+  </data>
+  <data name="Extraction_SaveChanges" xml:space="preserve">
+    <value>変更を保存</value>
+  </data>
+  <data name="Extraction_SaveAsNewTemplate" xml:space="preserve">
+    <value>新しいテンプレートとして保存</value>
+  </data>
+  <data name="Extraction_TemplateName" xml:space="preserve">
+    <value>テンプレート名</value>
+  </data>
+  <data name="Extraction_NameConflict" xml:space="preserve">
+    <value>同じ名前のテンプレートが既に存在します。</value>
+  </data>
+  <data name="Extraction_Save" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="Extraction_Extract" xml:space="preserve">
+    <value>抽出</value>
+  </data>
+  <data name="Extraction_CustomConfiguration" xml:space="preserve">
+    <value>カスタム設定</value>
+  </data>
+  <data name="Extraction_UntitledTemplate" xml:space="preserve">
+    <value>無題のテンプレート</value>
+  </data>
+  <data name="Extraction_FieldNameFormat" xml:space="preserve">
+    <value>フィールド {0}</value>
+  </data>
+  <data name="Dialog_ChoosePdfs" xml:space="preserve">
+    <value>PDFファイルを選択</value>
+  </data>
+  <data name="Dialog_FilterPdf" xml:space="preserve">
+    <value>PDFファイル</value>
+  </data>
+  <data name="Dialog_AllFiles" xml:space="preserve">
+    <value>すべてのファイル</value>
+  </data>
+  <data name="Dialog_ExportResults" xml:space="preserve">
+    <value>抽出結果をエクスポート</value>
+  </data>
+  <data name="Dialog_FilterExcel" xml:space="preserve">
+    <value>Excelブック (*.xlsx)|*.xlsx</value>
+  </data>
+  <data name="Toast_ScannedNotSupported" xml:space="preserve">
+    <value>スキャンされたPDFは現在サポートされていません。</value>
+  </data>
+  <data name="Toast_NoSelectableTextOne" xml:space="preserve">
+    <value>「{0}」に選択可能なテキストが見つかりませんでした。{1}</value>
+  </data>
+  <data name="Toast_NoSelectableTextMany" xml:space="preserve">
+    <value>{0}件のPDFファイルから選択可能なテキストが見つかりませんでした：
+{1}
+{2}</value>
+  </data>
+  <data name="Toast_NoTextInArea" xml:space="preserve">
+    <value>この領域にテキストが見つかりませんでした。選択範囲を調整して、もう一度お試しください。</value>
+  </data>
+  <data name="Toast_NeedField" xml:space="preserve">
+    <value>抽出する前に、少なくとも1つのフィールドを追加してください。</value>
+  </data>
+  <data name="Toast_NeedRulerColumn" xml:space="preserve">
+    <value>抽出前に各表で基準列を設定してください。列の星印をクリックして指定します。</value>
+  </data>
+  <data name="Toast_NeedAnchorBeforeField" xml:space="preserve">
+    <value>先にアンカーを追加して展開し、そのアンカー配下にフィールドをドラッグで作成してください。</value>
+  </data>
+  <data name="Toast_AmbiguityTip" xml:space="preserve">
+    <value>この選択は曖昧な可能性があります。より特徴的なテキストを選択するか、別のアンカーを追加して位置特定の信頼性を高めてください。</value>
+  </data>
+  <data name="Toast_AmbiguityOne" xml:space="preserve">
+    <value>このサンプルの「{1}」に{0}件の一致が見つかりました。
+{2}</value>
+  </data>
+  <data name="Toast_AmbiguityMany" xml:space="preserve">
+    <value>このサンプルでは{0}個のアンカーに複数の一致があります：
+{1}
+{2}</value>
+  </data>
+  <data name="Toast_AmbiguityBullet" xml:space="preserve">
+    <value>• 「{0}」：{1}件の一致</value>
+  </data>
+  <data name="Toast_MissingAnchorOne" xml:space="preserve">
+    <value>ページ{0}にはフィールドがありますが、アンカーがありません。文書ごとに内容の位置が変わる可能性がある場合は、アンカーを追加してください。</value>
+  </data>
+  <data name="Toast_MissingAnchors" xml:space="preserve">
+    <value>ページ{0}にはフィールドがありますが、アンカーがありません。文書ごとに内容の位置が変わる可能性がある場合は、各ページにアンカーを追加してください。</value>
+  </data>
+  <data name="Templates_Title" xml:space="preserve">
+    <value>テンプレート</value>
+  </data>
+  <data name="Templates_Subtitle" xml:space="preserve">
+    <value>保存した抽出テンプレートを管理します。</value>
+  </data>
+  <data name="Templates_Import" xml:space="preserve">
+    <value>インポート</value>
+  </data>
+  <data name="Templates_Export" xml:space="preserve">
+    <value>エクスポート</value>
+  </data>
+  <data name="Templates_Delete" xml:space="preserve">
+    <value>削除</value>
+  </data>
+  <data name="Templates_Search" xml:space="preserve">
+    <value>テンプレートを検索</value>
+  </data>
+  <data name="Templates_ColName" xml:space="preserve">
+    <value>テンプレート名</value>
+  </data>
+  <data name="Templates_ColFields" xml:space="preserve">
+    <value>フィールド</value>
+  </data>
+  <data name="Templates_ColAnchors" xml:space="preserve">
+    <value>アンカー</value>
+  </data>
+  <data name="Templates_ColModified" xml:space="preserve">
+    <value>最終更新日時</value>
+  </data>
+  <data name="Templates_ColActions" xml:space="preserve">
+    <value>操作</value>
+  </data>
+  <data name="Templates_EmptyTitle" xml:space="preserve">
+    <value>テンプレートはまだありません</value>
+  </data>
+  <data name="Templates_EmptyDetail" xml:space="preserve">
+    <value>抽出画面からテンプレートを保存するか、テンプレートファイルをインポートしてください。</value>
+  </data>
+  <data name="Templates_NoMatchTitle" xml:space="preserve">
+    <value>検索条件に一致するテンプレートがありません</value>
+  </data>
+  <data name="Templates_NoMatchDetail" xml:space="preserve">
+    <value>別の名前で検索するか、検索ボックスをクリアしてください。</value>
+  </data>
+  <data name="Templates_Footer" xml:space="preserve">
+    <value>テンプレートはデバイス上にローカル保存され、アップロードや共有は行われません。</value>
+  </data>
+    <data name="Templates_HelpPrompt" xml:space="preserve">
+    <value>テンプレート設定でお困りですか？</value>
+  </data>
+  <data name="Templates_GetSetupHelp" xml:space="preserve">
+    <value>設定サポートを依頼 →</value>
+  </data>
+  <data name="Templates_SetupHelp_Title" xml:space="preserve">
+    <value>テンプレート設定サポート</value>
+  </data>
+  <data name="Templates_SetupHelp_Lead" xml:space="preserve">
+    <value>抽出テンプレートの作成にサポートが必要ですか？</value>
+  </data>
+  <data name="Templates_SetupHelp_EmailUs" xml:space="preserve">
+    <value>次の内容をメールでお送りください：</value>
+  </data>
+  <data name="Templates_SetupHelp_Item1" xml:space="preserve">
+    <value>① サンプル PDF ドキュメント</value>
+  </data>
+  <data name="Templates_SetupHelp_Item2" xml:space="preserve">
+    <value>② 抽出したいフィールドの一覧</value>
+  </data>
+  <data name="Templates_SetupHelp_Promise" xml:space="preserve">
+    <value>抽出テンプレートを無料で設定し、完成したテンプレートをメールでお送りします。</value>
+  </data>
+  <data name="Templates_SetupHelp_Privacy" xml:space="preserve">
+    <value>Document Extractor がドキュメントをアップロードすることはありません。サンプル PDF は、ご自身のメールアプリで送信することを選択した場合にのみ送信されます。</value>
+  </data>
+  <data name="Templates_SetupHelp_Contact" xml:space="preserve">
+    <value>メールで連絡</value>
+  </data>
+  <data name="Templates_SetupHelp_MailSubject" xml:space="preserve">
+    <value>Document Extractor - テンプレート設定サポート</value>
+  </data>
+  <data name="Templates_SetupHelp_MailBody" xml:space="preserve">
+    <value>PlainBytes Studio ご担当者様
+
+抽出テンプレートの設定についてサポートをお願いします。
+
+抽出したいフィールド：
+1.
+2.
+3.
+
+このメールにサンプル PDF を添付します。</value>
+  </data>
+<data name="Templates_Rename" xml:space="preserve">
+    <value>名前を変更</value>
+  </data>
+  <data name="Templates_ImportDialog" xml:space="preserve">
+    <value>テンプレートをインポート</value>
+  </data>
+  <data name="Templates_ExportDialogOne" xml:space="preserve">
+    <value>テンプレートをエクスポート</value>
+  </data>
+  <data name="Templates_ExportDialogMany" xml:space="preserve">
+    <value>テンプレートをエクスポート</value>
+  </data>
+  <data name="Templates_ImportedOne" xml:space="preserve">
+    <value>1件のテンプレートをインポートしました。</value>
+  </data>
+  <data name="Templates_ImportedMany" xml:space="preserve">
+    <value>{0}件のテンプレートをインポートしました。</value>
+  </data>
+  <data name="Templates_ImportedPartial" xml:space="preserve">
+    <value>{0}件のテンプレートをインポートしました。{1}件のファイルはインポートできませんでした。</value>
+  </data>
+  <data name="Templates_ImportFailed" xml:space="preserve">
+    <value>インポートに失敗しました。選択したファイルに有効なJSON形式のテンプレートが含まれていません。</value>
+  </data>
+  <data name="Templates_ExportMissing" xml:space="preserve">
+    <value>エクスポートできませんでした。テンプレートファイルが見つかりません。</value>
+  </data>
+  <data name="Templates_ExportedOne" xml:space="preserve">
+    <value>「{0}」をエクスポートしました。</value>
+  </data>
+  <data name="Templates_ExportedMany" xml:space="preserve">
+    <value>{0}件のテンプレートを1つのファイルにエクスポートしました。</value>
+  </data>
+  <data name="Templates_DeleteConfirmOne" xml:space="preserve">
+    <value>テンプレート「{0}」を削除しますか？この操作は元に戻せません。</value>
+  </data>
+  <data name="Templates_DeleteConfirmTitleOne" xml:space="preserve">
+    <value>テンプレートを削除</value>
+  </data>
+  <data name="Templates_DeleteConfirmMany" xml:space="preserve">
+    <value>選択した{0}件のテンプレートを削除しますか？この操作は元に戻せません。</value>
+  </data>
+  <data name="Templates_DeleteConfirmTitleMany" xml:space="preserve">
+    <value>テンプレートを削除</value>
+  </data>
+  <data name="Templates_NameEmpty" xml:space="preserve">
+    <value>テンプレート名を空にすることはできません。</value>
+  </data>
+  <data name="Templates_NameConflict" xml:space="preserve">
+    <value>同じ名前のテンプレートが既に存在します。</value>
+  </data>
+  <data name="Templates_RenameMissing" xml:space="preserve">
+    <value>名前を変更できませんでした。テンプレートファイルが見つかりません。</value>
+  </data>
+  <data name="Overlay_Working" xml:space="preserve">
+    <value>データを抽出しています...</value>
+  </data>
+  <data name="Overlay_Complete" xml:space="preserve">
+    <value>抽出が完了しました</value>
+  </data>
+  <data name="Overlay_Failed" xml:space="preserve">
+    <value>抽出に失敗しました</value>
+  </data>
+  <data name="Overlay_Cancel" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="Overlay_Done" xml:space="preserve">
+    <value>完了</value>
+  </data>
+  <data name="Overlay_ViewDetails" xml:space="preserve">
+    <value>詳細を表示</value>
+  </data>
+  <data name="Overlay_FileName" xml:space="preserve">
+    <value>ファイル名</value>
+  </data>
+  <data name="Overlay_FailReason" xml:space="preserve">
+    <value>失敗の理由</value>
+  </data>
+  <data name="Overlay_SuccessCount" xml:space="preserve">
+    <value>{0}個のファイルを正常に抽出しました。</value>
+  </data>
+  <data name="Overlay_FailCount" xml:space="preserve">
+    <value>{0}個のファイルを抽出できませんでした。</value>
+  </data>
+  <data name="FailReason_Generic" xml:space="preserve">
+    <value>抽出に失敗しました</value>
+  </data>
+  <data name="FailReason_InUse" xml:space="preserve">
+    <value>ファイルは別のプロセスで使用されています。</value>
+  </data>
+  <data name="FailReason_NotFound" xml:space="preserve">
+    <value>ファイルが見つかりませんでした。</value>
+  </data>
+  <data name="FailReason_AccessDenied" xml:space="preserve">
+    <value>アクセスが拒否されました。</value>
+  </data>
+  <data name="About_Title" xml:space="preserve">
+    <value>PlainBytes DocumentExtractorについて</value>
+  </data>
+  <data name="About_Subtitle" xml:space="preserve">
+    <value>固定レイアウトのPDF文書から構造化データを抽出します。</value>
+  </data>
+  <data name="About_ProductName" xml:space="preserve">
+    <value>PlainBytes DocumentExtractor</value>
+  </data>
+  <data name="About_ProductTagline" xml:space="preserve">
+    <value>PDFフィールド抽出ツール</value>
+  </data>
+  <data name="About_VersionFormat" xml:space="preserve">
+    <value>バージョン {0}</value>
+  </data>
+  <data name="About_SectionTitle" xml:space="preserve">
+    <value>製品について</value>
+  </data>
+  <data name="About_Body" xml:space="preserve">
+    <value>PlainBytes DocumentExtractorは、固定レイアウトのPDF文書から構造化データを抽出し、その結果をExcelにエクスポートするための軽量なWindowsユーティリティです。
+複雑な設定は必要ありません。必要なフィールドを定義するだけで、複数のPDFファイルから簡単な操作でデータを抽出できます。</value>
+  </data>
+
+  <data name="About_CustomDev_Title" xml:space="preserve">
+    <value>カスタム開発</value>
+  </data>
+  <data name="About_CustomDev_Intro" xml:space="preserve">
+    <value>特定のワークフローに合わせたドキュメント／データ処理ツールが必要ですか？PDF・ドキュメント処理、データ抽出、スプレッドシートやCSVファイルの処理、形式変換、バッチ処理、および関連する自動化ワークフロー向けのカスタム開発も提供しています。</value>
+  </data>
+  <data name="About_CustomDev_Simple" xml:space="preserve">
+    <value>データ抽出、形式変換、一括処理など、特定の用途に特化したシンプルなツールであれば、比較的短期間で開発・提供できる場合があります。</value>
+  </data>
+  <data name="About_CustomDev_Custom" xml:space="preserve">
+    <value>複数の機能を備えたアプリケーションや、専用の操作画面を持つツール、既存の業務フローと連携するシステムなども、ご要望に応じて開発できます。</value>
+  </data>
+  <data name="About_CustomDev_Pricing" xml:space="preserve">
+    <value>料金はプロジェクトの範囲と複雑さによります。達成したい内容をお知らせください。お見積りをご案内します。</value>
+  </data>
+  <data name="About_CustomDev_Contact" xml:space="preserve">
+    <value>お問い合わせ →</value>
+  </data>
+  <data name="About_CustomDev_Dialog_Lead" xml:space="preserve">
+    <value>必要なツールやワークフローについてお知らせください。</value>
+  </data>
+  <data name="About_CustomDev_Dialog_Include" xml:space="preserve">
+    <value>プロジェクトを把握するため、次の点を含めてください：</value>
+  </data>
+  <data name="About_CustomDev_Dialog_Item1" xml:space="preserve">
+    <value>• ツールに実現してほしい機能</value>
+  </data>
+  <data name="About_CustomDev_Dialog_Item2" xml:space="preserve">
+    <value>• 処理対象のファイルやデータ</value>
+  </data>
+  <data name="About_CustomDev_Dialog_Item3" xml:space="preserve">
+    <value>• 期待する出力や結果</value>
+  </data>
+  <data name="About_CustomDev_Dialog_Item4" xml:space="preserve">
+    <value>• 主な動作要件や画面・操作に関する要件</value>
+  </data>
+  <data name="About_CustomDev_Dialog_Attach" xml:space="preserve">
+    <value>サンプルファイル、スクリーンショット、その他の参考資料をメールに添付することもできます。</value>
+  </data>
+  <data name="About_CustomDev_Dialog_Promise" xml:space="preserve">
+    <value>ご要件を確認のうえ、質問・提案・お見積りをご連絡します。</value>
+  </data>
+  <data name="About_CustomDev_MailSubject" xml:space="preserve">
+    <value>カスタム開発のお問い合わせ</value>
+  </data>
+  <data name="About_CustomDev_MailBody" xml:space="preserve">
+    <value>PlainBytes Studio ご担当者様
+
+カスタム開発プロジェクトに興味があります。
+
+必要な内容：
+
+処理するファイルまたはデータ：
+
+期待する出力：
+
+その他の要件：
+
+関連するサンプルファイルやスクリーンショットをこのメールに添付しています。</value>
+  </data>
+<data name="About_MoreTools" xml:space="preserve">
+    <value>その他のPlainBytesツール</value>
+  </data>
+  <data name="About_ViewAll" xml:space="preserve">
+    <value>すべてのツールを表示 →</value>
+  </data>
+    <data name="About_LicenseNotice" xml:space="preserve">
+    <value>GNU GPLv3 でライセンスされています。</value>
+  </data>
+  <data name="About_SourceCode" xml:space="preserve">
+    <value>ソースコード</value>
+  </data>
+  <data name="About_LicenseLink" xml:space="preserve">
+    <value>ライセンス</value>
+  </data>
+<data name="About_Copyright" xml:space="preserve">
+    <value>Copyright © 2026 PlainBytes Studio</value>
+  </data>
+  <data name="Dialog_FilterTemplates" xml:space="preserve">
+    <value>テンプレートファイル (*.json)|*.json</value>
+  </data>
+
+  <data name="Excel_SummarySheetName" xml:space="preserve">
+    <value>サマリー</value>
+  </data>
+  <data name="Loading_LoadingPdfs" xml:space="preserve">
+    <value>PDF を読み込み中…（{0}/{1}）</value>
+  </data>
+  <data name="Loading_GeneratingPreview" xml:space="preserve">
+    <value>プレビューを生成中…</value>
+  </data>
+  <data name="Loading_DefaultMessage" xml:space="preserve">
+    <value>PDF を読み込み中…</value>
+  </data>
+  <data name="AnchorKind_Value" xml:space="preserve">
+    <value>値フィールド</value>
+  </data>
+  <data name="AnchorKind_Table" xml:space="preserve">
+    <value>表</value>
+  </data>
+  <data name="AnchorKind_TableBadge" xml:space="preserve">
+    <value>表</value>
+  </data>
+  <data name="AnchorKind_PickerTitle" xml:space="preserve">
+    <value>アンカーの種類を選択</value>
+  </data>
+  <data name="AnchorKind_PickerMessage" xml:space="preserve">
+    <value>値アンカーは、名前付きの値を抽出するために使用します。表アンカーは選択した領域を保持し、列数を指定できます。区切り線は最初に左側に配置され、ドラッグして位置を調整できます。</value>
+  </data>
+  <data name="AnchorKind_ColumnCountLabel" xml:space="preserve">
+    <value>列数を指定してください。区切り線は最初に左側に配置されます。ドラッグしてヘッダーの列境界に合わせてください。</value>
+  </data>
+  <data name="AnchorKind_ConfirmTable" xml:space="preserve">
+    <value>表アンカーを作成</value>
+  </data>
+  <data name="Dialog_Cancel" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+<data name="Unsaved_Title" xml:space="preserve">
+    <value>未保存の変更</value>
+  </data>
+  <data name="Unsaved_Message" xml:space="preserve">
+    <value>抽出ルールが変更されています。終了前に保存しますか？</value>
+  </data>
+  <data name="Unsaved_Save" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="Unsaved_Discard" xml:space="preserve">
+    <value>保存しない</value>
+  </data>
+  <data name="Field_RulerBadge" xml:space="preserve">
+    <value>基準列</value>
+  </data>
+  <data name="ToolTip_SetRulerColumn" xml:space="preserve">
+    <value>基準列に設定（行の区切り）</value>
+  </data>
+  <data name="ToolTip_ExpandAnchor" xml:space="preserve">
+    <value>このアンカーのフィールドを展開または折りたたむ</value>
+  </data>
+  <data name="Toast_TableColumnsCreated" xml:space="preserve">
+    <value>{0}列を作成しました。左側に配置された区切り線をドラッグして、ヘッダーの列境界に合わせてください。</value>
+  </data>
+  <data name="Field_NoText" xml:space="preserve">
+    <value>（テキストなし）</value>
+  </data>
+  <data name="Extraction_ColumnNameFormat" xml:space="preserve">
+    <value>列 {0}</value>
+  </data>
+  <data name="Overlay_View" xml:space="preserve">
+    <value>表示</value>
+  </data>
+</root>

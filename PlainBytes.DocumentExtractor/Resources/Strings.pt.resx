@@ -1,0 +1,669 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Nav_Home" xml:space="preserve">
+    <value>Document Extractor</value>
+  </data>
+  <data name="Nav_Templates" xml:space="preserve">
+    <value>Modelos</value>
+  </data>
+  <data name="Home_Title" xml:space="preserve">
+    <value>Document Extractor</value>
+  </data>
+  <data name="Home_Subtitle" xml:space="preserve">
+    <value>Extraia dados estruturados de documentos PDF com layout fixo.</value>
+  </data>
+  <data name="Home_DropTitle" xml:space="preserve">
+    <value>Solte os arquivos PDF aqui</value>
+  </data>
+  <data name="Home_DropSubtitle" xml:space="preserve">
+    <value>ou clique para escolher arquivos PDF</value>
+  </data>
+  <data name="Home_ChooseFiles" xml:space="preserve">
+    <value>Escolher arquivos</value>
+  </data>
+  <data name="Home_BatchHint" xml:space="preserve">
+    <value>Você pode adicionar vários arquivos PDF para extrair dados em lote.</value>
+  </data>
+  <data name="Home_CompactDrop" xml:space="preserve">
+    <value>Solte os arquivos PDF
+aqui para adicioná-los</value>
+  </data>
+  <data name="Home_FooterTip" xml:space="preserve">
+    <value>Funciona melhor com PDFs baseados em texto que tenham layout fixo ou semelhante. PDFs digitalizados e documentos com layouts muito variáveis não são compatíveis.</value>
+  </data>
+  <data name="Panel_FilesCount" xml:space="preserve">
+    <value>ARQUIVOS ({0})</value>
+  </data>
+  <data name="Panel_Template" xml:space="preserve">
+    <value>MODELO</value>
+  </data>
+  <data name="Panel_AnchorsCount" xml:space="preserve">
+    <value>ÂNCORAS ({0})</value>
+  </data>
+  <data name="Panel_FieldsCount" xml:space="preserve">
+    <value>CAMPOS ({0})</value>
+  </data>
+  <data name="ToolTip_AddFiles" xml:space="preserve">
+    <value>Adicionar arquivos PDF</value>
+  </data>
+  <data name="ToolTip_RemoveFile" xml:space="preserve">
+    <value>Remover arquivo</value>
+  </data>
+  <data name="ToolTip_PreviousPage" xml:space="preserve">
+    <value>Página anterior</value>
+  </data>
+  <data name="ToolTip_NextPage" xml:space="preserve">
+    <value>Próxima página</value>
+  </data>
+  <data name="ToolTip_ZoomOut" xml:space="preserve">
+    <value>Diminuir zoom</value>
+  </data>
+  <data name="ToolTip_ZoomIn" xml:space="preserve">
+    <value>Aumentar zoom</value>
+  </data>
+  <data name="ToolTip_Delete" xml:space="preserve">
+    <value>Excluir</value>
+  </data>
+  <data name="ToolTip_RenameField" xml:space="preserve">
+    <value>Renomear campo</value>
+  </data>
+  <data name="ToolTip_MoreSaveOptions" xml:space="preserve">
+    <value>Mais opções de salvamento</value>
+  </data>
+  <data name="ToolTip_Dismiss" xml:space="preserve">
+    <value>Fechar</value>
+  </data>
+  <data name="ToolTip_More" xml:space="preserve">
+    <value>Mais</value>
+  </data>
+  <data name="Extraction_TemplateModified" xml:space="preserve">
+    <value>Modelo modificado</value>
+  </data>
+  <data name="Extraction_AddingAnchors" xml:space="preserve">
+    <value>Adicionar âncoras</value>
+  </data>
+  <data name="Extraction_AnchorsHint" xml:space="preserve">
+    <value>Mantenha a tecla Ctrl pressionada e arraste sobre um texto que permaneça em uma posição estável para adicionar uma âncora. Expanda uma âncora de valor e arraste para adicionar campos. Para uma âncora de tabela, expanda-a e arraste sobre toda a linha de cabeçalho. As colunas são divididas automaticamente, e você pode arrastar as linhas divisórias ou clicar duas vezes nelas para adicioná-las ou removê-las. Documentos com layout instável ou tamanhos de fonte variáveis nos cabeçalhos das tabelas não são compatíveis.</value>
+  </data>
+  <data name="Extraction_AnchorsEmpty" xml:space="preserve">
+    <value>Mantenha a tecla Ctrl pressionada e arraste para adicionar uma âncora. Depois, expanda a âncora e arraste para adicionar campos.</value>
+  </data>
+  <data name="Extraction_AddingFields" xml:space="preserve">
+    <value>Adicionar campos</value>
+  </data>
+  <data name="Extraction_FieldsHint" xml:space="preserve">
+    <value>Expanda uma âncora e arraste sobre o conteúdo que deseja extrair. Os novos campos serão associados à âncora expandida.</value>
+  </data>
+  <data name="Extraction_FieldsEmpty" xml:space="preserve">
+    <value>Expanda uma âncora e arraste para adicionar campos.</value>
+  </data>
+  <data name="Extraction_SaveAsTemplate" xml:space="preserve">
+    <value>Salvar como modelo</value>
+  </data>
+  <data name="Extraction_SaveChanges" xml:space="preserve">
+    <value>Salvar alterações</value>
+  </data>
+  <data name="Extraction_SaveAsNewTemplate" xml:space="preserve">
+    <value>Salvar como novo modelo</value>
+  </data>
+  <data name="Extraction_TemplateName" xml:space="preserve">
+    <value>Nome do modelo</value>
+  </data>
+  <data name="Extraction_NameConflict" xml:space="preserve">
+    <value>Já existe um modelo com este nome.</value>
+  </data>
+  <data name="Extraction_Save" xml:space="preserve">
+    <value>Salvar</value>
+  </data>
+  <data name="Extraction_Extract" xml:space="preserve">
+    <value>Extrair</value>
+  </data>
+  <data name="Extraction_CustomConfiguration" xml:space="preserve">
+    <value>Configuração personalizada</value>
+  </data>
+  <data name="Extraction_UntitledTemplate" xml:space="preserve">
+    <value>Modelo sem título</value>
+  </data>
+  <data name="Extraction_FieldNameFormat" xml:space="preserve">
+    <value>Campo {0}</value>
+  </data>
+  <data name="Dialog_ChoosePdfs" xml:space="preserve">
+    <value>Escolher arquivos PDF</value>
+  </data>
+  <data name="Dialog_FilterPdf" xml:space="preserve">
+    <value>Arquivos PDF</value>
+  </data>
+  <data name="Dialog_AllFiles" xml:space="preserve">
+    <value>Todos os arquivos</value>
+  </data>
+  <data name="Dialog_ExportResults" xml:space="preserve">
+    <value>Exportar resultados da extração</value>
+  </data>
+  <data name="Dialog_FilterExcel" xml:space="preserve">
+    <value>Pasta de trabalho do Excel (*.xlsx)|*.xlsx</value>
+  </data>
+  <data name="Toast_ScannedNotSupported" xml:space="preserve">
+    <value>PDFs digitalizados não são compatíveis no momento.</value>
+  </data>
+  <data name="Toast_NoSelectableTextOne" xml:space="preserve">
+    <value>Nenhum texto selecionável foi encontrado em "{0}". {1}</value>
+  </data>
+  <data name="Toast_NoSelectableTextMany" xml:space="preserve">
+    <value>Nenhum texto selecionável foi encontrado em {0} PDFs:
+{1}
+{2}</value>
+  </data>
+  <data name="Toast_NoTextInArea" xml:space="preserve">
+    <value>Nenhum texto foi encontrado nesta área. Ajuste a seleção e tente novamente.</value>
+  </data>
+  <data name="Toast_NeedField" xml:space="preserve">
+    <value>Adicione pelo menos um campo antes de extrair.</value>
+  </data>
+  <data name="Toast_NeedRulerColumn" xml:space="preserve">
+    <value>Defina uma coluna-guia em cada tabela antes de extrair. Clique na estrela de uma coluna para marcá-la.</value>
+  </data>
+  <data name="Toast_NeedAnchorBeforeField" xml:space="preserve">
+    <value>Adicione primeiro uma âncora, expanda-a e depois arraste para criar campos sob essa âncora.</value>
+  </data>
+  <data name="Toast_AmbiguityTip" xml:space="preserve">
+    <value>Esta seleção pode ser ambígua. Escolha um texto mais específico ou adicione outra âncora para melhorar a confiabilidade do posicionamento.</value>
+  </data>
+  <data name="Toast_AmbiguityOne" xml:space="preserve">
+    <value>Foram encontradas {0} correspondências neste exemplo para "{1}".
+{2}</value>
+  </data>
+  <data name="Toast_AmbiguityMany" xml:space="preserve">
+    <value>{0} âncoras têm várias correspondências neste exemplo:
+{1}
+{2}</value>
+  </data>
+  <data name="Toast_AmbiguityBullet" xml:space="preserve">
+    <value>• "{0}": {1} correspondências</value>
+  </data>
+  <data name="Toast_MissingAnchorOne" xml:space="preserve">
+    <value>A página {0} tem campos, mas não tem nenhuma âncora. Adicione uma se a posição do conteúdo puder variar entre os documentos.</value>
+  </data>
+  <data name="Toast_MissingAnchors" xml:space="preserve">
+    <value>As páginas {0} têm campos, mas não têm âncoras. Adicione âncoras se a posição do conteúdo puder variar entre os documentos.</value>
+  </data>
+  <data name="Templates_Title" xml:space="preserve">
+    <value>Modelos</value>
+  </data>
+  <data name="Templates_Subtitle" xml:space="preserve">
+    <value>Gerencie seus modelos de extração salvos.</value>
+  </data>
+  <data name="Templates_Import" xml:space="preserve">
+    <value>Importar</value>
+  </data>
+  <data name="Templates_Export" xml:space="preserve">
+    <value>Exportar</value>
+  </data>
+  <data name="Templates_Delete" xml:space="preserve">
+    <value>Excluir</value>
+  </data>
+  <data name="Templates_Search" xml:space="preserve">
+    <value>Pesquisar modelos</value>
+  </data>
+  <data name="Templates_ColName" xml:space="preserve">
+    <value>Nome do modelo</value>
+  </data>
+  <data name="Templates_ColFields" xml:space="preserve">
+    <value>Campos</value>
+  </data>
+  <data name="Templates_ColAnchors" xml:space="preserve">
+    <value>Âncoras</value>
+  </data>
+  <data name="Templates_ColModified" xml:space="preserve">
+    <value>Última modificação</value>
+  </data>
+  <data name="Templates_ColActions" xml:space="preserve">
+    <value>Ações</value>
+  </data>
+  <data name="Templates_EmptyTitle" xml:space="preserve">
+    <value>Ainda não há modelos</value>
+  </data>
+  <data name="Templates_EmptyDetail" xml:space="preserve">
+    <value>Salve um modelo na tela de extração ou importe um arquivo de modelo.</value>
+  </data>
+  <data name="Templates_NoMatchTitle" xml:space="preserve">
+    <value>Nenhum modelo corresponde à sua pesquisa</value>
+  </data>
+  <data name="Templates_NoMatchDetail" xml:space="preserve">
+    <value>Tente outro nome ou limpe a caixa de pesquisa.</value>
+  </data>
+  <data name="Templates_Footer" xml:space="preserve">
+    <value>Os modelos são armazenados localmente no seu dispositivo e não são enviados nem compartilhados.</value>
+  </data>
+    <data name="Templates_HelpPrompt" xml:space="preserve">
+    <value>Precisa de ajuda para configurar um modelo?</value>
+  </data>
+  <data name="Templates_GetSetupHelp" xml:space="preserve">
+    <value>Ajuda para configurar um modelo →</value>
+  </data>
+  <data name="Templates_SetupHelp_Title" xml:space="preserve">
+    <value>Ajuda para configurar um modelo</value>
+  </data>
+  <data name="Templates_SetupHelp_Lead" xml:space="preserve">
+    <value>Precisa de ajuda para criar um modelo de extração?</value>
+  </data>
+  <data name="Templates_SetupHelp_EmailUs" xml:space="preserve">
+    <value>Envie-nos por e-mail:</value>
+  </data>
+  <data name="Templates_SetupHelp_Item1" xml:space="preserve">
+    <value>① Um documento PDF de exemplo</value>
+  </data>
+  <data name="Templates_SetupHelp_Item2" xml:space="preserve">
+    <value>② Uma lista dos campos que deseja extrair</value>
+  </data>
+  <data name="Templates_SetupHelp_Promise" xml:space="preserve">
+    <value>Configuraremos o modelo de extração sem custo e enviaremos o modelo concluído por e-mail.</value>
+  </data>
+  <data name="Templates_SetupHelp_Privacy" xml:space="preserve">
+    <value>O Document Extractor não faz upload dos seus documentos. Um PDF de exemplo só será enviado se você optar por enviá-lo pelo seu aplicativo de e-mail.</value>
+  </data>
+  <data name="Templates_SetupHelp_Contact" xml:space="preserve">
+    <value>Entrar em contato por e-mail</value>
+  </data>
+  <data name="Templates_SetupHelp_MailSubject" xml:space="preserve">
+    <value>Document Extractor - Ajuda para configurar um modelo</value>
+  </data>
+  <data name="Templates_SetupHelp_MailBody" xml:space="preserve">
+    <value>Olá, equipe da PlainBytes Studio,
+
+Gostaria de ajuda para configurar um modelo de extração.
+
+Campos que gostaria de extrair:
+1.
+2.
+3.
+
+Anexarei um PDF de exemplo a este e-mail.</value>
+  </data>
+<data name="Templates_Rename" xml:space="preserve">
+    <value>Renomear</value>
+  </data>
+  <data name="Templates_ImportDialog" xml:space="preserve">
+    <value>Importar modelos</value>
+  </data>
+  <data name="Templates_ExportDialogOne" xml:space="preserve">
+    <value>Exportar modelo</value>
+  </data>
+  <data name="Templates_ExportDialogMany" xml:space="preserve">
+    <value>Exportar modelos</value>
+  </data>
+  <data name="Templates_ImportedOne" xml:space="preserve">
+    <value>1 modelo importado.</value>
+  </data>
+  <data name="Templates_ImportedMany" xml:space="preserve">
+    <value>{0} modelos importados.</value>
+  </data>
+  <data name="Templates_ImportedPartial" xml:space="preserve">
+    <value>{0} modelos importados; não foi possível importar {1} arquivos.</value>
+  </data>
+  <data name="Templates_ImportFailed" xml:space="preserve">
+    <value>Falha na importação. Os arquivos selecionados não contêm dados JSON de modelo válidos.</value>
+  </data>
+  <data name="Templates_ExportMissing" xml:space="preserve">
+    <value>Não foi possível exportar: um ou mais arquivos de modelo estão ausentes.</value>
+  </data>
+  <data name="Templates_ExportedOne" xml:space="preserve">
+    <value>"{0}" exportado.</value>
+  </data>
+  <data name="Templates_ExportedMany" xml:space="preserve">
+    <value>{0} modelos exportados para um único arquivo.</value>
+  </data>
+  <data name="Templates_DeleteConfirmOne" xml:space="preserve">
+    <value>Excluir o modelo "{0}"? Esta ação não pode ser desfeita.</value>
+  </data>
+  <data name="Templates_DeleteConfirmTitleOne" xml:space="preserve">
+    <value>Excluir modelo</value>
+  </data>
+  <data name="Templates_DeleteConfirmMany" xml:space="preserve">
+    <value>Excluir os {0} modelos selecionados? Esta ação não pode ser desfeita.</value>
+  </data>
+  <data name="Templates_DeleteConfirmTitleMany" xml:space="preserve">
+    <value>Excluir modelos</value>
+  </data>
+  <data name="Templates_NameEmpty" xml:space="preserve">
+    <value>O nome do modelo não pode ficar vazio.</value>
+  </data>
+  <data name="Templates_NameConflict" xml:space="preserve">
+    <value>Já existe um modelo com este nome.</value>
+  </data>
+  <data name="Templates_RenameMissing" xml:space="preserve">
+    <value>Não foi possível renomear: o arquivo de modelo está ausente.</value>
+  </data>
+  <data name="Overlay_Working" xml:space="preserve">
+    <value>Extraindo dados...</value>
+  </data>
+  <data name="Overlay_Complete" xml:space="preserve">
+    <value>Extração concluída</value>
+  </data>
+  <data name="Overlay_Failed" xml:space="preserve">
+    <value>Falha na extração</value>
+  </data>
+  <data name="Overlay_Cancel" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="Overlay_Done" xml:space="preserve">
+    <value>Concluído</value>
+  </data>
+  <data name="Overlay_ViewDetails" xml:space="preserve">
+    <value>Ver detalhes</value>
+  </data>
+  <data name="Overlay_FileName" xml:space="preserve">
+    <value>Nome do arquivo</value>
+  </data>
+  <data name="Overlay_FailReason" xml:space="preserve">
+    <value>Motivo da falha</value>
+  </data>
+  <data name="Overlay_SuccessCount" xml:space="preserve">
+    <value>Dados extraídos com sucesso de {0} arquivos.</value>
+  </data>
+  <data name="Overlay_FailCount" xml:space="preserve">
+    <value>Não foi possível extrair dados de {0} arquivos.</value>
+  </data>
+  <data name="FailReason_Generic" xml:space="preserve">
+    <value>Falha na extração</value>
+  </data>
+  <data name="FailReason_InUse" xml:space="preserve">
+    <value>O arquivo está sendo usado por outro processo.</value>
+  </data>
+  <data name="FailReason_NotFound" xml:space="preserve">
+    <value>O arquivo não foi encontrado.</value>
+  </data>
+  <data name="FailReason_AccessDenied" xml:space="preserve">
+    <value>Acesso negado.</value>
+  </data>
+  <data name="About_Title" xml:space="preserve">
+    <value>Sobre o PlainBytes DocumentExtractor</value>
+  </data>
+  <data name="About_Subtitle" xml:space="preserve">
+    <value>Extraia dados estruturados de documentos PDF com layout fixo.</value>
+  </data>
+  <data name="About_ProductName" xml:space="preserve">
+    <value>PlainBytes DocumentExtractor</value>
+  </data>
+  <data name="About_ProductTagline" xml:space="preserve">
+    <value>Ferramenta de extração de campos de PDF</value>
+  </data>
+  <data name="About_VersionFormat" xml:space="preserve">
+    <value>Versão {0}</value>
+  </data>
+  <data name="About_SectionTitle" xml:space="preserve">
+    <value>Sobre o produto</value>
+  </data>
+  <data name="About_Body" xml:space="preserve">
+    <value>PlainBytes DocumentExtractor é um utilitário leve para Windows que permite extrair dados estruturados de documentos PDF com layout fixo e exportar os resultados para o Excel.
+Não é necessária nenhuma configuração complexa. Defina os campos de que precisa e extraia dados de vários arquivos PDF com ações simples.</value>
+  </data>
+
+  <data name="About_CustomDev_Title" xml:space="preserve">
+    <value>Desenvolvimento personalizado</value>
+  </data>
+  <data name="About_CustomDev_Intro" xml:space="preserve">
+    <value>Precisa de uma ferramenta para processar documentos ou dados que se adapte ao seu fluxo de trabalho? Também oferecemos desenvolvimento sob medida para processamento de PDFs e outros documentos, extração de dados, processamento de planilhas e arquivos CSV, conversão de formatos, processamento em lote e automação de tarefas relacionadas.</value>
+  </data>
+  <data name="About_CustomDev_Simple" xml:space="preserve">
+    <value>Ferramentas simples e especializadas em tarefas específicas, como extração de dados, conversão de formatos ou processamento em lote, geralmente podem ser desenvolvidas e entregues em pouco tempo.</value>
+  </data>
+  <data name="About_CustomDev_Custom" xml:space="preserve">
+    <value>Também desenvolvemos aplicativos sob medida, incluindo ferramentas com várias funcionalidades, interfaces de usuário próprias ou integração com seus fluxos de trabalho existentes.</value>
+  </data>
+  <data name="About_CustomDev_Pricing" xml:space="preserve">
+    <value>O custo de desenvolvimento depende do escopo e da complexidade do projeto. Conte-nos o que você precisa e prepararemos um orçamento.</value>
+  </data>
+  <data name="About_CustomDev_Contact" xml:space="preserve">
+    <value>Fale conosco →</value>
+  </data>
+  <data name="About_CustomDev_Dialog_Lead" xml:space="preserve">
+    <value>Conte-nos sobre a ferramenta ou o fluxo de trabalho de que precisa.</value>
+  </data>
+  <data name="About_CustomDev_Dialog_Include" xml:space="preserve">
+    <value>Para nos ajudar a entender o projeto, inclua:</value>
+  </data>
+  <data name="About_CustomDev_Dialog_Item1" xml:space="preserve">
+    <value>• O que você quer que a ferramenta faça</value>
+  </data>
+  <data name="About_CustomDev_Dialog_Item2" xml:space="preserve">
+    <value>• Os arquivos ou dados a processar</value>
+  </data>
+  <data name="About_CustomDev_Dialog_Item3" xml:space="preserve">
+    <value>• A saída ou o resultado esperado</value>
+  </data>
+  <data name="About_CustomDev_Dialog_Item4" xml:space="preserve">
+    <value>• Requisitos importantes do fluxo de trabalho ou da interface do usuário</value>
+  </data>
+  <data name="About_CustomDev_Dialog_Attach" xml:space="preserve">
+    <value>Você também pode anexar arquivos de exemplo, capturas de tela ou outros materiais de referência ao e-mail.</value>
+  </data>
+  <data name="About_CustomDev_Dialog_Promise" xml:space="preserve">
+    <value>Analisaremos seus requisitos e entraremos em contato com eventuais perguntas, sugestões e um orçamento.</value>
+  </data>
+  <data name="About_CustomDev_MailSubject" xml:space="preserve">
+    <value>Consulta de desenvolvimento personalizado</value>
+  </data>
+  <data name="About_CustomDev_MailBody" xml:space="preserve">
+    <value>Olá, equipe da PlainBytes Studio,
+
+Tenho interesse em um projeto de desenvolvimento personalizado.
+
+O que eu preciso:
+
+Arquivos ou dados a processar:
+
+Saída esperada:
+
+Outros requisitos:
+
+Anexei a este e-mail arquivos de exemplo ou capturas relevantes.</value>
+  </data>
+<data name="About_MoreTools" xml:space="preserve">
+    <value>Mais ferramentas PlainBytes</value>
+  </data>
+  <data name="About_ViewAll" xml:space="preserve">
+    <value>Ver todas as ferramentas →</value>
+  </data>
+    <data name="About_LicenseNotice" xml:space="preserve">
+    <value>Licenciado sob GNU GPLv3.</value>
+  </data>
+  <data name="About_SourceCode" xml:space="preserve">
+    <value>Código-fonte</value>
+  </data>
+  <data name="About_LicenseLink" xml:space="preserve">
+    <value>Licença</value>
+  </data>
+<data name="About_Copyright" xml:space="preserve">
+    <value>Copyright © 2026 PlainBytes Studio</value>
+  </data>
+  <data name="Dialog_FilterTemplates" xml:space="preserve">
+    <value>Arquivos de modelo (*.json)|*.json</value>
+  </data>
+
+  <data name="Excel_SummarySheetName" xml:space="preserve">
+    <value>Resumo</value>
+  </data>
+  <data name="Loading_LoadingPdfs" xml:space="preserve">
+    <value>Carregando PDFs… ({0}/{1})</value>
+  </data>
+  <data name="Loading_GeneratingPreview" xml:space="preserve">
+    <value>Gerando pré-visualização…</value>
+  </data>
+  <data name="Loading_DefaultMessage" xml:space="preserve">
+    <value>Carregando PDFs…</value>
+  </data>
+  <data name="AnchorKind_Value" xml:space="preserve">
+    <value>Campos de valor</value>
+  </data>
+  <data name="AnchorKind_Table" xml:space="preserve">
+    <value>Tabela</value>
+  </data>
+  <data name="AnchorKind_TableBadge" xml:space="preserve">
+    <value>Tabela</value>
+  </data>
+  <data name="AnchorKind_PickerTitle" xml:space="preserve">
+    <value>Escolher tipo de âncora</value>
+  </data>
+  <data name="AnchorKind_PickerMessage" xml:space="preserve">
+    <value>As âncoras de valor são usadas para extrair valores identificados por nome. Uma âncora de tabela mantém a área selecionada e permite definir o número de colunas. As linhas divisórias são posicionadas inicialmente à esquerda e podem ser arrastadas para ajustar sua posição.</value>
+  </data>
+  <data name="AnchorKind_ColumnCountLabel" xml:space="preserve">
+    <value>Quantas colunas? As linhas divisórias são posicionadas inicialmente à esquerda. Arraste-as até os limites das colunas no cabeçalho.</value>
+  </data>
+  <data name="AnchorKind_ConfirmTable" xml:space="preserve">
+    <value>Criar âncora de tabela</value>
+  </data>
+  <data name="Dialog_Cancel" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+<data name="Unsaved_Title" xml:space="preserve">
+    <value>Alterações não salvas</value>
+  </data>
+  <data name="Unsaved_Message" xml:space="preserve">
+    <value>As regras de extração foram modificadas. Deseja salvar antes de sair?</value>
+  </data>
+  <data name="Unsaved_Save" xml:space="preserve">
+    <value>Salvar</value>
+  </data>
+  <data name="Unsaved_Discard" xml:space="preserve">
+    <value>Não salvar</value>
+  </data>
+  <data name="Field_RulerBadge" xml:space="preserve">
+    <value>Guia</value>
+  </data>
+  <data name="ToolTip_SetRulerColumn" xml:space="preserve">
+    <value>Definir como coluna-guia (limites das linhas)</value>
+  </data>
+  <data name="ToolTip_ExpandAnchor" xml:space="preserve">
+    <value>Expandir ou fechar os campos desta âncora</value>
+  </data>
+  <data name="Toast_TableColumnsCreated" xml:space="preserve">
+    <value>{0} colunas criadas. Arraste as linhas divisórias posicionadas à esquerda até os limites das colunas no cabeçalho.</value>
+  </data>
+  <data name="Field_NoText" xml:space="preserve">
+    <value>(sem texto)</value>
+  </data>
+  <data name="Extraction_ColumnNameFormat" xml:space="preserve">
+    <value>Coluna {0}</value>
+  </data>
+  <data name="Overlay_View" xml:space="preserve">
+    <value>Ver</value>
+  </data>
+</root>

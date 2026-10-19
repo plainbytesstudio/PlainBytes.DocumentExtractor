@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Page.Title" xml:space="preserve"><value>도움말 센터</value></data>
+  <data name="Page.Subtitle" xml:space="preserve"><value>고정된 레이아웃의 PDF 문서에서 이름이 지정된 값과 표를 비롯한 구조화 데이터를 추출하는 방법을 알아보세요.</value></data>
+  <data name="Nav.Catalog" xml:space="preserve"><value>목차</value></data>
+  <data name="Section.QuickStart.Title" xml:space="preserve"><value>빠른 시작</value></data>
+  <data name="Section.Overview.Title" xml:space="preserve"><value>기능 개요</value></data>
+  <data name="Section.Documents.Title" xml:space="preserve"><value>지원 문서</value></data>
+  <data name="Section.Extraction.Title" xml:space="preserve"><value>추출 가이드</value></data>
+  <data name="Section.Templates.Title" xml:space="preserve"><value>템플릿</value></data>
+  <data name="Section.Faq.Title" xml:space="preserve"><value>자주 묻는 질문</value></data>
+  <data name="Section.CustomDev.Title" xml:space="preserve"><value>업무에 더 꼭 맞는 도구가 필요하신가요?</value></data>
+  <data name="Section.Privacy.Title" xml:space="preserve"><value>보안 및 개인정보 보호</value></data>
+  <data name="Section.Tips.Title" xml:space="preserve"><value>팁</value></data>
+  <data name="Section.Changelog.Title" xml:space="preserve"><value>릴리스 정보</value></data>
+  <data name="QuickStart.Description" xml:space="preserve"><value>PlainBytes DocumentExtractor는 정산서, 영수증, 양식, 청구서, 주문서처럼 레이아웃이 고정되어 있거나 서로 비슷한 텍스트 기반 PDF에서 구조화 데이터를 추출하는 간단한 Windows용 도구입니다. 이름이 지정된 필드의 값과 표 데이터를 추출할 수 있으며, 파일은 사용자의 장치에서 로컬로 처리되고 결과는 Excel 통합 문서(.xlsx)로 저장됩니다.</value></data>
+  <data name="QuickStart.Tip.Title" xml:space="preserve"><value>기본 작업 순서</value></data>
+  <data name="QuickStart.Tip.Body" xml:space="preserve"><value>PDF 추가 → 앵커(값/표)와 필드 추가 → 추출 → Excel로 저장</value></data>
+  <data name="QuickStart.Step1.Title" xml:space="preserve"><value>PDF 파일 추가</value></data>
+  <data name="QuickStart.Step1.Body" xml:space="preserve"><value>앱을 연 뒤 처리할 PDF 파일을 메인 창으로 끌어다 놓습니다. 파일이 없는 초기 화면에서는 「파일 선택」을 클릭해도 되고, 파일을 추가한 뒤에는 왼쪽 「파일」 패널 머리글의 추가 버튼을 사용할 수도 있습니다. 여러 PDF를 한 번에 추가할 수 있으며, 현재 작업에 있는 모든 파일에는 같은 추출 규칙이 적용됩니다. 추가한 파일은 왼쪽 파일 목록에 표시됩니다. 가운데 영역은 PDF 미리보기이고, 오른쪽 추출 패널에서 규칙을 설정합니다. 고정되었거나 서로 비슷한 레이아웃의 텍스트 기반 PDF에서 가장 잘 작동합니다. 스캔 PDF와 레이아웃 차이가 큰 문서는 지원하지 않습니다.</value></data>
+  <data name="QuickStart.Step2.Title" xml:space="preserve"><value>추출 규칙 구성</value></data>
+  <data name="QuickStart.Step2.Body" xml:space="preserve"><value>파일을 추가한 뒤 파일 목록에서 샘플 PDF를 선택합니다. 이 문서를 미리보기에서 보면서 데이터를 어디에서 어떻게 추출할지 정의합니다. 「사용자 지정」 모드로 직접 설정하거나 「템플릿」 목록에서 저장된 템플릿을 선택할 수 있습니다. 모든 추출 규칙은 앵커에 속합니다. 앵커는 금액이나 ID 같은 이름이 지정된 필드에 쓰는 값 앵커와, 머리글을 기준으로 표를 추출하는 표 앵커로 나뉩니다. 필드는 항상 펼쳐진 앵커 아래에 만듭니다. 같은 규칙이 현재 작업의 모든 PDF에 적용됩니다.</value></data>
+  <data name="QuickStart.Step3.Title" xml:space="preserve"><value>앵커와 필드 설정</value></data>
+  <data name="QuickStart.Step3.Body" xml:space="preserve"><value>미리보기에서 Ctrl 키를 누른 채 위치나 내용이 일정한 텍스트를 드래그해 앵커를 만듭니다. 표 앵커를 만들 때는 머리글 행 전체를 선택합니다. 그런 다음 「값 필드」 또는 「표」를 선택하고, 표를 선택한 경우 열 수를 입력합니다. 처음에 왼쪽에 모여 있는 구분선을 드래그해 각 열의 경계에 맞춥니다. 구분선을 두 번 클릭하면 삭제할 수 있고, 머리글 영역의 빈 공간을 두 번 클릭하면 추가할 수 있습니다. 표 앵커에서는 데이터 행을 올바르게 식별할 수 있도록 별표 아이콘을 클릭해 기준 열을 설정합니다. 「앵커」 목록에서 앵커를 펼칩니다. 값 앵커에서는 각 값 영역을 드래그해 이름이 지정된 필드를 추가합니다. 문서마다 내용이 바뀌지 않는 텍스트를 앵커로 사용하세요.</value></data>
+  <data name="QuickStart.Step4.Title" xml:space="preserve"><value>추출 시작</value></data>
+  <data name="QuickStart.Step4.Body" xml:space="preserve"><value>필드가 준비되고 각 표에 기준 열이 지정되면 추출 패널 하단의 「추출」을 클릭합니다. Excel 통합 문서(.xlsx)를 저장할 위치를 선택하면, 앱이 현재 규칙으로 목록의 모든 PDF를 처리합니다. 처리 중에는 하단 진행 패널에 진행 상황이 표시되고 관련 컨트롤은 잠시 비활성화됩니다. 진행 중인 작업은 진행 패널에서 취소할 수 있습니다. 처리가 끝나면 결과 요약이 표시됩니다. 실패한 파일이 있으면 「세부 정보 보기」에서 원인을 확인할 수 있습니다. 가능한 경우 진행 패널에서 Excel 파일을 바로 열 수도 있습니다.</value></data>
+  <data name="QuickStart.Step5.Title" xml:space="preserve"><value>규칙을 템플릿으로 저장</value></data>
+  <data name="QuickStart.Step5.Body" xml:space="preserve"><value>현재 앵커와 필드를 나중에 다시 사용하려면 「템플릿으로 저장」을 클릭하고 템플릿 이름을 입력합니다. 템플릿에는 값 앵커, 표 앵커, 열 레이아웃, 기준 열, 필드 영역이 저장됩니다. 기존 템플릿을 불러온 뒤 수정하면 추출 패널에 「템플릿이 수정됨」이 표시됩니다. 「변경 내용 저장」으로 현재 템플릿을 업데이트하거나, 저장 버튼 옆 메뉴에서 「새 템플릿으로 저장」을 선택할 수 있습니다. 템플릿은 왼쪽 탐색의 「템플릿」 페이지에서 관리합니다.</value></data>
+  <data name="Overview.Description" xml:space="preserve"><value>DocumentExtractor는 다음과 같은 주요 기능을 제공합니다.</value></data>
+  <data name="Overview.Card1.Title" xml:space="preserve"><value>PDF 일괄 추출</value></data>
+  <data name="Overview.Card1.Body" xml:space="preserve"><value>여러 PDF 파일을 추가하고 하나의 공통 규칙 세트로 데이터를 추출합니다. 목록에서 원하는 파일을 선택해 미리볼 수 있습니다. 미리보기 파일을 바꾸더라도 일괄 작업의 추출 규칙은 바뀌지 않습니다.</value></data>
+  <data name="Overview.Card2.Title" xml:space="preserve"><value>값 앵커와 표 앵커</value></data>
+  <data name="Overview.Card2.Body" xml:space="preserve"><value>위치가 안정적인 텍스트를 앵커로 지정해 비슷한 문서에서 같은 영역을 찾습니다. 이름이 지정된 필드에는 값 앵커를, 여러 열로 된 표를 추출할 때는 머리글 행을 기준으로 하는 표 앵커를 사용합니다.</value></data>
+  <data name="Overview.Card3.Title" xml:space="preserve"><value>이름이 지정된 필드와 표 열</value></data>
+  <data name="Overview.Card3.Body" xml:space="preserve"><value>값 앵커 아래에서 영역을 그린 뒤 각 필드에 이름을 지정합니다. 표 앵커 아래에서는 머리글을 열로 나누고 구분선을 조정한 다음, 행을 감지할 기준 열을 설정합니다.</value></data>
+  <data name="Overview.Card4.Title" xml:space="preserve"><value>템플릿 라이브러리</value></data>
+  <data name="Overview.Card4.Body" xml:space="preserve"><value>표 레이아웃을 포함한 현재 설정을 재사용 가능한 템플릿으로 저장합니다. 「템플릿」 페이지에서 템플릿을 검색하고, 이름을 바꾸고, 삭제하고, 가져오거나 내보낼 수 있습니다.</value></data>
+  <data name="Overview.Card5.Title" xml:space="preserve"><value>Excel 내보내기</value></data>
+  <data name="Overview.Card5.Body" xml:space="preserve"><value>결과는 하나의 .xlsx 통합 문서로 저장됩니다. 표가 아닌 필드는 「요약」시트에 PDF당 한 행으로 기록되고, 각 표 앵커의 행 데이터는 별도의 세부 시트에 기록됩니다.</value></data>
+  <data name="Overview.Card6.Title" xml:space="preserve"><value>진행 상황과 결과</value></data>
+  <data name="Overview.Card6.Body" xml:space="preserve"><value>하단 진행 패널에 현재 처리 중인 파일과 전체 진행률이 표시됩니다. 완료 후에는 성공한 파일과 실패한 파일 수가 표시되며, 실패 항목은 세부 목록에서 확인할 수 있습니다.</value></data>
+  <data name="Documents.Description" xml:space="preserve"><value>DocumentExtractor는 레이아웃이 안정적이거나 거의 일정한 텍스트 기반 PDF에 맞게 설계되었습니다. 이름 있는 값이 들어 있는 양식이나 머리글이 일정한 표가 포함된 문서에 적합합니다.</value></data>
+  <data name="Documents.Supported.Heading" xml:space="preserve"><value>지원</value></data>
+  <data name="Documents.Supported.Description" xml:space="preserve"><value>정산서, 영수증, 증명서, 신고서, 청구서, 주문서처럼 고정 레이아웃을 가진 비즈니스 문서에 사용할 수 있습니다. 파일마다 머리글 텍스트와 열 구조가 일정한 표도 지원합니다. 같은 템플릿 규칙을 공유하는 문서는 일괄 처리할 수 있습니다.</value></data>
+  <data name="Documents.Unsupported.Heading" xml:space="preserve"><value>지원하지 않음(현재 버전)</value></data>
+  <data name="Documents.Unsupported.Description" xml:space="preserve"><value>선택 가능한 텍스트 레이어가 없는 스캔 PDF, 파일마다 레이아웃이 크게 달라지는 문서, 머리글이 일정하지 않거나 머리글 글꼴 크기가 바뀌는 표, 이미지만 있는 페이지에 대한 OCR, 레이아웃이 매우 가변적이거나 자유 형식인 문서는 지원하지 않습니다.</value></data>
+  <data name="Documents.Tip.Title" xml:space="preserve"><value>팁</value></data>
+  <data name="Documents.Tip.Body" xml:space="preserve"><value>선택 가능한 텍스트가 거의 없거나 전혀 없는 문서는 값이 비어 나오거나 앵커를 찾지 못할 수 있습니다. 표를 추출할 때는 머리글 행을 명확히 선택할 수 있고 열 위치가 일정한 문서를 사용하는 것이 좋습니다.</value></data>
+  <data name="Extraction.Description" xml:space="preserve"><value>추출 설정은 메인 창 오른쪽 패널에서 관리합니다. 필드는 항상 앵커에 속하므로, 필드를 그리기 전에 먼저 앵커를 만들고 펼쳐야 합니다.</value></data>
+  <data name="Extraction.Template.Heading" xml:space="preserve"><value>템플릿</value></data>
+  <data name="Extraction.Template.Description" xml:space="preserve"><value>「템플릿」 목록에서 「사용자 지정」(현재 샘플에서 앵커와 필드 정의) 또는 저장된 템플릿(앵커, 필드, 표 열, 영역 불러오기)을 선택합니다. 템플릿을 불러온 뒤에도 샘플 PDF에서 영역을 조정할 수 있습니다. 저장하지 않은 변경 사항은 「템플릿이 수정됨」으로 표시됩니다.</value></data>
+  <data name="Extraction.Anchors.Heading" xml:space="preserve"><value>앵커</value></data>
+  <data name="Extraction.Anchors.Description" xml:space="preserve"><value>앵커는 「앵커」 목록에 표시됩니다. 미리보기에서 Ctrl 키를 누른 채 위치나 내용이 일정한 텍스트를 드래그해 선택합니다. 유효한 텍스트가 감지되면 DocumentExtractor가 앵커 유형을 묻습니다. 「값 필드」 또는 「표」를 선택하세요. 선택한 텍스트는 비슷한 문서에서 추출 위치를 찾는 기준으로 사용됩니다. 값 앵커의 선택 영역은 감지된 텍스트에 맞게 조정되고, 표 앵커의 선택 영역은 사용자가 지정한 크기로 유지됩니다. 앵커를 클릭하면 미리보기가 해당 위치로 이동합니다. 필드를 추가하기 전에 앵커를 펼쳐야 합니다. 필요 없는 앵커는 목록에서 삭제할 수 있습니다. 앵커를 사용하면 문서마다 레이아웃이 조금씩 달라도 추출 위치를 더 정확하게 찾을 수 있습니다.</value></data>
+  <data name="Extraction.ValueAnchors.Heading" xml:space="preserve"><value>값 앵커</value></data>
+  <data name="Extraction.ValueAnchors.Description" xml:space="preserve"><value>문서 번호, 날짜, 금액처럼 이름 있는 값을 추출할 때 값 앵커를 사용합니다. 앵커를 만들고 펼친 뒤 각 값 영역을 드래그해 필드를 추가합니다. 알아보기 쉬운 필드 이름(기본값은 「필드 N」)을 입력하고, 이름 아래에 표시되는 샘플 텍스트를 확인합니다. 필드 행을 클릭하면 미리보기가 해당 위치로 이동합니다. 연필 아이콘으로 이름을 바꿀 수 있고, 필요 없는 필드는 삭제할 수 있습니다. 값 필드를 선택한 상태에서는 선택 영역의 크기 조절 핸들을 드래그해 영역 크기를 조정할 수 있으며, 마우스를 놓으면 샘플 값이 갱신됩니다. 값 필드 이름은 Excel의 「요약」시트에서 열 이름으로 사용됩니다.</value></data>
+  <data name="Extraction.TableAnchors.Heading" xml:space="preserve"><value>표 앵커</value></data>
+  <data name="Extraction.TableAnchors.Description" xml:space="preserve"><value>여러 열로 구성된 표를 추출하려면 Ctrl 키를 누른 채 머리글 행 전체를 드래그해 선택합니다. 그런 다음 「표」를 선택하고 열 수를 입력합니다. DocumentExtractor는 선택한 영역을 유지하며, 처음에는 열 구분선을 왼쪽에 모아서 배치합니다. 구분선을 드래그해 머리글의 각 열 경계에 맞춥니다. 구분선을 두 번 클릭하면 삭제할 수 있고, 머리글 영역의 빈 공간을 두 번 클릭하면 새 구분선을 추가할 수 있습니다. 머리글 영역을 다시 설정하려면 앵커를 펼친 뒤 머리글 행 전체를 다시 드래그해 선택합니다. 열의 별표 아이콘을 클릭해 기준 열을 설정하세요. 추출을 시작하려면 기준 열을 반드시 설정해야 합니다. 값 필드와 달리 표의 열은 개별적으로 삭제할 수 없으므로 구분선을 사용해 열 구성을 조정합니다. 각 표는 앵커 이름을 기반으로 이름이 지정된 별도의 Excel 시트에 저장됩니다(시트 이름은 최대 31자).</value></data>
+  <data name="Extraction.Fields.Heading" xml:space="preserve"><value>필드</value></data>
+  <data name="Extraction.Fields.Description" xml:space="preserve"><value>필드는 펼쳐진 앵커 아래의 「필드」에 표시됩니다. Ctrl을 누르지 않고 드래그하면 앵커가 펼쳐져 있을 때만 필드가 추가됩니다. 값 앵커 아래에서는 이름 있는 필드가 만들어집니다. 표 앵커 아래에서는 머리글을 드래그해 현재 열 수에 맞춰 열 분할을 다시 만듭니다. 필드 이름은 Excel의 머리글이 됩니다. 값 필드는 「요약」시트에, 표 열은 해당 표의 세부 시트에 사용됩니다.</value></data>
+  <data name="Extraction.Preview.Heading" xml:space="preserve"><value>PDF 미리보기</value></data>
+  <data name="Extraction.Preview.Description" xml:space="preserve"><value>가운데 미리보기에서는 페이지 이동, 확대/축소, 스크롤(Ctrl + 마우스 휠로 확대/축소), 앵커 생성을 위한 Ctrl + 드래그, 펼쳐진 앵커 아래 필드 생성을 위한 일반 드래그, 앵커와 필드 오버레이, 목록에서 해당 영역으로 이동, 선택한 값 필드의 크기 조절 핸들, 드래그해 위치를 조정하고 두 번 클릭해 추가하거나 삭제할 수 있는 표 머리글 구분선을 사용할 수 있습니다. 설정할 때는 파일 하나를 샘플로 사용합니다. 「추출」을 클릭하면 일괄 작업의 다른 파일도 같은 규칙으로 처리됩니다.</value></data>
+  <data name="Extraction.Excel.Heading" xml:space="preserve"><value>추출 및 Excel 출력</value></data>
+  <data name="Extraction.Excel.Description" xml:space="preserve"><value>「추출」을 클릭한 뒤 Excel 파일(.xlsx)을 저장할 위치를 선택합니다. 통합 문서에는 「요약」시트(Source File, 표가 아닌 각 필드, Status — PDF당 한 행)와 각 표 앵커의 세부 시트(Source File과 해당 표의 열 — 추출된 표 데이터 행당 Excel 한 행)가 포함됩니다. 표 시트 이름은 앵커 레이블에서 가져오며, 사용할 수 없는 문자는 정리되고 Excel의 31자 제한에 맞게 잘린 뒤 서로 겹치지 않도록 유지됩니다. 일부 파일이 실패하더라도(예: 앵커를 찾지 못했거나 표에 기준 열이 없는 경우) 가능한 성공한 행은 기록됩니다. 실패 내역은 진행 패널의 「세부 정보 보기」에서 확인할 수 있습니다.</value></data>
+  <data name="Templates.Description" xml:space="preserve"><value>왼쪽 탐색에서 「템플릿」을 선택해 저장된 추출 템플릿을 관리합니다. 템플릿에는 값 앵커, 표 앵커, 열 레이아웃, 기준 열, 필드, 추출에 사용할 영역이 저장됩니다.</value></data>
+  <data name="Templates.Browse.Heading" xml:space="preserve"><value>찾아보기 및 검색</value></data>
+  <data name="Templates.Browse.Description" xml:space="preserve"><value>목록에는 템플릿 이름, 필드 수, 앵커 수, 마지막 수정 시간이 표시됩니다. 「템플릿 검색」을 사용해 이름으로 필터링할 수 있습니다.</value></data>
+  <data name="Templates.Import.Heading" xml:space="preserve"><value>가져오기</value></data>
+  <data name="Templates.Import.Description" xml:space="preserve"><value>「가져오기」를 클릭하고 DocumentExtractor 템플릿 파일(.json)을 선택합니다. 템플릿 파일 하나에는 하나 이상의 템플릿이 포함될 수 있습니다. 가져온 템플릿은 로컬에 저장됩니다. 기존 템플릿과 이름이 같으면 DocumentExtractor가 가져온 복사본에 고유한 이름을 붙입니다.</value></data>
+  <data name="Templates.Export.Heading" xml:space="preserve"><value>내보내기</value></data>
+  <data name="Templates.Export.Description" xml:space="preserve"><value>하나 이상의 템플릿을 선택한 뒤 「내보내기」를 클릭합니다. 선택한 템플릿은 DocumentExtractor 템플릿 파일(.json)로 내보내집니다. 내보낸 파일은 오프라인에서 공유하거나 백업할 수 있습니다.</value></data>
+  <data name="Templates.Rename.Heading" xml:space="preserve"><value>이름 바꾸기</value></data>
+  <data name="Templates.Rename.Description" xml:space="preserve"><value>목록에서 템플릿 이름을 바로 바꿀 수 있습니다. 새 이름이 기존 템플릿과 겹치면 이름 옆에 오류 메시지가 표시되고 변경 내용은 적용되지 않습니다.</value></data>
+  <data name="Templates.Delete.Heading" xml:space="preserve"><value>삭제</value></data>
+  <data name="Templates.Delete.Description" xml:space="preserve"><value>행 작업에서 템플릿 하나를 삭제하거나, 여러 템플릿을 선택한 뒤 「삭제」를 사용할 수 있습니다. 템플릿을 삭제해도 이미 처리한 PDF나 이미 내보낸 Excel 파일에는 영향을 주지 않습니다.</value></data>
+  <data name="Templates.Storage.Heading" xml:space="preserve"><value>템플릿 저장 위치</value></data>
+  <data name="Templates.Storage.Description" xml:space="preserve"><value>템플릿은 DocumentExtractor의 Windows 로컬 앱 데이터 폴더에 저장됩니다. 사용자가 직접 내보내지 않는 한 장치 안에만 남아 있으며 업로드되거나 공유되지 않습니다.</value></data>
+  <data name="Faq.Q1" xml:space="preserve"><value>추출된 값이 비어 있거나 잘못된 이유는 무엇인가요?</value></data>
+  <data name="Faq.A1" xml:space="preserve"><value>주요 원인은 다음과 같습니다. PDF가 스캔본이거나 신뢰할 수 있는 텍스트 레이어가 없는 경우, 샘플과 레이아웃 차이가 큰 경우, 대상 파일에 앵커 문구가 없거나 다르게 표시되는 경우, 필드 또는 열 영역 위치가 맞지 않는 경우, 표 머리글 분할이 정확하지 않은 경우, 표에 기준 열이 지정되지 않은 경우입니다. 샘플 오버레이를 확인하고 앵커와 열을 조정한 뒤 다시 추출하세요.</value></data>
+  <data name="Faq.Q2" xml:space="preserve"><value>여러 PDF를 한 번에 처리할 수 있나요?</value></data>
+  <data name="Faq.A2" xml:space="preserve"><value>예. 파일 목록에 여러 PDF 파일을 추가한 뒤 「추출」을 클릭하면 됩니다. 작업에 포함된 모든 파일은 같은 앵커와 필드를 사용합니다.</value></data>
+  <data name="Faq.Q3" xml:space="preserve"><value>추출 전에 템플릿을 만들어야 하나요?</value></data>
+  <data name="Faq.A3" xml:space="preserve"><value>아니요. 「사용자 지정」 상태에서 샘플 PDF에 앵커와 필드를 정의한 뒤 바로 추출할 수 있습니다. 같은 규칙을 나중에 다시 사용할 때만 템플릿으로 저장하면 됩니다.</value></data>
+  <data name="Faq.Q4" xml:space="preserve"><value>값 앵커와 표 앵커의 차이는 무엇인가요?</value></data>
+  <data name="Faq.A4" xml:space="preserve"><value>둘 다 Ctrl + 드래그로 위치가 안정적인 텍스트를 선택하는 것에서 시작합니다. 값 앵커에는 하나씩 그려 추가하는 이름 있는 필드가 들어갑니다. 표 앵커는 머리글 행에 사용하며, 머리글 행 전체를 드래그하고 「표」를 선택한 뒤 열 수를 입력하고 구분선을 맞춘 다음 기준 열을 지정해 데이터 행을 표의 행으로 올바르게 추출합니다. 같은 템플릿에서 두 유형을 함께 사용할 수 있습니다.</value></data>
+  <data name="Faq.Q5" xml:space="preserve"><value>표에 기준 열이 필요한 이유는 무엇인가요?</value></data>
+  <data name="Faq.A5" xml:space="preserve"><value>기준 열은 표 머리글 아래에 있는 데이터 행을 식별하는 데 사용됩니다. 열의 별표 아이콘을 클릭해 기준 열로 설정하세요. 모든 표 앵커에 기준 열을 설정해야 추출을 시작할 수 있습니다.</value></data>
+  <data name="Faq.Q6" xml:space="preserve"><value>표 열을 어떻게 추가하거나 제거하나요?</value></data>
+  <data name="Faq.A6" xml:space="preserve"><value>표 앵커를 펼친 뒤 머리글 오버레이에서 작업합니다. 구분선을 드래그해 열 너비를 바꿀 수 있습니다. 구분선을 두 번 클릭하면 삭제되고, 머리글 영역의 빈 공간을 두 번 클릭하면 새 구분선이 삽입됩니다. 머리글 전체를 다시 드래그해 현재 열 수에 맞는 분할을 왼쪽부터 다시 만들 수도 있습니다.</value></data>
+  <data name="Faq.Q7" xml:space="preserve"><value>Excel의 Status 열에 표시되는 Partial은 무엇을 의미하나요?</value></data>
+  <data name="Faq.A7" xml:space="preserve"><value>Partial은 파일 처리는 완료되었지만 하나 이상의 값 필드에서 텍스트를 가져오지 못했다는 뜻입니다. 누락된 값을 확인할 수 있도록 「요약」시트 행은 그대로 포함됩니다. 가능한 경우 표 세부 시트에는 추출된 행이 남아 있을 수 있습니다.</value></data>
+  <data name="Faq.Q8" xml:space="preserve"><value>앵커를 찾지 못하면 어떻게 되나요?</value></data>
+  <data name="Faq.A8" xml:space="preserve"><value>현재 규칙이 앵커에 의존하는데 해당 앵커를 찾을 수 없으면 그 PDF는 실패로 표시됩니다. 일괄 작업의 다른 파일은 계속 처리됩니다. 실패한 파일과 이유는 진행 패널의 「세부 정보 보기」에 표시됩니다.</value></data>
+  <data name="Faq.Q9" xml:space="preserve"><value>「추출」이 원본 PDF를 덮어쓰나요?</value></data>
+  <data name="Faq.A9" xml:space="preserve"><value>아니요. 「추출」은 PDF 파일을 읽기만 하며, 사용자가 선택한 경로에 새 Excel 통합 문서를 만듭니다.</value></data>
+  <data name="Faq.Q10" xml:space="preserve"><value>추출 중에 파일 목록을 변경할 수 있나요?</value></data>
+  <data name="Faq.A10" xml:space="preserve"><value>아니요. 파일을 처리하는 동안에는 현재 작업과 관련된 컨트롤이 일시적으로 잠깁니다. 필요한 경우 진행 패널에서 작업을 취소할 수 있습니다.</value></data>
+  <data name="Faq.Q11" xml:space="preserve"><value>템플릿은 어디에 저장되나요?</value></data>
+  <data name="Faq.A11" xml:space="preserve"><value>템플릿은 사용자의 장치에 있는 DocumentExtractor 앱 데이터 폴더에 로컬로 저장됩니다. 다른 곳으로 옮길 수 있는 복사본이 필요하면 「템플릿」 페이지에서 「내보내기」를 사용하세요.</value></data>
+  <data name="Faq.Q12" xml:space="preserve"><value>표는 Excel에 어떻게 쓰이나요?</value></data>
+  <data name="Faq.A12" xml:space="preserve"><value>표가 아닌 값 필드는 「요약」시트에 PDF당 한 행으로 기록됩니다. 각 표 앵커에는 앵커 레이블에서 이름을 가져온 별도의 워크시트가 만들어집니다. 세부 시트에는 「Source File」 열과 표 열이 표시되며, 추출된 표 데이터 행마다 Excel 한 행이 사용됩니다.</value></data>
+  <data name="CustomDev.Description" xml:space="preserve"><value>DocumentExtractor가 필요한 기능을 모두 제공하지 않는다면 언제든지 문의해 주세요. 특정 일괄 처리 규칙, 추가 파일 형식 지원, 전용 도구 개발 등 문서 및 데이터 처리에 필요한 맞춤형 개발 서비스를 제공합니다.</value></data>
+  <data name="CustomDev.Contact" xml:space="preserve"><value>문의하기 →</value></data>
+  <data name="Privacy.Local.Heading" xml:space="preserve"><value>로컬 처리</value></data>
+  <data name="Privacy.Local.Description" xml:space="preserve"><value>DocumentExtractor는 사용자 장치에서 PDF를 로컬로 처리합니다. 추출 과정에서 PDF가 서버로 업로드되지 않습니다.</value></data>
+  <data name="Privacy.Selected.Heading" xml:space="preserve"><value>선택한 파일만</value></data>
+  <data name="Privacy.Selected.Description" xml:space="preserve"><value>앱은 현재 작업에 사용자가 직접 추가한 PDF 파일만 처리합니다.</value></data>
+  <data name="Privacy.Templates.Heading" xml:space="preserve"><value>템플릿</value></data>
+  <data name="Privacy.Templates.Description" xml:space="preserve"><value>템플릿은 로컬에 저장됩니다. 템플릿을 내보내면 사용자가 직접 관리하는 파일이 생성됩니다.</value></data>
+  <data name="Privacy.Excel.Heading" xml:space="preserve"><value>Excel 출력</value></data>
+  <data name="Privacy.Excel.Description" xml:space="preserve"><value>추출 결과는 사용자가 지정한 위치의 Excel 파일에만 기록됩니다.</value></data>
+  <data name="Privacy.Tip.Title" xml:space="preserve"><value>권장 사항</value></data>
+  <data name="Privacy.Tip.Body" xml:space="preserve"><value>중요한 문서는 원본 PDF를 보관하세요. 추출은 원본을 수정하지 않지만, 레이아웃이나 표 머리글이 파일마다 다를 수 있는 경우에는 내보낸 데이터를 다른 곳에 사용하기 전에 검토하는 것이 좋습니다.</value></data>
+  <data name="Tips.1.Title" xml:space="preserve"><value>구분하기 쉬운 앵커 텍스트 선택</value></data>
+  <data name="Tips.1.Body" xml:space="preserve"><value>양식 제목이나 고정 레이블처럼 페이지에 한 번만 나타나는 짧고 안정적인 문구를 우선 사용하세요. 청구서 번호, 날짜, 금액처럼 문서마다 바뀌는 값은 피하는 것이 좋습니다.</value></data>
+  <data name="Tips.2.Title" xml:space="preserve"><value>내용에 맞게 앵커 유형 선택</value></data>
+  <data name="Tips.2.Body" xml:space="preserve"><value>독립적인 레이블 값에는 값 앵커를 사용합니다. 추출할 열이 명확한 머리글 행으로 정의되어 있을 때만 표 앵커를 사용하세요.</value></data>
+  <data name="Tips.3.Title" xml:space="preserve"><value>샘플에서 표 구분선 보정</value></data>
+  <data name="Tips.3.Body" xml:space="preserve"><value>표 앵커를 만든 뒤 샘플 머리글에서 구분선을 신중하게 맞추세요. 대량으로 처리하기 전에는 목록의 다른 PDF에서도 결과가 맞는지 확인해 보세요. 머리글 위치가 달라지거나 머리글 글꼴이 바뀌는 문서는 지원하지 않습니다.</value></data>
+  <data name="Tips.4.Title" xml:space="preserve"><value>항상 기준 열 설정</value></data>
+  <data name="Tips.4.Body" xml:space="preserve"><value>행 번호나 품목명처럼 모든 데이터 행에 값이 있는 열을 선택하고, 추출하기 전에 별표 아이콘을 클릭해 기준 열로 설정하세요.</value></data>
+  <data name="Tips.5.Title" xml:space="preserve"><value>대표적인 샘플로 구성</value></data>
+  <data name="Tips.5.Body" xml:space="preserve"><value>일괄 작업에 포함된 PDF 중 전형적인 파일을 샘플로 사용하세요. 규칙을 정의한 뒤 대량 추출을 실행하기 전에 목록의 다른 파일에서도 잘 맞는지 확인하는 것이 좋습니다.</value></data>
+  <data name="Tips.6.Title" xml:space="preserve"><value>반복되는 문서 유형은 템플릿으로 저장</value></data>
+  <data name="Tips.6.Body" xml:space="preserve"><value>같은 양식을 정기적으로 처리한다면 표 레이아웃을 포함한 설정을 템플릿으로 저장하세요. 다음부터는 PDF를 추가하고 템플릿을 선택한 뒤 추출하면 됩니다.</value></data>
+  <data name="Tips.7.Title" xml:space="preserve"><value>필드·열 이름을 명확하게</value></data>
+  <data name="Tips.7.Body" xml:space="preserve"><value>필드와 열 이름은 Excel 머리글로 사용됩니다. 고객, 문서 번호, 금액, 품목 설명처럼 나중에 알아보기 쉬운 이름을 사용하세요.</value></data>
+  <data name="Tips.8.Title" xml:space="preserve"><value>진행 패널에서 실패 항목 검토</value></data>
+  <data name="Tips.8.Body" xml:space="preserve"><value>일괄 작업이 실패 항목과 함께 끝나면 패널을 닫기 전에 「세부 정보 보기」를 여세요. 어떤 파일에 다른 앵커, 열 조정, 또는 다른 템플릿이 필요한지 확인할 수 있습니다.</value></data>
+  <data name="Tips.9.Title" xml:space="preserve"><value>백업용으로 템플릿 내보내기</value></data>
+  <data name="Tips.9.Body" xml:space="preserve"><value>「템플릿」 페이지의 「내보내기」를 사용하면 중요한 규칙 세트를 백업하거나 DocumentExtractor가 설치된 다른 PC로 옮길 수 있습니다.</value></data>
+  <data name="Changelog.VersionFormat" xml:space="preserve"><value>버전 {0}</value></data>
+  <data name="Changelog.V100.Title" xml:space="preserve"><value>최초 릴리스</value></data>
+  <data name="Changelog.V100.N1" xml:space="preserve"><value>고정되었거나 서로 비슷한 레이아웃의 텍스트 기반 PDF 추출</value></data>
+  <data name="Changelog.V100.N2" xml:space="preserve"><value>공통 규칙 세트를 사용한 여러 파일 일괄 처리</value></data>
+  <data name="Changelog.V100.N3" xml:space="preserve"><value>페이지 이동과 확대/축소를 지원하는 PDF 미리보기</value></data>
+  <data name="Changelog.V100.N4" xml:space="preserve"><value>값 앵커와 표 앵커(Ctrl + 드래그 후 유형 선택)</value></data>
+  <data name="Changelog.V100.N5" xml:space="preserve"><value>값 앵커 아래의 이름 있는 필드, 드래그 가능한 구분선을 사용한 표 머리글 분할</value></data>
+  <data name="Changelog.V100.N6" xml:space="preserve"><value>표 행을 구분하기 위한 기준 열</value></data>
+  <data name="Changelog.V100.N7" xml:space="preserve"><value>사용자 지정 규칙과 재사용 가능한 템플릿(표 레이아웃 포함)</value></data>
+  <data name="Changelog.V100.N8" xml:space="preserve"><value>템플릿으로 저장 / 템플릿 변경 저장</value></data>
+  <data name="Changelog.V100.N9" xml:space="preserve"><value>검색, 이름 바꾸기, 삭제, 가져오기, 내보내기를 지원하는 템플릿 페이지</value></data>
+  <data name="Changelog.V100.N10" xml:space="preserve"><value>Excel(.xlsx) 내보내기: 값 필드용 「요약」시트, 표마다 별도 시트 생성</value></data>
+  <data name="Changelog.V100.N11" xml:space="preserve"><value>취소, 완료 요약, 실패 세부 정보, Excel 열기를 지원하는 하단 진행 패널</value></data>
+  <data name="Changelog.V100.N12" xml:space="preserve"><value>완전한 로컬 처리. 추출을 위해 PDF 내용을 업로드하지 않음</value></data>
+</root>

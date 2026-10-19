@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Page.Title" xml:space="preserve"><value>說明中心</value></data>
+  <data name="Page.Subtitle" xml:space="preserve"><value>了解如何從固定版面 PDF 文件中擷取結構化資料——包括命名欄位與表格。</value></data>
+  <data name="Nav.Catalog" xml:space="preserve"><value>目錄</value></data>
+  <data name="Section.QuickStart.Title" xml:space="preserve"><value>快速開始</value></data>
+  <data name="Section.Overview.Title" xml:space="preserve"><value>功能概覽</value></data>
+  <data name="Section.Documents.Title" xml:space="preserve"><value>支援的文件</value></data>
+  <data name="Section.Extraction.Title" xml:space="preserve"><value>擷取指南</value></data>
+  <data name="Section.Templates.Title" xml:space="preserve"><value>範本</value></data>
+  <data name="Section.Faq.Title" xml:space="preserve"><value>常見問題</value></data>
+    <data name="Section.CustomDev.Title" xml:space="preserve"><value>需要更符合業務需求的工具嗎？</value></data>
+<data name="Section.Privacy.Title" xml:space="preserve"><value>安全性與隱私權</value></data>
+  <data name="Section.Tips.Title" xml:space="preserve"><value>使用技巧</value></data>
+  <data name="Section.Changelog.Title" xml:space="preserve"><value>版本資訊</value></data>
+  <data name="QuickStart.Description" xml:space="preserve"><value>PlainBytes DocumentExtractor 是一款輕量級 Windows 工具，用於從具有固定或相似版面的文字型 PDF 中擷取結構化資料，例如結算單、收據、表單、發票和訂單等。可擷取命名欄位與表格資料。檔案在您的裝置上於本機處理，結果匯出為 Excel 活頁簿（.xlsx）。</value></data>
+  <data name="QuickStart.Tip.Title" xml:space="preserve"><value>最基本的操作流程</value></data>
+  <data name="QuickStart.Tip.Body" xml:space="preserve"><value>加入 PDF → 加入錨點（取值或表格）與欄位 → 擷取 → 儲存 Excel</value></data>
+  <data name="QuickStart.Step1.Title" xml:space="preserve"><value>加入 PDF 檔案</value></data>
+  <data name="QuickStart.Step1.Body" xml:space="preserve"><value>開啟應用程式後，將需要處理的 PDF 拖放到主視窗。也可在空白狀態頁按一下「選擇檔案」，或在已有檔案後使用左側「檔案」面板標題列的加入按鈕。支援一次新增多個 PDF。目前批次中的所有檔案共用同一套擷取規則。已加入的檔案顯示在左側檔案清單；中間為 PDF 預覽；右側「擷取」面板用於設定規則。最適合固定或相似版面的文字型 PDF。暫不支援掃描型 PDF 以及版面變化較大的文件。</value></data>
+  <data name="QuickStart.Step2.Title" xml:space="preserve"><value>設定擷取規則</value></data>
+  <data name="QuickStart.Step2.Body" xml:space="preserve"><value>加入檔案後，從檔案清單中選擇一份範例 PDF，在預覽中定義如何定位與擷取資料。可使用「自訂設定」，或從「範本」清單選擇已儲存範本。每條擷取規則都屬於某個錨點。錨點有兩類：取值錨點（用於金額、編號等命名欄位）與表格錨點（基於表頭擷取表格）。欄位一律在展開的錨點下建立。同一套規則會套用至目前工作中的全部 PDF。</value></data>
+  <data name="QuickStart.Step3.Title" xml:space="preserve"><value>設定錨點與欄位</value></data>
+  <data name="QuickStart.Step3.Body" xml:space="preserve"><value>在預覽中按住 Ctrl，拖曳框選不同文件中保持不變的文字，以建立錨點。若要建立表格錨點，請框選整列表頭。接著選擇「取值區域」或「表格」；若選擇「表格」，請輸入欄數。在「錨點」清單中展開錨點。對於表格錨點，請將預設集中在左側的分隔線拖曳至各欄邊界。連按兩下分隔線可將其刪除；連按兩下表頭空白處則可新增分隔線。按一下星號，設定用於辨識資料列的基準欄。對於取值錨點，請拖曳框選各個取值區域，並為欄位命名。請選擇在待處理文件中保持一致的文字作為錨點。</value></data>
+  <data name="QuickStart.Step4.Title" xml:space="preserve"><value>開始擷取</value></data>
+  <data name="QuickStart.Step4.Body" xml:space="preserve"><value>欄位準備就緒，且每個表格都已設定基準欄後，按一下擷取面板底部的「擷取」。選擇 Excel 活頁簿（.xlsx）儲存位置。應用程式會用目前規則處理清單中的全部 PDF。處理時底部進度面板會顯示進度，相關控制項暫時停用。可在進度面板中取消工作。完成後顯示結果摘要；若有失敗檔案，可透過「檢視詳細資料」查看原因。可用時也可從進度面板開啟 Excel。</value></data>
+  <data name="QuickStart.Step5.Title" xml:space="preserve"><value>將規則儲存為範本</value></data>
+  <data name="QuickStart.Step5.Body" xml:space="preserve"><value>若要日後重複使用目前錨點與欄位，請按一下「另存為範本」並輸入名稱。範本會儲存取值錨點、表格錨點、欄位配置、基準欄與欄位區域。載入現有範本並修改後，擷取面板會顯示「範本已修改」。可用「儲存變更」更新目前範本，或從儲存按鈕旁選單選擇「另存為新範本」。範本在左側導覽的「範本」頁管理。</value></data>
+  <data name="Overview.Description" xml:space="preserve"><value>DocumentExtractor 提供以下主要功能。</value></data>
+  <data name="Overview.Card1.Title" xml:space="preserve"><value>PDF 批次擷取</value></data>
+  <data name="Overview.Card1.Body" xml:space="preserve"><value>一次新增多個 PDF，用同一套規則擷取。可從清單選擇任意檔案預覽；切換預覽檔案不會改變整批的擷取規則。</value></data>
+  <data name="Overview.Card2.Title" xml:space="preserve"><value>取值與表格錨點</value></data>
+  <data name="Overview.Card2.Body" xml:space="preserve"><value>使用固定不變的文字作為錨點，以便在版面相似的文件中定位擷取區域。取值錨點用於擷取命名欄位；表格錨點則用於根據表頭擷取多欄表格資料。</value></data>
+  <data name="Overview.Card3.Title" xml:space="preserve"><value>命名欄位與表格欄</value></data>
+  <data name="Overview.Card3.Body" xml:space="preserve"><value>在取值錨點下框選區域並命名欄位。在表格錨點下將表頭拆成欄、調整分隔線，並設定基準欄用於列偵測。</value></data>
+  <data name="Overview.Card4.Title" xml:space="preserve"><value>範本庫</value></data>
+  <data name="Overview.Card4.Body" xml:space="preserve"><value>將目前設定（含表格配置）儲存為可重複使用的範本。在「範本」頁可搜尋、重新命名、刪除、匯入與匯出。</value></data>
+  <data name="Overview.Card5.Title" xml:space="preserve"><value>Excel 匯出</value></data>
+  <data name="Overview.Card5.Body" xml:space="preserve"><value>結果寫入一個 .xlsx：一張「摘要」工作表存放非表格欄位（每個 PDF 一列），以及每個表格錨點各一張明細工作表存放表格資料列。</value></data>
+  <data name="Overview.Card6.Title" xml:space="preserve"><value>進度與結果</value></data>
+  <data name="Overview.Card6.Body" xml:space="preserve"><value>底部進度面板顯示目前檔案與整體進度。完成後回報成功與失敗數量；失敗項目可在詳細清單中查看。</value></data>
+  <data name="Documents.Description" xml:space="preserve"><value>DocumentExtractor 適用於版面固定或大致相似的文字型 PDF，包括含命名欄位的表單，以及表頭穩定的表格。</value></data>
+  <data name="Documents.Supported.Heading" xml:space="preserve"><value>支援</value></data>
+  <data name="Documents.Supported.Description" xml:space="preserve"><value>結算單、收據、證書、申報表、帳單、訂單等固定版面商務文件——包括表頭文字與欄位結構在檔案間保持一致的表格。支援對共用同一套範本規則的文件批次處理。</value></data>
+  <data name="Documents.Unsupported.Heading" xml:space="preserve"><value>目前版本不支援</value></data>
+  <data name="Documents.Unsupported.Description" xml:space="preserve"><value>無可靠可選文字圖層的掃描型 PDF；檔案間版面變化較大的文件；表頭不穩定或表頭字級會變的表格；純圖片頁 OCR；以及高度變化或自由排版的文件。</value></data>
+  <data name="Documents.Tip.Title" xml:space="preserve"><value>提示</value></data>
+  <data name="Documents.Tip.Body" xml:space="preserve"><value>若文件幾乎沒有或完全沒有可選取的文字，擷取可能傳回空值或無法定位錨點。對於表格，請優先選擇表頭清楚可選、欄位位置穩定的文件。</value></data>
+  <data name="Extraction.Description" xml:space="preserve"><value>擷取設定位於主視窗右側面板。欄位一律隸屬於錨點——請先建立並展開錨點，再框選欄位。</value></data>
+  <data name="Extraction.Template.Heading" xml:space="preserve"><value>範本</value></data>
+  <data name="Extraction.Template.Description" xml:space="preserve"><value>在「範本」清單中選擇「自訂設定」（在目前範例上定義錨點與欄位），或選擇已儲存範本以載入其錨點、欄位、表格欄與區域。載入後仍可在範例 PDF 上調整區域。未儲存的修改會顯示為「範本已修改」。</value></data>
+  <data name="Extraction.Anchors.Heading" xml:space="preserve"><value>錨點</value></data>
+  <data name="Extraction.Anchors.Description" xml:space="preserve"><value>錨點顯示在「錨點」清單中。在預覽中按住 Ctrl 並拖曳框選不同文件中保持不變的文字。偵測到有效文字後，DocumentExtractor 會要求選擇錨點類型：「取值區域」或「表格」。所選文字會作為定位依據，協助在版面相似的文件中找到正確的擷取區域。對於取值錨點，選取範圍會自動調整至偵測到的文字；對於表格錨點，則會保留原本的選取範圍。按一下清單中的錨點即可選取，並在預覽中跳至對應位置。新增欄位前請先展開錨點。不需要的錨點可從清單中刪除。即使文件版面略有差異，錨點仍有助於定位擷取區域。</value></data>
+  <data name="Extraction.ValueAnchors.Heading" xml:space="preserve"><value>取值錨點</value></data>
+  <data name="Extraction.ValueAnchors.Description" xml:space="preserve"><value>當需要擷取單據編號、日期、金額等命名值時，使用取值錨點。建立並展開錨點後，拖曳框選每個值以加入欄位。輸入清楚的欄位名稱（預設為「欄位 N」），並確認名稱下方的範例文字。按一下欄位列可在預覽中跳轉；用鉛筆圖示重新命名，並刪除不需要的欄位。選取取值欄位後，可拖曳控點調整區域，放開滑鼠後範例值會更新。取值欄位名稱會成為 Excel「摘要」工作表中的欄。</value></data>
+  <data name="Extraction.TableAnchors.Heading" xml:space="preserve"><value>表格錨點</value></data>
+  <data name="Extraction.TableAnchors.Description" xml:space="preserve"><value>若要擷取多欄表格，請按住 Ctrl 並拖曳框選整列表頭，接著選擇「表格」並輸入欄數。在「錨點」清單中展開表格錨點。DocumentExtractor 會保留選取範圍，並將欄位分隔線預設集中在左側。拖曳分隔線，使其對齊表頭各欄的邊界。連按兩下分隔線可將其刪除；連按兩下表頭空白處則可新增分隔線。若要重新設定表頭範圍，請在展開錨點的狀態下，重新拖曳框選整列表頭。按一下某一欄旁的星號，將其設為基準欄。每個表格錨點都必須設定基準欄，才能開始擷取。表格欄無法像取值欄位一樣個別刪除，請透過分隔線調整欄位配置。每個表格會匯出至獨立的 Excel 工作表，名稱依據錨點名稱產生（最多 31 個字元）。</value></data>
+  <data name="Extraction.Fields.Heading" xml:space="preserve"><value>欄位</value></data>
+  <data name="Extraction.Fields.Description" xml:space="preserve"><value>欄位顯示在已展開錨點下的「欄位」清單中。一般拖曳（不按 Ctrl）僅在展開錨點時加入欄位。取值錨點下會建立命名欄位；表格錨點下框選表頭會依目前欄數重建欄拆分。欄位名稱會成為 Excel 表頭——取值欄位對應「摘要」工作表，表格欄對應該表的明細工作表。</value></data>
+  <data name="Extraction.Preview.Heading" xml:space="preserve"><value>PDF 預覽</value></data>
+  <data name="Extraction.Preview.Description" xml:space="preserve"><value>中間預覽支援翻頁、放大/縮小、捲動（Ctrl + 滾輪縮放）、Ctrl + 拖曳建立錨點、一般拖曳在展開錨點下加入欄位、錨點與欄位疊加顯示、從清單跳轉到區域、選取取值欄位後的調整控點，以及可拖曳調整位置，或透過連按兩下新增及刪除的表頭分隔線。用一份檔案作為設定範例；按一下「擷取」後，批次中其他檔案依同一規則處理。</value></data>
+  <data name="Extraction.Excel.Heading" xml:space="preserve"><value>擷取與 Excel 輸出</value></data>
+  <data name="Extraction.Excel.Description" xml:space="preserve"><value>按一下「擷取」，然後選擇 Excel 檔案（.xlsx）的儲存位置。活頁簿包含「摘要」工作表（Source File、各非表格欄位、Status——每個 PDF 一列），以及每個表格錨點一張明細工作表（Source File 加上該表各欄——每個擷取到的表格資料列對應一列）。表格工作表名稱取自錨點標籤（非法字元會清理；截斷至 Excel 的 31 字元限制並保證唯一）。若部分檔案失敗（例如找不到錨點或表格未設基準欄），成功列仍會盡量寫入。可透過進度面板的「檢視詳細資料」查看失敗原因。</value></data>
+  <data name="Templates.Description" xml:space="preserve"><value>在左側導覽選擇「範本」以管理已儲存的擷取範本。範本儲存取值錨點、表格錨點、欄位配置、基準欄、欄位與擷取所用區域。</value></data>
+  <data name="Templates.Browse.Heading" xml:space="preserve"><value>瀏覽與搜尋</value></data>
+  <data name="Templates.Browse.Description" xml:space="preserve"><value>清單顯示範本名稱、欄位數、錨點數與上次修改時間。可使用搜尋依名稱篩選。</value></data>
+  <data name="Templates.Import.Heading" xml:space="preserve"><value>匯入</value></data>
+  <data name="Templates.Import.Description" xml:space="preserve"><value>按一下「匯入」並選擇 DocumentExtractor 範本檔案（.json）。一個檔案可包含一個或多個範本。匯入的範本儲存在本機。若名稱與現有範本衝突，會為匯入副本產生唯一名稱。</value></data>
+  <data name="Templates.Export.Heading" xml:space="preserve"><value>匯出</value></data>
+  <data name="Templates.Export.Description" xml:space="preserve"><value>選擇一個或多個範本後按一下「匯出」。所選範本匯出為 DocumentExtractor 範本檔案（.json），可離線分享或備份。</value></data>
+  <data name="Templates.Rename.Heading" xml:space="preserve"><value>重新命名</value></data>
+  <data name="Templates.Rename.Description" xml:space="preserve"><value>可直接在清單中重新命名。若新名稱與現有範本衝突，名稱旁會顯示錯誤訊息且不會套用變更。</value></data>
+  <data name="Templates.Delete.Heading" xml:space="preserve"><value>刪除</value></data>
+  <data name="Templates.Delete.Description" xml:space="preserve"><value>可透過列動作刪除單一範本，或多選後刪除。刪除範本不影響已處理的 PDF 或已匯出的 Excel。</value></data>
+  <data name="Templates.Storage.Heading" xml:space="preserve"><value>範本儲存位置</value></data>
+  <data name="Templates.Storage.Description" xml:space="preserve"><value>範本儲存在 Windows 下 DocumentExtractor 的本機應用程式資料資料夾。除非您自行匯出，否則只留在本機，不會上傳或共用。</value></data>
+  <data name="Faq.Q1" xml:space="preserve"><value>為什麼擷取出的值為空或不正確？</value></data>
+  <data name="Faq.A1" xml:space="preserve"><value>常見原因包括：PDF 為掃描件或無可靠文字圖層；版面與範例差異過大；錨點詞組在目標檔案中不存在或文字不同；欄位或欄區域位置不對；表頭拆分不準確；或表格未設定基準欄。請檢查範例上的疊加區域，調整錨點與欄後再擷取。</value></data>
+  <data name="Faq.Q2" xml:space="preserve"><value>可以一次處理多個 PDF 嗎？</value></data>
+  <data name="Faq.A2" xml:space="preserve"><value>可以。將多個 PDF 加入檔案清單後按一下「擷取」。工作中的所有檔案使用相同的錨點與欄位。</value></data>
+  <data name="Faq.Q3" xml:space="preserve"><value>擷取前必須建立範本嗎？</value></data>
+  <data name="Faq.A3" xml:space="preserve"><value>不需要。可保持「自訂設定」，在範例 PDF 上定義錨點與欄位後立即擷取。僅在希望日後重複使用同一套規則時再儲存為範本。</value></data>
+  <data name="Faq.Q4" xml:space="preserve"><value>取值錨點與表格錨點有什麼區別？</value></data>
+  <data name="Faq.A4" xml:space="preserve"><value>兩種錨點都透過按住 Ctrl 並拖曳框選固定文字來建立。取值錨點用於建立個別的命名欄位；表格錨點則用於擷取表格資料。建立表格錨點時，請先框選整列表頭，再選擇「表格」並輸入欄數。接著展開錨點、調整分隔線，並設定基準欄，以便正確辨識表格資料列。同一個範本可以同時包含兩種類型的錨點。</value></data>
+  <data name="Faq.Q5" xml:space="preserve"><value>為什麼表格需要設定基準欄？</value></data>
+  <data name="Faq.A5" xml:space="preserve"><value>基準欄用於辨識表頭下方的表格資料列。按一下所需欄位旁的星號，即可將其設為基準欄。每個表格錨點都必須設定基準欄，才能開始擷取。</value></data>
+  <data name="Faq.Q6" xml:space="preserve"><value>如何增刪表格欄？</value></data>
+  <data name="Faq.A6" xml:space="preserve"><value>展開表格錨點並在表頭疊加層上操作。拖曳分隔線調整寬度；連按兩下分隔線刪除，連按兩下表頭空白處插入。也可再次框選整段表頭，依目前欄數重建靠左分欄。</value></data>
+  <data name="Faq.Q7" xml:space="preserve"><value>Excel 的 Status 欄中 Partial 是什麼意思？</value></data>
+  <data name="Faq.A7" xml:space="preserve"><value>Partial 表示檔案已處理，但一個或多個取值欄位未擷取到文字。「摘要」列仍會保留以便核對缺失值。表格明細工作表在可用時仍可能包含已擷取的列。</value></data>
+  <data name="Faq.Q8" xml:space="preserve"><value>找不到錨點時會怎樣？</value></data>
+  <data name="Faq.A8" xml:space="preserve"><value>若目前規則依賴某錨點且無法定位，該 PDF 會標記為失敗。批次中其他檔案繼續處理。進度面板的「檢視詳細資料」會列出失敗檔案與原因。</value></data>
+  <data name="Faq.Q9" xml:space="preserve"><value>「擷取」會覆寫原始 PDF 嗎？</value></data>
+  <data name="Faq.A9" xml:space="preserve"><value>不會。「擷取」只讀取 PDF，並在您選擇的路徑寫入新的 Excel 活頁簿。</value></data>
+  <data name="Faq.Q10" xml:space="preserve"><value>擷取進行中可以改檔案清單嗎？</value></data>
+  <data name="Faq.A10" xml:space="preserve"><value>不可以。處理期間與目前工作相關的控制項會暫時鎖定。如有需要，可從進度面板取消工作。</value></data>
+  <data name="Faq.Q11" xml:space="preserve"><value>範本儲存在哪裡？</value></data>
+  <data name="Faq.A11" xml:space="preserve"><value>範本儲存在本機 DocumentExtractor 的應用程式資料資料夾。需要可攜副本時，請在「範本」頁使用「匯出」。</value></data>
+  <data name="Faq.Q12" xml:space="preserve"><value>表格如何寫入 Excel？</value></data>
+  <data name="Faq.A12" xml:space="preserve"><value>非表格（取值）欄位寫入「摘要」工作表——每個 PDF 一列。每個表格錨點各有一張以錨點標籤命名的工作表。明細工作表列出 Source File 與各表格欄，每個擷取到的表格資料列對應一列 Excel。</value></data>
+  <data name="CustomDev.Description" xml:space="preserve"><value>如果 DocumentExtractor 無法完全滿足您的需求，歡迎與我們聯絡。我們提供文件與資料處理的客製化開發服務，包括專用批次處理規則、更多檔案格式的支援，以及專用工具開發。</value></data>
+  <data name="CustomDev.Contact" xml:space="preserve"><value>聯絡我們 →</value></data>
+<data name="Privacy.Local.Heading" xml:space="preserve"><value>本機處理</value></data>
+  <data name="Privacy.Local.Description" xml:space="preserve"><value>DocumentExtractor 在您的裝置上於本機處理 PDF。擷取過程中不會將 PDF 上傳到伺服器。</value></data>
+  <data name="Privacy.Selected.Heading" xml:space="preserve"><value>僅處理所選檔案</value></data>
+  <data name="Privacy.Selected.Description" xml:space="preserve"><value>應用程式只會處理您明確加入目前工作中的 PDF。</value></data>
+  <data name="Privacy.Templates.Heading" xml:space="preserve"><value>範本</value></data>
+  <data name="Privacy.Templates.Description" xml:space="preserve"><value>範本儲存在本機。匯出範本會產生由您自行管理的檔案。</value></data>
+  <data name="Privacy.Excel.Heading" xml:space="preserve"><value>Excel 輸出</value></data>
+  <data name="Privacy.Excel.Description" xml:space="preserve"><value>擷取結果只會寫入您指定位置的 Excel 檔案。</value></data>
+  <data name="Privacy.Tip.Title" xml:space="preserve"><value>建議</value></data>
+  <data name="Privacy.Tip.Body" xml:space="preserve"><value>對於重要文件，請保留原始 PDF。擷取不會修改原檔案，但在將匯出資料用於後續流程前仍建議核對——尤其是檔案間版面或表頭可能有差異時。</value></data>
+  <data name="Tips.1.Title" xml:space="preserve"><value>選擇容易區分的錨點文字</value></data>
+  <data name="Tips.1.Body" xml:space="preserve"><value>優先選擇頁面中只出現一次的簡短、穩定詞組，例如表單標題或固定標籤。避免每份文件都會變化的值（發票號碼、日期或金額）。</value></data>
+  <data name="Tips.2.Title" xml:space="preserve"><value>依內容選擇錨點類型</value></data>
+  <data name="Tips.2.Body" xml:space="preserve"><value>獨立的標籤數值用取值錨點。僅當清楚的表頭列定義了要擷取的欄時，才使用表格錨點。</value></data>
+  <data name="Tips.3.Title" xml:space="preserve"><value>在範例上校正表格分隔線</value></data>
+  <data name="Tips.3.Body" xml:space="preserve"><value>建立表格錨點後，在範例表頭上仔細拖曳分隔線。大批次前先抽查清單中另一份 PDF。表頭漂移或表頭字級會變的文件不在支援範圍內。</value></data>
+  <data name="Tips.4.Title" xml:space="preserve"><value>務必設定基準欄</value></data>
+  <data name="Tips.4.Body" xml:space="preserve"><value>請選擇每筆表格資料列都有值的欄位，例如列號或品名。開始擷取前，請按一下星號，將該欄設為基準欄。</value></data>
+  <data name="Tips.5.Title" xml:space="preserve"><value>用具代表性的範例設定</value></data>
+  <data name="Tips.5.Body" xml:space="preserve"><value>用批次中典型的 PDF 作為範例。定義規則後，大批次擷取前先抽查清單中另一份檔案。</value></data>
+  <data name="Tips.6.Title" xml:space="preserve"><value>為常處理的文件類型儲存範本</value></data>
+  <data name="Tips.6.Body" xml:space="preserve"><value>若經常處理同一類表單，將設定（含表格配置）儲存為範本。下次加入 PDF、選擇範本即可擷取。</value></data>
+  <data name="Tips.7.Title" xml:space="preserve"><value>欄位與欄名保持清楚</value></data>
+  <data name="Tips.7.Body" xml:space="preserve"><value>名稱會成為 Excel 表頭。使用日後易辨識的名稱，例如客戶、單據編號、金額或品名描述。</value></data>
+  <data name="Tips.8.Title" xml:space="preserve"><value>在進度面板中檢視失敗項目</value></data>
+  <data name="Tips.8.Body" xml:space="preserve"><value>批次結束若有失敗，關閉面板前先開啟「檢視詳細資料」。這是最快了解哪些檔案需要不同錨點、欄調整或其他範本的方式。</value></data>
+  <data name="Tips.9.Title" xml:space="preserve"><value>匯出範本做備份</value></data>
+  <data name="Tips.9.Body" xml:space="preserve"><value>在「範本」頁使用「匯出」備份重要規則集，或移轉到另一台已安裝 DocumentExtractor 的電腦。</value></data>
+  <data name="Changelog.VersionFormat" xml:space="preserve"><value>版本 {0}</value></data>
+  <data name="Changelog.V100.Title" xml:space="preserve"><value>首次發行</value></data>
+  <data name="Changelog.V100.N1" xml:space="preserve"><value>從固定或相似版面的文字型 PDF 中擷取資料</value></data>
+  <data name="Changelog.V100.N2" xml:space="preserve"><value>多檔案批次處理，共用同一套規則</value></data>
+  <data name="Changelog.V100.N3" xml:space="preserve"><value>支援翻頁與縮放的 PDF 預覽</value></data>
+  <data name="Changelog.V100.N4" xml:space="preserve"><value>取值與表格錨點（Ctrl + 拖曳後選擇類型）</value></data>
+  <data name="Changelog.V100.N5" xml:space="preserve"><value>取值錨點下的命名欄位；表頭拆分與可拖曳分隔線</value></data>
+  <data name="Changelog.V100.N6" xml:space="preserve"><value>用於辨識表格資料列的基準欄</value></data>
+  <data name="Changelog.V100.N7" xml:space="preserve"><value>自訂規則與可重複使用的範本（含表格配置）</value></data>
+  <data name="Changelog.V100.N8" xml:space="preserve"><value>另存為範本 / 儲存範本變更</value></data>
+  <data name="Changelog.V100.N9" xml:space="preserve"><value>範本頁支援搜尋、重新命名、刪除、匯入與匯出</value></data>
+  <data name="Changelog.V100.N10" xml:space="preserve"><value>Excel（.xlsx）匯出：「摘要」存放取值欄位，每個表格單獨一張工作表</value></data>
+  <data name="Changelog.V100.N11" xml:space="preserve"><value>底部進度面板：取消、完成摘要、失敗詳細資料與開啟 Excel</value></data>
+  <data name="Changelog.V100.N12" xml:space="preserve"><value>完全本機處理；不會為擷取而上傳 PDF 內容</value></data>
+</root>

@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Page.Title" xml:space="preserve">
+    <value>ヘルプセンター</value>
+  </data>
+  <data name="Page.Subtitle" xml:space="preserve">
+    <value>固定レイアウトの PDF ドキュメントから、名前付きの値やテーブルを含む構造化データを抽出する方法をご確認ください。</value>
+  </data>
+  <data name="Nav.Catalog" xml:space="preserve">
+    <value>目次</value>
+  </data>
+  <data name="Section.QuickStart.Title" xml:space="preserve">
+    <value>クイックスタート</value>
+  </data>
+  <data name="Section.Overview.Title" xml:space="preserve">
+    <value>機能概要</value>
+  </data>
+  <data name="Section.Documents.Title" xml:space="preserve">
+    <value>対応ドキュメント</value>
+  </data>
+  <data name="Section.Extraction.Title" xml:space="preserve">
+    <value>抽出ガイド</value>
+  </data>
+  <data name="Section.Templates.Title" xml:space="preserve">
+    <value>テンプレート</value>
+  </data>
+  <data name="Section.Faq.Title" xml:space="preserve">
+    <value>よくある質問</value>
+  </data>
+  <data name="Section.CustomDev.Title" xml:space="preserve">
+    <value>より業務に合ったツールが必要ですか？</value>
+  </data>
+  <data name="Section.Privacy.Title" xml:space="preserve">
+    <value>セキュリティとプライバシー</value>
+  </data>
+  <data name="Section.Tips.Title" xml:space="preserve">
+    <value>ヒント</value>
+  </data>
+  <data name="Section.Changelog.Title" xml:space="preserve">
+    <value>リリースノート</value>
+  </data>
+  <data name="QuickStart.Description" xml:space="preserve">
+    <value>PlainBytes DocumentExtractor は、帳票、領収書、フォーム、請求書、注文書など、固定または類似したレイアウトを持つテキストベースの PDF から構造化データを抽出するための軽量な Windows ユーティリティです。名前付きの値と表形式のデータを抽出できます。ファイルはお使いのデバイス上でローカル処理され、結果は Excel ワークブック（.xlsx）にエクスポートされます。</value>
+  </data>
+  <data name="QuickStart.Tip.Title" xml:space="preserve">
+    <value>基本的な操作の流れ</value>
+  </data>
+  <data name="QuickStart.Tip.Body" xml:space="preserve">
+    <value>PDF を追加 → アンカー（値および／またはテーブル）とフィールドを追加 → 抽出 → Excel を保存</value>
+  </data>
+  <data name="QuickStart.Step1.Title" xml:space="preserve">
+    <value>PDF ファイルを追加する</value>
+  </data>
+  <data name="QuickStart.Step1.Body" xml:space="preserve">
+    <value>アプリを起動したら、処理する PDF をメインウィンドウにドラッグします。ファイル未追加の画面では「ファイルを選択」をクリックすることもできます。ファイル追加後は、左側の「ファイル」パネル見出しの追加ボタンからも追加できます。複数の PDF を一度に追加できます。現在のタスク内のすべてのファイルには同じ抽出ルールが適用されます。追加したファイルは左側のファイルリストに表示されます。中央は PDF プレビュー、右側の抽出パネルでルールを設定します。固定または類似レイアウトのテキストベース PDF に最適です。スキャン PDF やレイアウトが大きく異なるドキュメントには対応していません。</value>
+  </data>
+  <data name="QuickStart.Step2.Title" xml:space="preserve">
+    <value>抽出ルールを設定する</value>
+  </data>
+  <data name="QuickStart.Step2.Body" xml:space="preserve">
+    <value>ファイルを追加したら、ファイルリストからサンプル PDF を選び、プレビュー上でデータの位置と抽出方法を定義します。「カスタム設定」を使うか、「テンプレート」リストから保存済みテンプレートを選択します。抽出ルールはすべてアンカーに属します。アンカーには 2 種類あります。値アンカー（金額や番号などの名前付きフィールド用）とテーブルアンカー（ヘッダー行に基づくテーブル用）です。フィールドは必ず展開したアンカーの下に作成します。現在のタスク内のすべての PDF に同じルールが適用されます。</value>
+  </data>
+  <data name="QuickStart.Step3.Title" xml:space="preserve">
+    <value>アンカーとフィールドを設定する</value>
+  </data>
+  <data name="QuickStart.Step3.Body" xml:space="preserve">
+    <value>プレビューで Ctrl を押しながら安定したテキストをドラッグしてアンカーを作成します。テーブルアンカーの場合はヘッダー行全体をドラッグします。続いて「値フィールド」または「テーブル」を選び、「テーブル」の場合は列数を指定します。左側にまとめて配置された区切り線をヘッダーの各列の境界に合わせてドラッグします（区切り線をダブルクリックで削除、ヘッダーの空白をダブルクリックで挿入）。テーブルアンカーでは、データ行を正しく識別するため、星アイコンをクリックして基準列を設定します。「アンカー」リストでアンカーを展開します。値アンカーでは、各値の上をドラッグして名前付きフィールドを追加します。処理対象のドキュメント間で変わらないテキストをアンカーに使ってください。</value>
+  </data>
+  <data name="QuickStart.Step4.Title" xml:space="preserve">
+    <value>抽出を開始する</value>
+  </data>
+  <data name="QuickStart.Step4.Body" xml:space="preserve">
+    <value>フィールドの準備ができ、各テーブルに基準列が設定されたら、抽出パネル下部の「抽出」をクリックします。Excel ワークブック（.xlsx）の保存先を選びます。アプリは現在のルールでリスト内のすべての PDF を処理します。処理中は下部の進行状況パネルに進捗が表示され、関連コントロールは一時的に無効になります。進行中のタスクは進行状況パネルからキャンセルできます。完了後は結果の概要が表示されます。失敗したファイルがある場合は「詳細を表示」で理由を確認できます。利用可能なら進行状況パネルから Excel を開くこともできます。</value>
+  </data>
+  <data name="QuickStart.Step5.Title" xml:space="preserve">
+    <value>ルールをテンプレートとして保存する</value>
+  </data>
+  <data name="QuickStart.Step5.Body" xml:space="preserve">
+    <value>現在のアンカーとフィールドを後で再利用するには、「テンプレートとして保存」をクリックして名前を入力します。テンプレートには値アンカー、テーブルアンカー、列レイアウト、基準列、フィールド領域が保存されます。既存テンプレートを読み込んで変更すると、抽出パネルに「テンプレートが変更されています」と表示されます。「変更を保存」で現在のテンプレートを更新するか、保存ボタン横のメニューから「新しいテンプレートとして保存」を選べます。テンプレートは左ナビゲーションの「テンプレート」ページで管理します。</value>
+  </data>
+  <data name="Overview.Description" xml:space="preserve">
+    <value>DocumentExtractor は次の主な機能を提供します。</value>
+  </data>
+  <data name="Overview.Card1.Title" xml:space="preserve">
+    <value>PDF の一括抽出</value>
+  </data>
+  <data name="Overview.Card1.Body" xml:space="preserve">
+    <value>複数の PDF を追加し、共通のルールセットでデータを抽出します。リストから任意のファイルを選んでプレビューできます。プレビューファイルを切り替えても、一括処理の抽出ルールは変わりません。</value>
+  </data>
+  <data name="Overview.Card2.Title" xml:space="preserve">
+    <value>値アンカーとテーブルアンカー</value>
+  </data>
+  <data name="Overview.Card2.Body" xml:space="preserve">
+    <value>安定したテキストをアンカーとしてマークし、類似した文書内で抽出位置を特定します。名前付きフィールドには値アンカー、複数列テーブル抽出の基準となるヘッダー行にはテーブルアンカーを使います。</value>
+  </data>
+  <data name="Overview.Card3.Title" xml:space="preserve">
+    <value>名前付きフィールドとテーブル列</value>
+  </data>
+  <data name="Overview.Card3.Body" xml:space="preserve">
+    <value>値アンカーの下で領域を描画して各フィールドに名前を付けます。テーブルアンカーの下ではヘッダーを列に分割し、区切り線を調整し、行検出用の基準列を設定します。</value>
+  </data>
+  <data name="Overview.Card4.Title" xml:space="preserve">
+    <value>テンプレートライブラリ</value>
+  </data>
+  <data name="Overview.Card4.Body" xml:space="preserve">
+    <value>テーブルレイアウトを含む現在の構成を再利用可能なテンプレートとして保存します。「テンプレート」で検索、名前の変更、削除、インポート、エクスポートができます。</value>
+  </data>
+  <data name="Overview.Card5.Title" xml:space="preserve">
+    <value>Excel エクスポート</value>
+  </data>
+  <data name="Overview.Card5.Body" xml:space="preserve">
+    <value>結果は 1 つの .xlsx ワークブックに書き込まれます。テーブル以外のフィールド用の「サマリー」シート（PDF ごとに 1 行）と、テーブルアンカーごとの明細シート（抽出したテーブルのデータ行を記録するための）です。</value>
+  </data>
+  <data name="Overview.Card6.Title" xml:space="preserve">
+    <value>進行状況と結果</value>
+  </data>
+  <data name="Overview.Card6.Body" xml:space="preserve">
+    <value>下部の進行状況パネルに現在のファイルと全体の進捗が表示されます。完了後は成功／失敗の件数が報告されます。失敗した項目は詳細リストで確認できます。</value>
+  </data>
+  <data name="Documents.Description" xml:space="preserve">
+    <value>DocumentExtractor は、安定またはほぼ安定したレイアウトのテキストベース PDF 向けです。名前付き値を持つフォームや、安定したヘッダーを持つテーブルにも対応します。</value>
+  </data>
+  <data name="Documents.Supported.Heading" xml:space="preserve">
+    <value>対応</value>
+  </data>
+  <data name="Documents.Supported.Description" xml:space="preserve">
+    <value>帳票、領収書、証明書、申告書、請求書、注文書など、固定レイアウトのビジネス文書。ヘッダー文言と列構成がファイル間で一貫しているテーブルを含みます。同じテンプレートルールを共有するドキュメントの一括処理にも対応します。</value>
+  </data>
+  <data name="Documents.Unsupported.Heading" xml:space="preserve">
+    <value>非対応（現行バージョン）</value>
+  </data>
+  <data name="Documents.Unsupported.Description" xml:space="preserve">
+    <value>選択可能なテキスト層がないスキャン PDF、ファイル間でレイアウトが大きく変わるドキュメント、ヘッダーが不安定またはヘッダーのフォントサイズが変わるテーブル、画像のみのページに対する OCR、レイアウトが大きく変動する／自由形式のドキュメント。</value>
+  </data>
+  <data name="Documents.Tip.Title" xml:space="preserve">
+    <value>ヒント</value>
+  </data>
+  <data name="Documents.Tip.Body" xml:space="preserve">
+    <value>選択可能なテキストがほとんど、またはまったくない場合、抽出結果が空になったり、アンカーを見つけられないことがあります。テーブルでは、ヘッダー行がはっきり選択でき、列位置が安定しているドキュメントを優先してください。</value>
+  </data>
+  <data name="Extraction.Description" xml:space="preserve">
+    <value>抽出設定はメインウィンドウ右側のパネルにあります。フィールドは常にアンカーに属します。フィールドを描画する前に、アンカーを作成して展開してください。</value>
+  </data>
+  <data name="Extraction.Template.Heading" xml:space="preserve">
+    <value>テンプレート</value>
+  </data>
+  <data name="Extraction.Template.Description" xml:space="preserve">
+    <value>「テンプレート」リストで「カスタム設定」（現在のサンプル上でアンカーとフィールドを定義）または保存済みテンプレート（アンカー、フィールド、テーブル列、領域を読み込み）を選びます。テンプレート読み込み後も、サンプル PDF 上で領域を調整できます。未保存の変更は「テンプレートが変更されています」と表示されます。</value>
+  </data>
+  <data name="Extraction.Anchors.Heading" xml:space="preserve">
+    <value>アンカー</value>
+  </data>
+  <data name="Extraction.Anchors.Description" xml:space="preserve">
+    <value>アンカーは「アンカー」リストに表示されます。プレビュー上で Ctrl キーを押しながら、位置や内容が安定しているテキストをドラッグして選択します。有効なテキストが検出されると、DocumentExtractor がアンカーの種類を確認します。「値フィールド」または「テーブル」を選択してください。選択したテキストは、類似した文書内で抽出位置を特定するために使用されます。値アンカーでは検出されたテキストに合わせて表示領域が調整され、テーブルアンカーでは選択した領域が保持されます。アンカーをクリックすると、プレビューが該当位置に移動します。フィールドを追加する前にアンカーを展開してください。不要なアンカーはリストから削除できます。アンカーを使用すると、類似した文書間でレイアウトに多少のずれがあっても、抽出位置を正確に特定しやすくなります。</value>
+  </data>
+  <data name="Extraction.ValueAnchors.Heading" xml:space="preserve">
+    <value>値アンカー</value>
+  </data>
+  <data name="Extraction.ValueAnchors.Description" xml:space="preserve">
+    <value>書類番号、日付、金額などの名前付き値が必要なときに値アンカーを使います。作成して展開したあと、各値の上をドラッグしてフィールドを追加します。分かりやすいフィールド名（既定は「フィールド N」）を入力し、名前の下のサンプルテキストを確認します。フィールド行をクリックするとプレビューでその位置にジャンプします。鉛筆アイコンで名前を変更し、不要なフィールドは削除します。値フィールドを選択すると、オーバーレイのハンドルをドラッグして領域サイズを変更でき、マウスを離すとサンプル値が更新されます。値フィールド名は Excel の「サマリー」シートの列になります。</value>
+  </data>
+  <data name="Extraction.TableAnchors.Heading" xml:space="preserve">
+    <value>テーブルアンカー</value>
+  </data>
+  <data name="Extraction.TableAnchors.Description" xml:space="preserve">
+    <value>複数列のテーブルを抽出するには、Ctrl キーを押しながらヘッダー行全体をドラッグして選択します。続いて「テーブル」を選び、列数を指定します。DocumentExtractor は選択した領域を保持し、初期状態では列の区切り線を左側にまとめて配置します。区切り線をドラッグして、ヘッダーの各列の境界に合わせてください。区切り線をダブルクリックすると削除でき、ヘッダー領域の空白部分をダブルクリックすると追加できます。ヘッダー領域を設定し直す場合は、アンカーを展開し、ヘッダー行全体をもう一度ドラッグして選択します。列の星アイコンをクリックして基準列を設定してください。基準列の設定は抽出前に必須です。値フィールドとは異なり、テーブルの列は個別に削除できません。列の配置は区切り線を使って調整します。各テーブルはアンカー名に基づく個別の Excel シートに出力されます（シート名は最大 31 文字）。</value>
+  </data>
+  <data name="Extraction.Fields.Heading" xml:space="preserve">
+    <value>フィールド</value>
+  </data>
+  <data name="Extraction.Fields.Description" xml:space="preserve">
+    <value>フィールドは展開したアンカーの下の「フィールド」に表示されます。通常のドラッグ（Ctrl なし）は、アンカーが展開されている場合にのみフィールドを追加します。値アンカーでは名前付きフィールドが作成されます。テーブルアンカーではヘッダー上のドラッグにより、現在の列数で列分割が再構築されます。フィールド名は Excel の見出しになります。値フィールドは「サマリー」シート、テーブル列はそのテーブルの明細シートです。</value>
+  </data>
+  <data name="Extraction.Preview.Heading" xml:space="preserve">
+    <value>PDF プレビュー</value>
+  </data>
+  <data name="Extraction.Preview.Description" xml:space="preserve">
+    <value>中央のプレビューは、ページ移動、拡大／縮小、スクロール（Ctrl + マウスホイールでズーム）、アンカー用の Ctrl + ドラッグ、展開したアンカー下のフィールド用の通常ドラッグ、アンカーとフィールドのオーバーレイ、リストからの領域ジャンプ、選択した値フィールドのリサイズハンドル、ドラッグで位置を調整し、ダブルクリックで追加・削除できるテーブルヘッダーの区切り線に対応します。構成用のサンプルには 1 ファイルを使います。「抽出」をクリックすると、一括内の他のファイルも同じルールで処理されます。</value>
+  </data>
+  <data name="Extraction.Excel.Heading" xml:space="preserve">
+    <value>抽出と Excel 出力</value>
+  </data>
+  <data name="Extraction.Excel.Description" xml:space="preserve">
+    <value>「抽出」をクリックし、.xlsx の保存先を選びます。ワークブックには「サマリー」シート（Source File、各非テーブルフィールド、Status — PDF ごとに 1 行）と、テーブルアンカーごとの明細シート（Source File とそのテーブルの列 — 抽出されたテーブルデータ行ごとに 1 Excel 行）が含まれます。テーブル用シート名はアンカーラベルから付けられます（不正文字は除去、Excel の 31 文字制限に切り詰め、一意にします）。一部のファイルが失敗しても（アンカーが見つからない、テーブルに基準列がないなど）、可能な限り成功行は書き込まれます。進行状況パネルの「詳細を表示」で失敗を確認できます。</value>
+  </data>
+  <data name="Templates.Description" xml:space="preserve">
+    <value>左ナビゲーションで「テンプレート」を選び、保存済みの抽出テンプレートを管理します。テンプレートには値アンカー、テーブルアンカー、列レイアウト、基準列、フィールド、抽出に使う領域が保存されます。</value>
+  </data>
+  <data name="Templates.Browse.Heading" xml:space="preserve">
+    <value>閲覧と検索</value>
+  </data>
+  <data name="Templates.Browse.Description" xml:space="preserve">
+    <value>リストにはテンプレート名、フィールド数、アンカー数、最終更新日時が表示されます。「テンプレートを検索」で名前による絞り込みができます。</value>
+  </data>
+  <data name="Templates.Import.Heading" xml:space="preserve">
+    <value>インポート</value>
+  </data>
+  <data name="Templates.Import.Description" xml:space="preserve">
+    <value>「インポート」をクリックし、DocumentExtractor テンプレートファイル（.json）を選びます。1 ファイルに 1 つ以上のテンプレートを含められます。インポートしたテンプレートはローカルに保存されます。既存テンプレートと同名の場合、DocumentExtractor はインポート分に一意の名前を付けます。</value>
+  </data>
+  <data name="Templates.Export.Heading" xml:space="preserve">
+    <value>エクスポート</value>
+  </data>
+  <data name="Templates.Export.Description" xml:space="preserve">
+    <value>1 つ以上のテンプレートを選び、「エクスポート」をクリックします。選択したテンプレートは DocumentExtractor テンプレートファイル（.json）にエクスポートされます。エクスポートしたファイルはオフラインで共有・バックアップできます。</value>
+  </data>
+  <data name="Templates.Rename.Heading" xml:space="preserve">
+    <value>名前の変更</value>
+  </data>
+  <data name="Templates.Rename.Description" xml:space="preserve">
+    <value>リスト上で直接テンプレート名を変更できます。新しい名前が既存のテンプレート名と重複する場合、名前の横にエラーメッセージが表示され、変更は適用されません。</value>
+  </data>
+  <data name="Templates.Delete.Heading" xml:space="preserve">
+    <value>削除</value>
+  </data>
+  <data name="Templates.Delete.Description" xml:space="preserve">
+    <value>行の操作から 1 件削除するか、複数選んで「削除」します。テンプレートの削除は、既に処理した PDF やエクスポート済みの Excel には影響しません。</value>
+  </data>
+  <data name="Templates.Storage.Heading" xml:space="preserve">
+    <value>テンプレートの保存場所</value>
+  </data>
+  <data name="Templates.Storage.Description" xml:space="preserve">
+    <value>テンプレートは DocumentExtractor の Windows ローカルアプリデータフォルダーに保存されます。ご自身でエクスポートしない限り、デバイス上に留まり、アップロードや共有はされません。</value>
+  </data>
+  <data name="Faq.Q1" xml:space="preserve">
+    <value>抽出値が空、または正しくないのはなぜですか？</value>
+  </data>
+  <data name="Faq.A1" xml:space="preserve">
+    <value>よくある原因：スキャン PDF または信頼できるテキスト層がない、サンプルとレイアウトが大きく異なる、対象ファイルにアンカー語句がない／異なる、フィールドや列領域の位置がずれている、ヘッダー分割が不正確、テーブルに基準列がない。サンプル上のオーバーレイを確認し、アンカーと列を調整してから再抽出してください。</value>
+  </data>
+  <data name="Faq.Q2" xml:space="preserve">
+    <value>複数の PDF を一度に処理できますか？</value>
+  </data>
+  <data name="Faq.A2" xml:space="preserve">
+    <value>はい。複数の PDF をファイルリストに追加し、「抽出」をクリックします。タスク内のすべてのファイルは同じアンカーとフィールドを使用します。</value>
+  </data>
+  <data name="Faq.Q3" xml:space="preserve">
+    <value>抽出前にテンプレートを作成する必要がありますか？</value>
+  </data>
+  <data name="Faq.A3" xml:space="preserve">
+    <value>いいえ。「カスタム設定」のまま、サンプル PDF 上でアンカーとフィールドを定義してすぐに抽出できます。同じルールを後で再利用したい場合にだけテンプレートとして保存してください。</value>
+  </data>
+  <data name="Faq.Q4" xml:space="preserve">
+    <value>値アンカーとテーブルアンカーの違いは何ですか？</value>
+  </data>
+  <data name="Faq.A4" xml:space="preserve">
+    <value>どちらも Ctrl + ドラッグで安定したテキストを囲むところから始まります。値アンカーには、1 つずつ描画する名前付きフィールドが入ります。テーブルアンカーはヘッダー行向けで、ヘッダー行全体をドラッグし、「テーブル」を選んで列数を指定し、区切り線を合わせ、基準列をマークしてデータ行をテーブルの行として正しく抽出します。同じテンプレート内で両方の種類を使えます。</value>
+  </data>
+  <data name="Faq.Q5" xml:space="preserve">
+    <value>テーブルに基準列が必要なのはなぜですか？</value>
+  </data>
+  <data name="Faq.A5" xml:space="preserve">
+    <value>基準列は、テーブルのヘッダーより下にあるデータ行を識別するために使用されます。列の星アイコンをクリックして基準列に設定してください。すべてのテーブルアンカーに基準列を設定するまで、抽出を開始することはできません。</value>
+  </data>
+  <data name="Faq.Q6" xml:space="preserve">
+    <value>テーブル列の追加・削除はどうしますか？</value>
+  </data>
+  <data name="Faq.A6" xml:space="preserve">
+    <value>テーブルアンカーを展開し、ヘッダーオーバーレイ上で操作します。区切り線をドラッグして幅を変更します。区切り線をダブルクリックで削除、ヘッダー帯の空白をダブルクリックで挿入します。ヘッダー全体をもう一度ドラッグして、現在の列数で左寄せ分割を再構築することもできます。</value>
+  </data>
+  <data name="Faq.Q7" xml:space="preserve">
+    <value>Excel の Status 列の Partial とは何ですか？</value>
+  </data>
+  <data name="Faq.A7" xml:space="preserve">
+    <value>Partial は、ファイルは処理されたが、1 つ以上の値フィールドからテキストが得られなかったことを意味します。欠落値を確認できるよう、「サマリー」シートの行は残ります。利用可能な場合、テーブル明細シートには抽出済みの行が含まれることがあります。</value>
+  </data>
+  <data name="Faq.Q8" xml:space="preserve">
+    <value>アンカーが見つからないとどうなりますか？</value>
+  </data>
+  <data name="Faq.A8" xml:space="preserve">
+    <value>現在のルールがアンカーに依存していてアンカーの位置を特定できない場合、その PDF は失敗としてマークされます。一括内の他のファイルは処理を続けます。進行状況パネルの「詳細を表示」に失敗ファイルと理由がリストされます。</value>
+  </data>
+  <data name="Faq.Q9" xml:space="preserve">
+    <value>「抽出」は元の PDF を上書きしますか？</value>
+  </data>
+  <data name="Faq.A9" xml:space="preserve">
+    <value>いいえ。「抽出」は PDF を読み取るだけで、選んだパスに新しい Excel ワークブックを書き込みます。</value>
+  </data>
+  <data name="Faq.Q10" xml:space="preserve">
+    <value>抽出中にファイルリストを変更できますか？</value>
+  </data>
+  <data name="Faq.A10" xml:space="preserve">
+    <value>いいえ。ファイル処理中は、現在のタスク関連のコントロールが一時的にロックされます。必要なら進行状況パネルからタスクをキャンセルできます。</value>
+  </data>
+  <data name="Faq.Q11" xml:space="preserve">
+    <value>テンプレートはどこに保存されますか？</value>
+  </data>
+  <data name="Faq.A11" xml:space="preserve">
+    <value>テンプレートはお使いのデバイス上の DocumentExtractor のアプリデータフォルダーにローカル保存されます。持ち運び用のコピーが必要な場合は、「テンプレート」ページで「エクスポート」を使ってください。</value>
+  </data>
+  <data name="Faq.Q12" xml:space="preserve">
+    <value>テーブルは Excel にどう書き込まれますか？</value>
+  </data>
+  <data name="Faq.A12" xml:space="preserve">
+    <value>テーブル以外（値）のフィールドは「サマリー」シートに入ります（PDF ごとに 1 行）。各テーブルアンカーは、アンカーラベルから名前付けされた独自のワークシートを持ちます。明細シートには「Source File」列とテーブル列が並び、抽出されたテーブルデータ行ごとに 1 Excel 行になります。</value>
+  </data>
+  <data name="CustomDev.Description" xml:space="preserve">
+    <value>DocumentExtractor では対応できない要件がある場合は、お気軽にご相談ください。たとえば、独自の一括処理ルール、追加のファイル形式への対応、専用ツールの開発など、文書処理やデータ処理に関するカスタム開発にも対応しています。</value>
+  </data>
+  <data name="CustomDev.Contact" xml:space="preserve">
+    <value>お問い合わせ →</value>
+  </data>
+  <data name="Privacy.Local.Heading" xml:space="preserve">
+    <value>ローカル処理</value>
+  </data>
+  <data name="Privacy.Local.Description" xml:space="preserve">
+    <value>DocumentExtractor はお使いのデバイス上で PDF をローカル処理します。抽出の過程で PDF がサーバーにアップロードされることはありません。</value>
+  </data>
+  <data name="Privacy.Selected.Heading" xml:space="preserve">
+    <value>選択したファイルのみ</value>
+  </data>
+  <data name="Privacy.Selected.Description" xml:space="preserve">
+    <value>アプリは、現在のタスクに明示的に追加した PDF のみを処理します。</value>
+  </data>
+  <data name="Privacy.Templates.Heading" xml:space="preserve">
+    <value>テンプレート</value>
+  </data>
+  <data name="Privacy.Templates.Description" xml:space="preserve">
+    <value>テンプレートはローカルに保存されます。エクスポートすると、ご自身で管理するファイルが作成されます。</value>
+  </data>
+  <data name="Privacy.Excel.Heading" xml:space="preserve">
+    <value>Excel 出力</value>
+  </data>
+  <data name="Privacy.Excel.Description" xml:space="preserve">
+    <value>抽出結果は、指定した保存先の Excel ファイルにのみ書き込まれます。</value>
+  </data>
+  <data name="Privacy.Tip.Title" xml:space="preserve">
+    <value>推奨</value>
+  </data>
+  <data name="Privacy.Tip.Body" xml:space="preserve">
+    <value>重要なドキュメントでは元の PDF を保管してください。抽出は元ファイルを変更しませんが、後続の処理で使用する前にエクスポートデータの確認をおすすめします。特にレイアウトやテーブルヘッダーがファイル間で異なる可能性がある場合です。</value>
+  </data>
+  <data name="Tips.1.Title" xml:space="preserve">
+    <value>識別しやすいアンカーテキストを選ぶ</value>
+  </data>
+  <data name="Tips.1.Body" xml:space="preserve">
+    <value>ページ上に一度だけ現れる短い安定した語句（フォームタイトルや固定ラベルなど）を優先してください。請求書番号、日付、金額など、文書ごとに変わる値は避けてください。</value>
+  </data>
+  <data name="Tips.2.Title" xml:space="preserve">
+    <value>内容に合わせてアンカー種別を選ぶ</value>
+  </data>
+  <data name="Tips.2.Body" xml:space="preserve">
+    <value>単独のラベル付き値には値アンカーを使います。抽出したい列を明確なヘッダー行が定義している場合にだけテーブルアンカーを使ってください。</value>
+  </data>
+  <data name="Tips.3.Title" xml:space="preserve">
+    <value>サンプルでテーブル区切り線を調整する</value>
+  </data>
+  <data name="Tips.3.Body" xml:space="preserve">
+    <value>テーブルアンカー作成後、サンプルヘッダー上で区切り線を丁寧にドラッグしてください。大量処理の前に、別の PDF でも設定が正しく機能するか確認してください。ヘッダーがずれたりヘッダーフォントが変わるドキュメントは対象外です。</value>
+  </data>
+  <data name="Tips.4.Title" xml:space="preserve">
+    <value>必ず基準列を設定する</value>
+  </data>
+  <data name="Tips.4.Body" xml:space="preserve">
+    <value>各データ行に必ず値が入っている列（行番号や品名など）を選び、抽出前に星アイコンをクリックして基準列に設定してください。</value>
+  </data>
+  <data name="Tips.5.Title" xml:space="preserve">
+    <value>代表的なサンプルで設定する</value>
+  </data>
+  <data name="Tips.5.Body" xml:space="preserve">
+    <value>一括内の典型的な PDF をサンプルにします。ルール定義後、大量のファイルを抽出する前にリスト内の別ファイルをスポットチェックしてください。</value>
+  </data>
+  <data name="Tips.6.Title" xml:space="preserve">
+    <value>繰り返し使う文書タイプはテンプレートに保存する</value>
+  </data>
+  <data name="Tips.6.Body" xml:space="preserve">
+    <value>同じフォームを定期的に処理する場合は、テーブルレイアウトを含む構成をテンプレートとして保存します。次回は PDF を追加し、テンプレートを選んで抽出するだけです。</value>
+  </data>
+  <data name="Tips.7.Title" xml:space="preserve">
+    <value>フィールド名と列名を分かりやすく保つ</value>
+  </data>
+  <data name="Tips.7.Body" xml:space="preserve">
+    <value>名前は Excel の見出しになります。顧客、書類番号、金額、品名など、後で識別しやすい名前を使ってください。</value>
+  </data>
+  <data name="Tips.8.Title" xml:space="preserve">
+    <value>進行状況パネルで失敗項目を確認する</value>
+  </data>
+  <data name="Tips.8.Body" xml:space="preserve">
+    <value>一括が失敗を伴って終わったときは、パネルを閉じる前に「詳細を表示」を開いてください。どのファイルに別のアンカー、列調整、別テンプレートが必要かが最も早く分かります。</value>
+  </data>
+  <data name="Tips.9.Title" xml:space="preserve">
+    <value>バックアップ用にテンプレートをエクスポートする</value>
+  </data>
+  <data name="Tips.9.Body" xml:space="preserve">
+    <value>「テンプレート」ページの「エクスポート」で重要なルールセットをバックアップしたり、DocumentExtractor が入った別の PC に移したりできます。</value>
+  </data>
+  <data name="Changelog.VersionFormat" xml:space="preserve">
+    <value>バージョン {0}</value>
+  </data>
+  <data name="Changelog.V100.Title" xml:space="preserve">
+    <value>初回リリース</value>
+  </data>
+  <data name="Changelog.V100.N1" xml:space="preserve">
+    <value>固定または類似レイアウトのテキストベース PDF からの抽出</value>
+  </data>
+  <data name="Changelog.V100.N2" xml:space="preserve">
+    <value>共通ルールセットによる複数ファイルの一括処理</value>
+  </data>
+  <data name="Changelog.V100.N3" xml:space="preserve">
+    <value>ページ移動とズーム対応の PDF プレビュー</value>
+  </data>
+  <data name="Changelog.V100.N4" xml:space="preserve">
+    <value>値アンカーとテーブルアンカー（Ctrl + ドラッグ後に種別を選択）</value>
+  </data>
+  <data name="Changelog.V100.N5" xml:space="preserve">
+    <value>値アンカー下の名前付きフィールド、ドラッグ可能な区切り線によるヘッダー分割</value>
+  </data>
+  <data name="Changelog.V100.N6" xml:space="preserve">
+    <value>テーブル行区切り用の基準列</value>
+  </data>
+  <data name="Changelog.V100.N7" xml:space="preserve">
+    <value>カスタムルールと再利用可能なテンプレート（テーブルレイアウト含む）</value>
+  </data>
+  <data name="Changelog.V100.N8" xml:space="preserve">
+    <value>テンプレートとして保存／テンプレート変更の保存</value>
+  </data>
+  <data name="Changelog.V100.N9" xml:space="preserve">
+    <value>検索、名前変更、削除、インポート、エクスポート対応のテンプレートページ</value>
+  </data>
+  <data name="Changelog.V100.N10" xml:space="preserve">
+    <value>Excel（.xlsx）へのエクスポート：「サマリー」シートと、テーブルごとの個別シート</value>
+  </data>
+  <data name="Changelog.V100.N11" xml:space="preserve">
+    <value>下部進行状況パネル：キャンセル、完了概要、失敗詳細、Excel を開く</value>
+  </data>
+  <data name="Changelog.V100.N12" xml:space="preserve">
+    <value>完全ローカル処理、抽出のために PDF 内容をアップロードしない</value>
+  </data>
+</root>

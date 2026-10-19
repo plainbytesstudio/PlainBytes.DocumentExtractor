@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Page.Title" xml:space="preserve"><value>مركز المساعدة</value></data>
+  <data name="Page.Subtitle" xml:space="preserve"><value>تعرّف على كيفية استخراج البيانات المنظمة — بما في ذلك القيم المسماة والجداول — من مستندات PDF ذات التخطيط الثابت.</value></data>
+  <data name="Nav.Catalog" xml:space="preserve"><value>المحتويات</value></data>
+  <data name="Section.QuickStart.Title" xml:space="preserve"><value>البدء السريع</value></data>
+  <data name="Section.Overview.Title" xml:space="preserve"><value>نظرة عامة على الميزات</value></data>
+  <data name="Section.Documents.Title" xml:space="preserve"><value>المستندات المدعومة</value></data>
+  <data name="Section.Extraction.Title" xml:space="preserve"><value>دليل الاستخراج</value></data>
+  <data name="Section.Templates.Title" xml:space="preserve"><value>القوالب</value></data>
+  <data name="Section.Faq.Title" xml:space="preserve"><value>الأسئلة الشائعة</value></data>
+    <data name="Section.CustomDev.Title" xml:space="preserve"><value>هل تحتاج أداة أكثر ملاءمة لعملك؟</value></data>
+<data name="Section.Privacy.Title" xml:space="preserve"><value>الأمان والخصوصية</value></data>
+  <data name="Section.Tips.Title" xml:space="preserve"><value>نصائح</value></data>
+  <data name="Section.Changelog.Title" xml:space="preserve"><value>ملاحظات الإصدار</value></data>
+  <data name="QuickStart.Description" xml:space="preserve"><value>PlainBytes DocumentExtractor هو أداة خفيفة لنظام Windows تتيح استخراج البيانات المنظمة من ملفات PDF النصية ذات التخطيط الثابت أو المتشابه — مثل كشوف الحساب والإيصالات والنماذج والفواتير والطلبات. يمكنك استخراج القيم المسماة وشبكات الجداول. تتم معالجة الملفات محليًا على جهازك، وتُصدَّر النتائج إلى مصنف Excel بصيغة (.xlsx).</value></data>
+  <data name="QuickStart.Tip.Title" xml:space="preserve"><value>أبسط سير للعمل</value></data>
+  <data name="QuickStart.Tip.Body" xml:space="preserve"><value>إضافة ملفات PDF ← إضافة نقاط الارتساء (قيمة و/أو جدول) والحقول ← استخراج ← حفظ Excel</value></data>
+  <data name="QuickStart.Step1.Title" xml:space="preserve"><value>إضافة ملفات PDF</value></data>
+  <data name="QuickStart.Step1.Body" xml:space="preserve"><value>بعد فتح التطبيق، اسحب ملفات PDF التي تريد معالجتها وأفلتها في النافذة الرئيسية. يمكنك أيضًا النقر على «اختيار الملفات» في الشاشة الأولية الفارغة، أو بعد إضافة الملفات استخدام زر الإضافة في رأس لوحة الملفات. يمكن إضافة عدة ملفات PDF دفعة واحدة. تستخدم جميع الملفات في المهمة الحالية مجموعة قواعد الاستخراج نفسها. تظهر الملفات المضافة في القائمة على اليسار. في الوسط معاينة PDF، وتُضبط قواعد الاستخراج من لوحة الاستخراج على اليمين. يعمل التطبيق بأفضل صورة مع ملفات PDF النصية ذات التخطيط الثابت أو المتشابه. لا يدعم الإصدار الحالي ملفات PDF الممسوحة ضوئيًا أو المستندات ذات التخطيط شديد التغيّر.</value></data>
+  <data name="QuickStart.Step2.Title" xml:space="preserve"><value>إعداد قواعد الاستخراج</value></data>
+  <data name="QuickStart.Step2.Body" xml:space="preserve"><value>بعد إضافة الملفات، اختر ملف PDF نموذجيًا من القائمة. استخدم هذا المستند في المعاينة لتحديد كيفية تحديد مواضع البيانات واستخراجها. يمكنك استخدام «إعداد مخصص» أو اختيار قالب محفوظ من قائمة القالب. تنتمي كل قاعدة استخراج إلى نقطة ارتساء. هناك نوعان: نقاط ارتساء القيمة (للحقول المسماة مثل المبالغ أو المعرفات) ونقاط ارتساء الجدول (للجداول القائمة على صف الرأس). تُنشأ الحقول دائمًا تحت نقطة ارتساء موسَّعة. تُطبَّق القواعد نفسها على جميع ملفات PDF في المهمة الحالية.</value></data>
+  <data name="QuickStart.Step3.Title" xml:space="preserve"><value>إعداد نقاط الارتساء والحقول</value></data>
+  <data name="QuickStart.Step3.Body" xml:space="preserve"><value>في المعاينة، اضغط مع الاستمرار على Ctrl واسحب فوق نص ثابت لإنشاء نقطة ارتساء، ثم اختر «Value fields» (حقول القيمة) أو «Table» (جدول). وسّع نقطة الارتساء في قائمة نقاط الارتساء. لنقطة ارتساء القيمة، اسحب مستطيلًا فوق كل قيمة لإضافة حقل مسمى. لنقطة ارتساء الجدول، اسحب فوق صف الرأس بالكامل، وأدخل عدد الأعمدة، ثم اسحب الفواصل المكدسة أولًا إلى اليسار لمطابقة كل خلية رأس (انقر نقرًا مزدوجًا على فاصل لإزالته، أو انقر نقرًا مزدوجًا في مساحة فارغة في الرأس لإدراج واحد). عيّن عمودًا واحدًا كعمود الدليل (نجمة) حتى تُقسَّم صفوف البيانات بشكل صحيح. استخدم نقاط ارتساء تبقى متسقة عبر المستندات التي تخطط لمعالجتها.</value></data>
+  <data name="QuickStart.Step4.Title" xml:space="preserve"><value>بدء الاستخراج</value></data>
+  <data name="QuickStart.Step4.Body" xml:space="preserve"><value>عندما تكون الحقول جاهزة — ويكون لكل جدول عمود دليل — انقر «استخراج» أسفل لوحة الاستخراج. اختر مكان حفظ مصنف Excel (.xlsx). يعالج التطبيق كل ملف PDF في القائمة باستخدام القواعد الحالية. أثناء المعالجة يظهر شريط تقدم في الأسفل؛ وتُعطَّل عناصر التحكم ذات الصلة مؤقتًا. يمكنك إلغاء مهمة جارية من لوحة التقدم. عند الانتهاء يعرض الشريط ملخص النتائج. إذا فشلت بعض الملفات، استخدم «عرض التفاصيل» لمعرفة الأسباب. يمكنك فتح ملف Excel من لوحة التقدم عند توفره.</value></data>
+  <data name="QuickStart.Step5.Title" xml:space="preserve"><value>حفظ القواعد كقالب</value></data>
+  <data name="QuickStart.Step5.Body" xml:space="preserve"><value>إذا أردت إعادة استخدام نقاط الارتساء والحقول الحالية لاحقًا، انقر «حفظ كقالب» وأدخل اسمًا. تخزّن القوالب نقاط ارتساء القيمة والجدول وتخطيطات الأعمدة وأعمدة الدليل ومناطق الحقول. عند تحميل قالب موجود وتعديله، تعرض لوحة الاستخراج «تم تعديل القالب». يمكنك «حفظ التغييرات» لتحديث القالب الحالي، أو استخدام القائمة بجانب زر الحفظ لاختيار «حفظ كقالب جديد». تُدار القوالب من صفحة «القوالب» في التنقل الأيسر.</value></data>
+  <data name="Overview.Description" xml:space="preserve"><value>يوفّر DocumentExtractor الميزات الرئيسية التالية.</value></data>
+  <data name="Overview.Card1.Title" xml:space="preserve"><value>استخراج PDF دفعة واحدة</value></data>
+  <data name="Overview.Card1.Body" xml:space="preserve"><value>أضف عدة ملفات PDF واستخرج البيانات بمجموعة قواعد مشتركة واحدة. حدّد أي ملف في القائمة لمعاينته. تبديل ملف المعاينة لا يغيّر قواعد الاستخراج للدفعة.</value></data>
+  <data name="Overview.Card2.Title" xml:space="preserve"><value>نقاط ارتساء القيمة والجدول</value></data>
+  <data name="Overview.Card2.Body" xml:space="preserve"><value>ضع علامة على نص ثابت كنقاط ارتساء لتحديد موضع المستندات المتشابهة. استخدم نقاط ارتساء القيمة للحقول المسماة، أو نقاط ارتساء الجدول لصفوف الرأس التي تقود استخراج الجداول متعددة الأعمدة.</value></data>
+  <data name="Overview.Card3.Title" xml:space="preserve"><value>الحقول المسماة وأعمدة الجدول</value></data>
+  <data name="Overview.Card3.Body" xml:space="preserve"><value>تحت نقطة ارتساء القيمة، ارسم المناطق وسمِّ كل حقل. تحت نقطة ارتساء الجدول، قسّم الرأس إلى أعمدة، واضبط الفواصل، وعيّن عمود دليل لاكتشاف الصفوف.</value></data>
+  <data name="Overview.Card4.Title" xml:space="preserve"><value>مكتبة القوالب</value></data>
+  <data name="Overview.Card4.Body" xml:space="preserve"><value>احفظ التكوين الحالي — بما في ذلك تخطيطات الجداول — كقالب قابل لإعادة الاستخدام. افتح «القوالب» للبحث وإعادة التسمية والحذف والاستيراد والتصدير.</value></data>
+  <data name="Overview.Card5.Title" xml:space="preserve"><value>تصدير Excel</value></data>
+  <data name="Overview.Card5.Body" xml:space="preserve"><value>تذهب النتائج إلى مصنف .xlsx واحد: ورقة ملخص «الملخص» للحقول غير الجدولية (صف واحد لكل PDF)، بالإضافة إلى ورقة تفاصيل واحدة لكل نقطة ارتساء جدول لصفوف الشبكة.</value></data>
+  <data name="Overview.Card6.Title" xml:space="preserve"><value>التقدم والنتائج</value></data>
+  <data name="Overview.Card6.Body" xml:space="preserve"><value>تعرض لوحة تقدم سفلية الملف الحالي والتقدم الإجمالي. بعد الإكمال، تُبلغ بعدد الملفات الناجحة أو الفاشلة. يمكن مراجعة العناصر الفاشلة في قائمة تفاصيل.</value></data>
+  <data name="Documents.Description" xml:space="preserve"><value>صُمم DocumentExtractor لملفات PDF النصية ذات التخطيط المستقر أو شبه المستقر، بما في ذلك النماذج ذات القيم المسماة والجداول ذات الرؤوس المستقرة.</value></data>
+  <data name="Documents.Supported.Heading" xml:space="preserve"><value>مدعوم</value></data>
+  <data name="Documents.Supported.Description" xml:space="preserve"><value>كشوف الحساب والإيصالات والشهادات ونماذج الإقرار والفواتير والطلبات ومستندات الأعمال المشابهة ذات التخطيط الثابت — بما في ذلك الجداول التي يبقى نص رأسها وبنية أعمدتها متسقة عبر الملفات. يُدعم المعالجة الدُفعية للمستندات التي تشارك قواعد القالب نفسها.</value></data>
+  <data name="Documents.Unsupported.Heading" xml:space="preserve"><value>غير مدعوم (الإصدار الحالي)</value></data>
+  <data name="Documents.Unsupported.Description" xml:space="preserve"><value>ملفات PDF الممسوحة ضوئيًا دون طبقة نص قابلة للتحديد موثوقة؛ المستندات التي يتغيّر تخطيطها بشكل كبير بين الملفات؛ الجداول ذات الرؤوس غير المستقرة أو أحجام خط الرأس المتغيّرة؛ التعرف الضوئي على الصفحات التي تحتوي صورًا فقط؛ والمستندات شديدة التغيّر أو ذات التخطيط الحر.</value></data>
+  <data name="Documents.Tip.Title" xml:space="preserve"><value>نصيحة</value></data>
+  <data name="Documents.Tip.Body" xml:space="preserve"><value>إذا كان المستند يحتوي على القليل من النص القابل للتحديد أو لا يحتوي عليه، فقد يُرجع الاستخراج قيمًا فارغة أو يفشل في تحديد نقاط الارتساء. للجداول، فضّل المستندات التي يكون صف رأسها قابلًا للتحديد بوضوح وتبقى مواضع الأعمدة متسقة.</value></data>
+  <data name="Extraction.Description" xml:space="preserve"><value>إعدادات الاستخراج في اللوحة اليمنى من النافذة الرئيسية. تنتمي الحقول دائمًا إلى نقطة ارتساء — أنشئ نقطة ارتساء ووسّعها قبل رسم الحقول.</value></data>
+  <data name="Extraction.Template.Heading" xml:space="preserve"><value>القالب</value></data>
+  <data name="Extraction.Template.Description" xml:space="preserve"><value>من قائمة القالب اختر «إعداد مخصص» (تعريف نقاط الارتساء والحقول على العينة الحالية) أو قالبًا محفوظًا (تحميل نقاط الارتساء والحقول وأعمدة الجدول والمناطق). بعد تحميل قالب، ما زال بإمكانك ضبط المناطق على ملف PDF النموذجي. التعديلات غير المحفوظة تُعلَّم بـ «تم تعديل القالب».</value></data>
+  <data name="Extraction.Anchors.Heading" xml:space="preserve"><value>نقاط الارتساء</value></data>
+  <data name="Extraction.Anchors.Description" xml:space="preserve"><value>تظهر نقاط الارتساء تحت نقاط الارتساء. في المعاينة اضغط مع الاستمرار على Ctrl واسحب فوق نص ثابت. عند اكتشاف نص صالح، يطلب DocumentExtractor اختيار نوع نقطة الارتساء: «Value fields» (حقول القيمة) أو «Table» (جدول). يحدد التحديد العبارة المستخدمة لتحديد موضع المستندات المتشابهة؛ ثم تتبع المنطقة المعروضة النص المكتشف (نقطة ارتساء القيمة) أو تحتفظ بإطارك الخارجي (نقطة ارتساء الجدول). انقر صف نقطة ارتساء لتحديدها والانتقال إلى تلك المنطقة. وسّع نقطة ارتساء قبل إضافة حقول تحتها. احذف نقطة ارتساء من القائمة عندما لم تعد مطلوبة. تحسّن نقاط الارتساء التموضع عندما يكون للمستندات المتشابهة انزياحات تخطيط طفيفة.</value></data>
+  <data name="Extraction.ValueAnchors.Heading" xml:space="preserve"><value>نقاط ارتساء القيمة</value></data>
+  <data name="Extraction.ValueAnchors.Description" xml:space="preserve"><value>استخدم نقطة ارتساء قيمة عندما تحتاج قيمًا مسماة مثل أرقام المستندات أو التواريخ أو المبالغ. بعد الإنشاء والتوسيع، اسحب مستطيلًا فوق كل قيمة لإضافة حقل. أدخل اسم حقل واضحًا (الافتراضي «الحقل N») وتأكد من النص النموذجي تحت الاسم. انقر صف حقل للانتقال إليه في المعاينة. استخدم أيقونة القلم لإعادة التسمية، واحذف الحقول غير المطلوبة. عند تحديد حقل قيمة، اسحب مقابض التراكب لتغيير حجم المنطقة؛ تتحدّث قيمة العينة عند تحرير الماوس. تصبح أسماء حقول القيمة أعمدة في ورقة «الملخص» في Excel.</value></data>
+  <data name="Extraction.TableAnchors.Heading" xml:space="preserve"><value>نقاط ارتساء الجدول</value></data>
+  <data name="Extraction.TableAnchors.Description" xml:space="preserve"><value>استخدم نقطة ارتساء جدول عندما تحتاج استخراج جدول متعدد الأعمدة تحت رأس مستقر. بعد اختيار «Table»، أدخل عدد أعمدة الرأس. وسّع نقطة ارتساء الجدول، ثم اسحب فوق صف الرأس بالكامل. يحتفظ DocumentExtractor بصندوق التحديد، وينشئ فواصل أعمدة مكدسة إلى اليسار، ويسمّي الأعمدة من النص داخل كل نطاق. اسحب الفواصل لمحاذاة كل خلية رأس. انقر نقرًا مزدوجًا على فاصل لإزالته، أو انقر نقرًا مزدوجًا في مساحة فارغة في نطاق الرأس لإدراج واحد. انقر النجمة على عمود لتعيينه كعمود الدليل (مطلوب قبل الاستخراج لتقسيم الصفوف). لا يمكن حذف حقول أعمدة الجدول فرديًا مثل حقول القيمة — اضبط الأعمدة بتحرير تقسيم الرأس. يُكتب كل جدول في ورقة Excel خاصة باسم نقطة الارتساء (حتى 31 حرفًا).</value></data>
+  <data name="Extraction.Fields.Heading" xml:space="preserve"><value>الحقول</value></data>
+  <data name="Extraction.Fields.Description" xml:space="preserve"><value>تظهر الحقول تحت نقطة الارتساء الموسَّعة في الحقول. السحب العادي (دون Ctrl) يضيف حقلًا فقط عندما تكون نقطة ارتساء موسَّعة. تحت نقطة ارتساء القيمة يُنشأ حقل مسمى. تحت نقطة ارتساء الجدول، إعادة بناء تقسيم الأعمدة لعدد الأعمدة الحالي عند السحب فوق الرأس. تصبح أسماء الحقول عناوين Excel — في ورقة الملخص لحقول القيمة، وفي ورقة تفاصيل ذلك الجدول لأعمدة الجدول.</value></data>
+  <data name="Extraction.Preview.Heading" xml:space="preserve"><value>معاينة PDF</value></data>
+  <data name="Extraction.Preview.Description" xml:space="preserve"><value>تدعم المعاينة الوسطى التنقل بين الصفحات والتكبير/التصغير والتمرير (Ctrl + عجلة الماوس للتكبير)، وCtrl + السحب لنقاط الارتساء، والسحب العادي للحقول تحت نقطة الارتساء الموسَّعة، وتراكبات نقاط الارتساء والحقول، والانتقال إلى المنطقة من القائمة، ومقابض تغيير الحجم لحقول القيمة المحددة، وفواصل رأس الجدول التي يمكن سحبها أو النقر المزدوج عليها للإضافة/الإزالة. استخدم ملفًا واحدًا كعينة للتكوين. تُعالَج الملفات الأخرى في الدفعة بالقواعد نفسها عند النقر على «استخراج».</value></data>
+  <data name="Extraction.Excel.Heading" xml:space="preserve"><value>الاستخراج ومخرجات Excel</value></data>
+  <data name="Extraction.Excel.Description" xml:space="preserve"><value>انقر «استخراج»، ثم اختر مسار ملف .xlsx. يتضمن المصنف ورقة «الملخص» (Source File، كل حقل غير جدولي، Status — صف واحد لكل PDF) وورقة تفاصيل لكل نقطة ارتساء جدول (Source File بالإضافة إلى أعمدة ذلك الجدول — صف Excel واحد لكل صف بيانات جدول مستخرج). تأتي أسماء أوراق الجداول من تسمية نقطة الارتساء (تُنظَّف الأحرف غير الصالحة؛ وتُقتطع الأسماء إلى حد Excel البالغ 31 حرفًا وتُبقى فريدة). إذا فشلت بعض الملفات (مثل تعذر العثور على نقطة ارتساء أو جدول بلا عمود دليل)، تُكتب الصفوف الناجحة قدر الإمكان. استخدم «عرض التفاصيل» في لوحة التقدم لمراجعة حالات الفشل.</value></data>
+  <data name="Templates.Description" xml:space="preserve"><value>حدد «القوالب» في شريط التنقل الأيسر لإدارة قوالب الاستخراج المحفوظة. تخزّن القوالب نقاط ارتساء القيمة والجدول وتخطيطات الأعمدة وأعمدة الدليل والحقول والمناطق المستخدمة للاستخراج.</value></data>
+  <data name="Templates.Browse.Heading" xml:space="preserve"><value>التصفح والبحث</value></data>
+  <data name="Templates.Browse.Description" xml:space="preserve"><value>تعرض القائمة اسم القالب وعدد الحقول وعدد نقاط الارتساء ووقت آخر تعديل. استخدم «البحث في القوالب» للتصفية حسب الاسم.</value></data>
+  <data name="Templates.Import.Heading" xml:space="preserve"><value>الاستيراد</value></data>
+  <data name="Templates.Import.Description" xml:space="preserve"><value>انقر «استيراد» واختر ملف قالب DocumentExtractor (.json). يمكن أن يحتوي الملف على قالب واحد أو أكثر. تُخزَّن القوالب المستوردة محليًا. إذا كان للقالب المستورد الاسم نفسه لقالب موجود، ينشئ DocumentExtractor اسمًا فريدًا للنسخة المستوردة.</value></data>
+  <data name="Templates.Export.Heading" xml:space="preserve"><value>التصدير</value></data>
+  <data name="Templates.Export.Description" xml:space="preserve"><value>حدد قالبًا واحدًا أو أكثر، ثم انقر «تصدير». تُصدَّر القوالب المحددة إلى ملف قالب DocumentExtractor (.json). يمكن مشاركة الملفات المصدَّرة أو الاحتفاظ بنسخ احتياطية منها دون اتصال.</value></data>
+  <data name="Templates.Rename.Heading" xml:space="preserve"><value>إعادة التسمية</value></data>
+  <data name="Templates.Rename.Description" xml:space="preserve"><value>أعد تسمية قالب مباشرة في القائمة. إذا تعارض الاسم الجديد مع قالب موجود، يظهر خطأ مضمّن ولا يُطبَّق التغيير.</value></data>
+  <data name="Templates.Delete.Heading" xml:space="preserve"><value>الحذف</value></data>
+  <data name="Templates.Delete.Description" xml:space="preserve"><value>احذف قالبًا واحدًا من إجراءات الصف، أو حدد عدة قوالب واستخدم «حذف». حذف قالب لا يؤثر على ملفات PDF التي عالجتها بالفعل أو ملفات Excel التي صدّرتها بالفعل.</value></data>
+  <data name="Templates.Storage.Heading" xml:space="preserve"><value>مكان تخزين القوالب</value></data>
+  <data name="Templates.Storage.Description" xml:space="preserve"><value>تُحفظ القوالب ضمن مجلد بيانات تطبيق Windows المحلي لـ DocumentExtractor. تبقى على جهازك ولا تُرفع ولا تُشارك ما لم تصدّرها بنفسك.</value></data>
+  <data name="Faq.Q1" xml:space="preserve"><value>لماذا تكون القيم المستخرجة فارغة أو غير صحيحة؟</value></data>
+  <data name="Faq.A1" xml:space="preserve"><value>أسباب شائعة: ملف PDF ممسوح ضوئيًا أو بلا طبقة نص موثوقة؛ التخطيط يختلف كثيرًا عن العينة؛ عبارة نقطة الارتساء غير موجودة (أو تظهر بشكل مختلف) في الملف المستهدف؛ مناطق الحقول أو الأعمدة في غير موضعها؛ لم يُقسَّم رأس الجدول بدقة؛ أو لم يُعيَّن عمود دليل للجدول. راجع التراكبات على العينة، واضبط نقاط الارتساء والأعمدة، ثم استخرج مرة أخرى.</value></data>
+  <data name="Faq.Q2" xml:space="preserve"><value>هل يمكنني معالجة عدة ملفات PDF دفعة واحدة؟</value></data>
+  <data name="Faq.A2" xml:space="preserve"><value>نعم. أضف عدة ملفات PDF إلى قائمة الملفات وانقر «استخراج». تستخدم جميع ملفات المهمة نقاط الارتساء والحقول نفسها.</value></data>
+  <data name="Faq.Q3" xml:space="preserve"><value>هل يجب إنشاء قالب قبل الاستخراج؟</value></data>
+  <data name="Faq.A3" xml:space="preserve"><value>لا. يمكنك الإبقاء على «إعداد مخصص»، وتعريف نقاط الارتساء والحقول على ملف PDF النموذجي، والاستخراج فورًا. احفظ قالبًا فقط عندما تريد إعادة استخدام القواعد نفسها لاحقًا.</value></data>
+  <data name="Faq.Q4" xml:space="preserve"><value>ما الفرق بين نقطة ارتساء القيمة ونقطة ارتساء الجدول؟</value></data>
+  <data name="Faq.A4" xml:space="preserve"><value>يبدأ كلاهما بـ Ctrl + السحب فوق نص ثابت. تحتفظ نقطة ارتساء القيمة بحقول مسماة ترسمها واحدًا تلو الآخر. نقطة ارتساء الجدول لصف رأس: تعيّن عدد الأعمدة، وتسحب فوق الرأس بالكامل، وتحاذي الفواصل، وتعيّن عمود دليل لاستخراج صفوف البيانات كشبكة. يمكنك استخدام النوعين في القالب نفسه.</value></data>
+  <data name="Faq.Q5" xml:space="preserve"><value>لماذا أحتاج عمود دليل في الجدول؟</value></data>
+  <data name="Faq.A5" xml:space="preserve"><value>يخبر عمود الدليل DocumentExtractor كيفية تقسيم صفوف جسم الجدول تحت الرأس. انقر النجمة على عمود لتعيينه. يُحظر الاستخراج حتى يكون لكل نقطة ارتساء جدول عمود دليل.</value></data>
+  <data name="Faq.Q6" xml:space="preserve"><value>كيف أضيف أو أحذف أعمدة الجدول؟</value></data>
+  <data name="Faq.A6" xml:space="preserve"><value>وسّع نقطة ارتساء الجدول واعمل على تراكب الرأس. اسحب الفواصل لتغيير العرض. انقر نقرًا مزدوجًا على فاصل لإزالته، أو انقر نقرًا مزدوجًا في مساحة فارغة في نطاق الرأس لإدراج فاصل. يمكنك أيضًا السحب فوق الرأس بالكامل مرة أخرى لإعادة بناء التقسيم المكدس إلى اليسار لعدد الأعمدة الحالي.</value></data>
+  <data name="Faq.Q7" xml:space="preserve"><value>ماذا يعني Partial في عمود Status في Excel؟</value></data>
+  <data name="Faq.A7" xml:space="preserve"><value>يعني Partial أن الملف عُولج، لكن حقل قيمة واحدًا أو أكثر لم يُرجع نصًا. يظل صف ورقة الملخص مضمّنًا لمراجعة القيم الناقصة. قد تحتوي أوراق تفاصيل الجدول على صفوف مستخرجة عند توفرها.</value></data>
+  <data name="Faq.Q8" xml:space="preserve"><value>ماذا يحدث عند عدم العثور على نقطة ارتساء؟</value></data>
+  <data name="Faq.A8" xml:space="preserve"><value>إذا اعتمدت القواعد الحالية على نقطة ارتساء وتعذّر تحديد موضعها، يُعلَّم ذلك الملف PDF كفاشل. تستمر معالجة الملفات الأخرى في الدفعة. تسرد لوحة التقدم الملفات الفاشلة والأسباب تحت «عرض التفاصيل».</value></data>
+  <data name="Faq.Q9" xml:space="preserve"><value>هل يستبدل «استخراج» ملفات PDF الخاصة بي؟</value></data>
+  <data name="Faq.A9" xml:space="preserve"><value>لا. يقرأ «استخراج» ملفات PDF فقط ويكتب مصنف Excel جديدًا إلى المسار الذي تختاره.</value></data>
+  <data name="Faq.Q10" xml:space="preserve"><value>هل يمكنني تغيير قائمة الملفات أثناء تشغيل الاستخراج؟</value></data>
+  <data name="Faq.A10" xml:space="preserve"><value>لا. تُقفل عناصر التحكم المرتبطة بالمهمة الحالية مؤقتًا أثناء معالجة الملفات. يمكنك إلغاء المهمة من لوحة التقدم عند الحاجة.</value></data>
+  <data name="Faq.Q11" xml:space="preserve"><value>أين تُخزَّن القوالب؟</value></data>
+  <data name="Faq.A11" xml:space="preserve"><value>تُخزَّن القوالب محليًا على جهازك في مجلد بيانات تطبيق DocumentExtractor. استخدم «تصدير» في صفحة القوالب إذا احتجت نسخة قابلة للنقل.</value></data>
+  <data name="Faq.Q12" xml:space="preserve"><value>كيف تُكتب الجداول في Excel؟</value></data>
+  <data name="Faq.A12" xml:space="preserve"><value>تذهب الحقول غير الجدولية (القيمة) إلى ورقة «الملخص» — صف واحد لكل PDF. تحصل كل نقطة ارتساء جدول على ورقة عمل خاصة باسم تسمية نقطة الارتساء. تسرد أوراق التفاصيل Source File بالإضافة إلى أعمدة الجدول، مع صف Excel واحد لكل صف بيانات جدول مستخرج.</value></data>
+    <data name="CustomDev.Description" xml:space="preserve"><value>إذا كان DocumentExtractor لا يغطي سير عملك—مثل قواعد دفعية متخصصة أو تنسيقات إضافية أو أداة مخصصة—يمكننا مناقشة التطوير المخصص لمعالجة المستندات والبيانات.</value></data>
+  <data name="CustomDev.Contact" xml:space="preserve"><value>تواصل معنا ←</value></data>
+<data name="Privacy.Local.Heading" xml:space="preserve"><value>المعالجة المحلية</value></data>
+  <data name="Privacy.Local.Description" xml:space="preserve"><value>يعالج DocumentExtractor ملفات PDF محليًا على جهازك. لا تُرفع ملفات PDF إلى خادم كجزء من الاستخراج.</value></data>
+  <data name="Privacy.Selected.Heading" xml:space="preserve"><value>الملفات المحددة فقط</value></data>
+  <data name="Privacy.Selected.Description" xml:space="preserve"><value>يعالج التطبيق فقط ملفات PDF التي تضيفها صراحة إلى المهمة الحالية.</value></data>
+  <data name="Privacy.Templates.Heading" xml:space="preserve"><value>القوالب</value></data>
+  <data name="Privacy.Templates.Description" xml:space="preserve"><value>تُحفظ القوالب محليًا. تصدير قالب ينشئ ملفًا تتحكم فيه أنت.</value></data>
+  <data name="Privacy.Excel.Heading" xml:space="preserve"><value>مخرجات Excel</value></data>
+  <data name="Privacy.Excel.Description" xml:space="preserve"><value>تُكتب نتائج الاستخراج فقط إلى مسار Excel الذي تحدده.</value></data>
+  <data name="Privacy.Tip.Title" xml:space="preserve"><value>توصية</value></data>
+  <data name="Privacy.Tip.Body" xml:space="preserve"><value>للمستندات المهمة، احتفظ بملفات PDF الأصلية. لا يعدّل الاستخراج هذه الملفات، لكن يُفضَّل مراجعة البيانات المصدَّرة قبل الاستخدام اللاحق — خاصة عندما قد يختلف التخطيط أو رؤوس الجداول بين الملفات.</value></data>
+  <data name="Tips.1.Title" xml:space="preserve"><value>اختر نص ارتساء مميزًا</value></data>
+  <data name="Tips.1.Body" xml:space="preserve"><value>فضّل عبارات قصيرة وثابتة تظهر مرة واحدة في الصفحة، مثل عنوان نموذج أو تسمية ثابتة. تجنّب القيم التي تتغيّر في كل مستند (أرقام الفواتير أو التواريخ أو المبالغ).</value></data>
+  <data name="Tips.2.Title" xml:space="preserve"><value>طابق نوع نقطة الارتساء مع المحتوى</value></data>
+  <data name="Tips.2.Body" xml:space="preserve"><value>استخدم نقاط ارتساء القيمة للقيم المسمّاة المستقلة. استخدم نقاط ارتساء الجدول فقط عندما يحدد صف رأس واضح الأعمدة التي تريد استخراجها.</value></data>
+  <data name="Tips.3.Title" xml:space="preserve"><value>عاير فواصل الجدول على العينة</value></data>
+  <data name="Tips.3.Body" xml:space="preserve"><value>بعد إنشاء نقطة ارتساء جدول، اسحب الفواصل بعناية على رأس العينة. افحص ملف PDF آخر في القائمة قبل دفعة كبيرة. المستندات ذات الرؤوس المتحركة أو خطوط الرأس المتغيّرة خارج النطاق.</value></data>
+  <data name="Tips.4.Title" xml:space="preserve"><value>عيّن دائمًا عمود دليل</value></data>
+  <data name="Tips.4.Body" xml:space="preserve"><value>اختر عمودًا يظهر في كل صف من جسم الجدول (مثل رقم السطر أو اسم العنصر) وعيّنه بالنجمة قبل الاستخراج.</value></data>
+  <data name="Tips.5.Title" xml:space="preserve"><value>كوّن على عينة تمثيلية</value></data>
+  <data name="Tips.5.Body" xml:space="preserve"><value>استخدم ملف PDF نموذجيًا من الدفعة كعينة. بعد تعريف القواعد، افحص ملفًا آخر في القائمة قبل تشغيل استخراج كبير.</value></data>
+  <data name="Tips.6.Title" xml:space="preserve"><value>احفظ قوالب لأنواع المستندات المتكررة</value></data>
+  <data name="Tips.6.Body" xml:space="preserve"><value>إذا كنت تعالج النموذج نفسه بانتظام، احفظ التكوين — بما في ذلك تخطيطات الجداول — كقالب. في المرة التالية، أضف ملفات PDF، واختر القالب، واستخرج.</value></data>
+  <data name="Tips.7.Title" xml:space="preserve"><value>أبقِ أسماء الحقول والأعمدة واضحة</value></data>
+  <data name="Tips.7.Body" xml:space="preserve"><value>تصبح الأسماء عناوين Excel. استخدم أسماء يسهل التعرف عليها لاحقًا، مثل العميل أو رقم المستند أو المبلغ أو وصف العنصر.</value></data>
+  <data name="Tips.8.Title" xml:space="preserve"><value>راجع العناصر الفاشلة في لوحة التقدم</value></data>
+  <data name="Tips.8.Body" xml:space="preserve"><value>عندما تنتهي دفعة بفشل، افتح «عرض التفاصيل» قبل إغلاق اللوحة. هذه أسرع طريقة لمعرفة الملفات التي تحتاج نقاط ارتساء مختلفة أو تعديلات أعمدة أو قالبًا آخر.</value></data>
+  <data name="Tips.9.Title" xml:space="preserve"><value>صدّر القوالب للنسخ الاحتياطي</value></data>
+  <data name="Tips.9.Body" xml:space="preserve"><value>استخدم «تصدير» في صفحة القوالب للاحتفاظ بنسخة احتياطية من مجموعات القواعد المهمة، أو لنقلها إلى جهاز آخر مثبّت عليه DocumentExtractor.</value></data>
+  <data name="Changelog.VersionFormat" xml:space="preserve"><value>الإصدار {0}</value></data>
+  <data name="Changelog.V100.Title" xml:space="preserve"><value>الإصدار الأولي</value></data>
+  <data name="Changelog.V100.N1" xml:space="preserve"><value>استخراج من ملفات PDF نصية ذات تخطيط ثابت أو متشابه</value></data>
+  <data name="Changelog.V100.N2" xml:space="preserve"><value>معالجة دُفعية لملفات متعددة بمجموعة قواعد مشتركة</value></data>
+  <data name="Changelog.V100.N3" xml:space="preserve"><value>معاينة PDF مع التنقل بين الصفحات والتكبير</value></data>
+  <data name="Changelog.V100.N4" xml:space="preserve"><value>نقاط ارتساء القيمة والجدول (Ctrl + سحب ثم اختيار النوع)</value></data>
+  <data name="Changelog.V100.N5" xml:space="preserve"><value>حقول مسماة تحت نقاط ارتساء القيمة؛ تقسيم رأس بفواصل قابلة للسحب</value></data>
+  <data name="Changelog.V100.N6" xml:space="preserve"><value>عمود الدليل لتقسيم صفوف الجدول</value></data>
+  <data name="Changelog.V100.N7" xml:space="preserve"><value>قواعد مخصصة وقوالب قابلة لإعادة الاستخدام (بما في ذلك تخطيطات الجداول)</value></data>
+  <data name="Changelog.V100.N8" xml:space="preserve"><value>حفظ كقالب / حفظ تغييرات القالب</value></data>
+  <data name="Changelog.V100.N9" xml:space="preserve"><value>صفحة القوالب مع البحث وإعادة التسمية والحذف والاستيراد والتصدير</value></data>
+  <data name="Changelog.V100.N10" xml:space="preserve"><value>تصدير Excel (.xlsx): ورقة ملخص لحقول القيمة، ورقة واحدة لكل جدول</value></data>
+  <data name="Changelog.V100.N11" xml:space="preserve"><value>لوحة تقدم سفلية مع الإلغاء وملخص الإكمال وتفاصيل الفشل وفتح Excel</value></data>
+  <data name="Changelog.V100.N12" xml:space="preserve"><value>معالجة محلية فقط؛ لا رفع لمحتوى PDF من أجل الاستخراج</value></data>
+</root>
