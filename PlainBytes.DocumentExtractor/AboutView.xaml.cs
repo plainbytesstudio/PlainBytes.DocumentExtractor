@@ -7,7 +7,6 @@ using System.Windows.Controls;
 using System.Windows.Input;
 using PlainBytes.Core.Catalog;
 using PlainBytes.Core.Controls;
-using PlainBytes.Core.Store;
 using PlainBytes.DocumentExtractor.Controls;
 using PlainBytes.DocumentExtractor.Resources;
 
@@ -24,7 +23,7 @@ public partial class AboutView : UserControl
         InitializeComponent();
         AboutVersionText.Text = Strings.Format(
             Strings.About_VersionFormat,
-            AppPackageInfo.GetDisplayVersion(new DocumentExtractorModule().ToolVersion));
+            new DocumentExtractorModule().ToolVersion);
         MoreToolsList.ItemsSource = SuiteCatalog.GetAboutMoreTools(CurrentProductId);
     }
 

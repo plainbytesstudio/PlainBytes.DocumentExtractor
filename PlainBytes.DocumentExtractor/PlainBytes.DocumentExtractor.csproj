@@ -10,6 +10,9 @@
     <ApplicationManifest>app.manifest</ApplicationManifest>
     <Product>DocumentExtractor</Product>
     <AssemblyTitle>DocumentExtractor</AssemblyTitle>
+    <Version>1.0.4</Version>
+    <AssemblyVersion>1.0.4.0</AssemblyVersion>
+    <FileVersion>1.0.4.0</FileVersion>
     <Authors>PlainBytes Studio</Authors>
     <Copyright>Copyright ? 2026 PlainBytes Studio</Copyright>
     <PackageLicenseExpression>GPL-3.0-only</PackageLicenseExpression>

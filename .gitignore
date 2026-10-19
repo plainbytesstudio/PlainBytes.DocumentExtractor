@@ -7,5 +7,5 @@ obj/
 *.p12
 *.snk
 *.nupkg
-*.psd
 *.pdf
+*.psd
